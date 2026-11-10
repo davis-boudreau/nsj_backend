@@ -1,0 +1,83 @@
+services:
+  db:
+    env_file: .env
+    image: postgis/postgis:15-3.3-alpine
+    container_name: cptn_db
+    restart: unless-stopped # Good practice to keep the DB alive
+    volumes:
+      - db_data:/var/lib/postgresql/data/
+    healthcheck:
+      # Added PGPASSWORD to avoid prompt issues in some environments
+      test: ["CMD-SHELL", "PGPASSWORD=$${POSTGRES_PASSWORD} pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s # Swifter checks during initial boot
+      timeout: 5s
+      retries: 5
+    ports:
+      - "5432:5432"
+    networks:
+      - cptn_net
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: nsj_pgadmin
+    restart: unless-stopped
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
+      PGADMIN_SERVER_JSON_FILE: /pgadmin4/servers.json
+    ports:
+      - "${PGADMIN_PORT:-8080}:80" # Added default port in case env is missing
+    depends_on:
+      - db
+    volumes:
+      - ./pgadmin/servers.json:/pgadmin4/servers.json:ro
+      - pgadmin-data:/var/lib/pgadmin
+    networks:
+      - cptn_net
+
+  cptn_api:
+    container_name: cptn_api
+    env_file: .env
+    environment:
+      CREATE_SUPERUSER: "true"
+      RUN_IMPORTS: "true"
+      RESET_DB: "false" # 👈 Added this so you can control the wipe-out
+      COLLECTSTATIC: "false"
+      PYTHONUNBUFFERED: 1
+      # These paths are correct for Debian-based Docker images
+      GDAL_LIBRARY_PATH: /usr/lib/x86_64-linux-gnu/libgdal.so
+      GEOS_LIBRARY_PATH: /usr/lib/x86_64-linux-gnu/libgeos_c.so
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/usr/src/app         # Hot-Reloading for code
+      - static_data:/usr/src/app/static # Better use a named volume for static
+    ports:
+      - "8080:8080"
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - cptn_net
+    command: python manage.py runserver 0.0.0.0:8080
+    healthcheck:
+      # This uses built-in python so you don't need to install 'curl'
+      test: python -c "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/api/v1/journey/check-auth/')"
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s # Gives Django time to run migrations before failing
+      
+    # Note: If your Django doesn't have a /health/ endpoint yet, 
+    # this healthcheck will report "unhealthy". 
+    # You might want to add a simple view for this.
+
+volumes:
+  db_data:
+  pgadmin-data:
+  static_data: # Define the named volume for static files
+
+networks:
+  cptn_net:
+    driver: bridge

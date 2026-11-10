@@ -1,0 +1,14 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Local PostgreSQL (cptn_db)",
+      "Group": "Local",
+      "Host": "db",
+      "Port": 5432,
+      "Username": "cptn_user",
+      "Password": "3P7JDW2$",
+      "SSLMode": "prefer",
+      "MaintenanceDB": "cptn_db"
+    }
+  }
+}

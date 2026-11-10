@@ -1,0 +1,109 @@
+---
+config:
+  theme: default
+  title: "Journey Entity Relationship Diagram"
+  description: "A visual representation of the relationships between key entities in the Journey application, including the Django Identity Layer, GTFS core tables, and application-specific sidecars."
+  layout: "elk"
+---
+
+erDiagram
+    %% Django Identity Layer
+    AUTH_USER ||--o| CUSTOM_USER : "is_extended_by"
+    CUSTOM_USER ||--o| CPTN_USER_PROFILE : "has_profile"
+    
+    %% The "Identity Bridge"
+    CPTN_USER_PROFILE ||--o| AGENCY : "represents_as_provider"
+
+    %% Core GTFS Tables
+    AGENCY ||--o{ ROUTES : "operates"
+    ROUTES ||--o{ TRIPS : "contains"
+    TRIPS ||--o{ STOP_TIMES : "defines"
+    STOPS ||--o{ STOP_TIMES : "is_at"
+    TRIPS ||--o| SHAPES : "follows"
+    CALENDAR ||--o{ TRIPS : "schedules"
+    CALENDAR ||--o{ CALENDAR_DATES : "exceptions"
+    TRIPS ||--o{ FREQUENCIES : "returns_via"
+
+    %% Application Sidecars
+    TRIPS ||--o| CPTN_TRIP_CAPACITY : "tracks_inventory"
+    TRIPS ||--o{ CPTN_RIDE_REQUEST : "requested_for"
+    CUSTOM_USER ||--o{ CPTN_RIDE_REQUEST : "made_by_rider"
+    
+    STOPS ||--o| CPTN_STOP_META : "details"
+    CPTN_STOP_META ||--o| CPTN_MARKER_ASSETS : "styled_by"
+
+    CUSTOM_USER {
+        int id PK
+        string email
+        string password
+        string first_name
+        string last_name
+    }
+
+    CPTN_USER_PROFILE {
+        int id PK
+        int user_id FK "Link to CustomUser"
+        string agency_id FK "Link to GTFS Agency"
+        boolean is_driver
+        boolean is_rider
+        string vehicle_desc
+        int default_seats
+    }
+
+    AGENCY {
+        string agency_id PK "Used as the Driver Identifier"
+        string agency_name "Driver Display Name"
+        string agency_url
+        string agency_timezone
+    }
+
+    ROUTES {
+        string route_id PK
+        string agency_id FK
+        string route_short_name "Commute Name"
+        int route_type "3 (Bus/Road)"
+    }
+
+    TRIPS {
+        string trip_id PK
+        string route_id FK
+        string service_id FK "Link to Calendar"
+        string shape_id FK "Link to Geometry"
+    }
+
+    STOP_TIMES {
+        string trip_id FK
+        string stop_id FK
+        time arrival_time
+        time departure_time
+        int stop_sequence
+    }
+
+    STOPS {
+        string stop_id PK
+        string stop_name
+        float stop_lat
+        float stop_lon
+    }
+
+    FREQUENCIES {
+        string trip_id FK
+        time start_time
+        time end_time
+        int headway_secs "Duration of stay at destination"
+    }
+
+    CPTN_RIDE_REQUEST {
+        uuid request_id PK
+        string trip_id FK
+        int rider_user_id FK "CustomUser who is riding"
+        string status "Pending/Accepted/Rejected"
+        string check_in_code
+    }
+
+    CPTN_TRIP_CAPACITY {
+        string trip_id FK
+        int total_seats
+        int available_seats
+        string current_status
+    }

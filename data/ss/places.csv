@@ -1,0 +1,287 @@
+place_id,place_name,place_desc,place_lat,place_lon,zone_id,place_url,place_icon,place_category
+1000,NSCC Akerley Campus,21 Woodlawn Rd Dartmouth Nova Scotia </br>B2W 2R7,44.683032,-63.5266451,,http://nscc.ca/,icons/nscc-school-icon.png,SCHOOL
+1001,NSCC Amherst Campus,147 S Albion St Amherst Nova Scotia </br>B4H 2X2,45.8151077,-64.2053866,,http://nscc.ca/,icons/nscc-school-icon.png,SCHOOL
+1002,NSCC Annapolis Campus,295 Commercial St Middleton Nova Scotia </br>B0S 1P0,44.9553527,-65.0772868,,http://nscc.ca/,icons/nscc-school-icon.png,SCHOOL
+1003,NSCC Burridge Campus,372 Pleasant St Yarmouth Nova Scotia </br>B5A 2L2,43.8528801,-66.10439459999999,,http://nscc.ca/,icons/nscc-school-icon.png,SCHOOL
+1004,NSCC COGS Campus,50 Elliott Rd Lawrencetown Nova Scotia </br>B0S 1M0,44.8850267,-65.1684065,,http://nscc.ca/,icons/nscc-school-icon.png,SCHOOL
+1005,NSCC Cumberland Campus,1 Main St Springhill Nova Scotia </br>B0M 1X0,45.6470029,-64.0612956,,http://nscc.ca/,icons/nscc-school-icon.png,SCHOOL
+1006,NSCC Digby Campus,87 Warwick St Digby Nova Scotia </br>B0V 1A0,44.6151966,-65.7630436,,http://nscc.ca/,icons/nscc-school-icon.png,SCHOOL
+1007,NSCC IT Campus,5685 Leeds St Halifax Nova Scotia </br>B3K 2T4,44.6691921,-63.6134282,,http://nscc.ca/,icons/nscc-school-icon.png,SCHOOL
+1008,NSCC Ivany Campus,80 Mawiomi Pl Dartmouth Nova Scotia </br>B2Y 0A5,44.654138,-63.55199200000001,,http://nscc.ca/,icons/nscc-school-icon.png,SCHOOL
+1009,NSCC Kingstec Campus,236 Belcher St Kentville Nova Scotia </br>B4N 0A6,45.0856569,-64.4814863,,http://nscc.ca/,icons/nscc-school-icon.png,SCHOOL
+1010,NSCC Lunenburg Campus,75 High St Bridgewater Nova Scotia </br>B4V 1V8,44.37106319999999,-64.529541,,http://nscc.ca/,icons/nscc-school-icon.png,SCHOOL
+1011,NSCC Pictou Campus,39 Acadia Ave Stellarton Nova Scotia </br>B0K 1S0,45.5567249,-62.6652485,,http://nscc.ca/,icons/nscc-school-icon.png,SCHOOL
+1012,NSCC Shelburne Campus,1575 Lake Rd Shelburne Nova Scotia </br>B0T 1W0,43.747501,-65.30823,,http://nscc.ca/,icons/nscc-school-icon.png,SCHOOL
+1013,NSCC Strait Area Campus (Permit Parking),226 Reeves St Port Hawkesbury Nova Scotia </br>B9A 1Z9,45.6270521,-61.36968009999999,,http://nscc.ca/,icons/nscc-school-icon.png,SCHOOL
+1014,NSCC Sydney Campus (Drop off/Visitor/Staff Parking Only),500 Esplanade Sydney Nova Scotia </br>B1P 1B1,46.13377,-60.19519,,http://nscc.ca/,icons/nscc-school-icon.png,SCHOOL
+1015,NSCC Sydney Campus Car Park Kings Rd (Permit),180 Kings Rd Sydney Nova Scotia </br>B1S 2C5,46.12909,-60.19611,,http://nscc.ca/,icons/nscc-school-icon.png,SCHOOL
+1016,NSCC Truro Campus,36 Arthur St Truro Nova Scotia </br>B2N 1X6,45.359414,-63.28736019999999,,http://nscc.ca/,icons/nscc-school-icon.png,SCHOOL
+1017,NSCC Wagmatcook Campus,13 Sugar Bush Rd Nova Scotia </br>B0E 1B0,46.0836987,-60.9144851,,http://nscc.ca/,icons/nscc-school-icon.png,SCHOOL
+1110,Acadia University,15 University Ave Wolfville Nova Scotia </br>B4P 2R6,45.0875592,-64.3662494,,https://www.acadiau.ca/home.html,icons/AcadiaUniversity.png,SCHOOL
+1120,University of King's College,6350 Coburg Rd Halifax Nova Scotia </br>B3H 1Z9,44.6377879,-63.5952579,,https://ukings.ca/,icons/UniversityKingsCollege.png,SCHOOL
+1130,Saint Mary's University,923 Robie St Halifax Nova Scotia </br>B3H 3C3,44.6313301,-63.581457,,https://www.smu.ca/,icons/StMarysUniversity.png,SCHOOL
+1140,NSCAD University,5163 Duke St Halifax Nova Scotia </br>B3J 3J6,44.6495501,-63.574157,,https://nscad.ca/,icons/nscadU.png,SCHOOL
+1150,Mount Saint Vincent University,166 Bedford Hwy Halifax Nova Scotia </br>B0N 2T0,44.6711647,-63.6458581,,https://www.msvu.ca/,icons/mountsaintvincent.png,SCHOOL
+1160,St. Francis Xavier University,4130 University Ave Antigonish Nova Scotia </br>B2G 2W5,45.6177357,-61.9953941,,https://www.stfx.ca/,icons/StFXUniversity.png,SCHOOL
+1171,Cape Breton University Parking Lot P1 (Campus Expansion),Parking lot Grand Lake Road Nova Scotia </br>B1M 1A2,46.16875,-60.09403,,https://www.cbu.ca/,icons/CapeBretonUniversity.png,SCHOOL
+1172,Cape Breton University Parking Lot P2 (Canada Games),Parking lot Grand Lake Road Nova Scotia </br>B1M,46.16777,-60.09167,,https://www.cbu.ca/,icons/CapeBretonUniversity.png,SCHOOL
+1173,Cape Breton University Parking Lot P3 (Campus Centre B),1250 Grand Lake Rd Sydney Nova Scotia </br>B1M 1A2,46.16887,-60.09056,,https://www.cbu.ca/,icons/CapeBretonUniversity.png,SCHOOL
+1174,Cape Breton University Parking Lot P3A (Campus Centre B),Parking lot Grand Lake Road Nova Scotia </br>B1M,46.16902,-60.09123,,https://www.cbu.ca/,icons/CapeBretonUniversity.png,SCHOOL
+1175,Cape Breton University Parking Lot P4 (Cabot Residences),Parking lot P4 Grand Lake Road Nova Scotia </br>B1M,46.16886,-60.08882,,https://www.cbu.ca/,icons/CapeBretonUniversity.png,SCHOOL
+1176,Cape Breton University Parking Lot P4A (Cabot Residences),Parking lot P4A Grand Lake Road Nova Scotia </br>B1M,46.16913,-60.08977,,https://www.cbu.ca/,icons/CapeBretonUniversity.png,SCHOOL
+1177,Cape Breton University Parking Lot P5 (Campus Centre A),Parking lot Grand Lake Road Nova Scotia </br>B1M 1A1,46.17093,-60.09079,,https://www.cbu.ca/,icons/CapeBretonUniversity.png,SCHOOL
+1178,Cape Breton University Parking Lot P5A (Campus Centre A),Parking lot Grand Lake Road Nova Scotia </br>B1M 1A1,46.17068,-60.09241,,https://www.cbu.ca/,icons/CapeBretonUniversity.png,SCHOOL
+1179,Cape Breton University Parking Lot P6 (Marvin Harvey Building),Parking lot Grand Lake Road Nova Scotia </br>B1M 1A1,46.17078,-60.09394,,https://www.cbu.ca/,icons/CapeBretonUniversity.png,SCHOOL
+1180,Cape Breton University Parking Lot P7 (Shannon School of Business),Parking lot Grand Lake Road Nova Scotia </br>B1M,46.16969,-60.09498,,https://www.cbu.ca/,icons/CapeBretonUniversity.png,SCHOOL
+1181,Cape Breton University Parking Lot P8 (Soccer Dome),Parking lot Grand Lake Road Nova Scotia </br>B1M,46.16698,-60.09071,,https://www.cbu.ca/,icons/CapeBretonUniversity.png,SCHOOL
+1190,University Sainte-Anne,1695 Route 1 Church Point Nova Scotia </br>B0W 1M0,44.3326798,-66.1168753,,https://www.usainteanne.ca/,icons/UniversiteSainteAnne.png,SCHOOL
+1200,Dalhousie University Studley Campus Car Park Coburg Rd (Permit),Coburg Rd Halifax Nova Scotia </br>B3H 4J5,44.63809,-63.59241,,https://www.dal.ca/,icons/DalhousieUniversity.png,SCHOOL
+1201,Dalhousie University Studley Campus Car Park South End (Permit),South End Halifax Nova Scotia </br>B3H 4R2,44.63732,-63.59604,,https://www.dal.ca/,icons/DalhousieUniversity.png,SCHOOL
+1202,Dalhousie University Studley Campus Car Park Wallace McCain,Lord Dalhousie Dr Halifax Nova Scotia </br>B3H 4H6,44.63691,-63.59372,,https://www.dal.ca/,icons/DalhousieUniversity.png,SCHOOL
+1203,Dalhousie University Studley Campus Car Park Dalplex (Pay and Display),Studley Gymnasium 6260 South St Halifax Nova Scotia </br>B3H 1X1,44.63631,-63.59048,,https://www.dal.ca/,icons/DalhousieUniversity.png,SCHOOL
+1204,Dalhousie University Studley Campus Car Park Alumni Crescent (Pay and Display),Alumni Crescent Halifax Nova Scotia </br>B3H 1T7,44.63482,-63.59319,,https://www.dal.ca/,icons/DalhousieUniversity.png,SCHOOL
+1205,Dalhousie University Sexton Campus Car Park Spring Garden Rd,5250 Spring Garden Rd Halifax Nova Scotia </br>B3J 1E7,44.64346,-63.57335,,https://www.dal.ca/,icons/DalhousieUniversity.png,SCHOOL
+1206,Dalhousie University Sexton Campus Charging Station,5303 Morris St Halifax Nova Scotia </br>B3J 1B4,44.64143,-63.57424,,https://www.dal.ca/,icons/DalhousieUniversity.png,SCHOOL
+1207,Dalhousie University Sexton Campus Car Park Morris St,Parking lot Halifax Nova Scotia </br>B3J 3Z5,44.64132,-63.57449,,https://www.dal.ca/,icons/DalhousieUniversity.png,SCHOOL
+1208,Dalhousie University Sexton Campus Car Park Spring Garden Rd,5440 Spring Garden Rd Halifax Nova Scotia </br>B3J 1E9,44.64288,-63.57516,,https://www.dal.ca/,icons/DalhousieUniversity.png,SCHOOL
+1209,Dalhousie University Sexton Campus Car Park Impark The Sister Lots,5481 Clyde St Halifax Nova Scotia </br>B3J 0C4,44.6422,-63.57579,,https://www.dal.ca/,icons/DalhousieUniversity.png,SCHOOL
+1250,Colaisde na Gàidhlig | The Gaelic College,51779 Cabot Trail St. Ann's Nova Scotia </br>B0E 1B0 </br>+1 902-295-3411,46.21337,-60.60506,,https://gaeliccollege.edu/,icons/GaelicCollege.png,SCHOOL
+1260,Canadian Coast Guard College,1190 Westmount Rd Sydney Nova Scotia </br>B1R 2J6,46.14791,-60.2236,,https://www.ccg-gcc.gc.ca/college/index-eng.html,icons/CoastGuardCollege.png,SCHOOL
+2000,Give/Get-a-Ride Tim Horton's at 86 Bayside Rd Afton Station,86 Bayside Rd Afton Station Nova Scotia </br>B0H 1A0,45.593945,-61.74029459999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2001,Give/Get-a-Ride Tim Horton's at 118 S Albion St Amherst,118 S Albion St Amherst Nova Scotia </br>B4H 2X3,45.8162364,-64.20346479999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2002,Give/Get-a-Ride Tim Horton's at 149 S Albion St Amherst,149 S Albion St Amherst Nova Scotia </br>B4H 4H4,45.8154733,-64.20450269999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2003,Give/Get-a-Ride Tim Horton's at 34 NS-6 Amherst,34 NS-6 Amherst Nova Scotia </br>B4H 4B9,45.8192852,-64.2330095,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2004,Give/Get-a-Ride Tim Horton's at 124 Beech Hill Rd Antigonish,124 Beech Hill Rd Antigonish Nova Scotia </br>B2G 0B4,45.6112475,-61.9701353,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2005,Give/Get-a-Ride Tim Horton's at 34 Main St Antigonish,34 Main St Antigonish Nova Scotia </br>B2G 2B3,45.6251902,-61.9832754,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2006,Give/Get-a-Ride Tim Horton's at 7 James St Antigonish,7 James St Antigonish Nova Scotia </br>B2G 1R6,45.6148141,-62.00346089999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2007,Give/Get-a-Ride Tim Horton's at 8250 Shore Rd Baddeck,8250 Shore Rd Baddeck Nova Scotia </br>B0E 1B0,46.0878561,-60.7804093,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2008,Give/Get-a-Ride Tim Horton's at 14 Hwy 330 Barrington Passage,14 Hwy 330 Barrington Passage Nova Scotia </br>B0W 1G0,43.5207555,-65.6166561,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2009,Give/Get-a-Ride Tim Horton's at 1210 Hammonds Plains Rd Bedford,1210 Hammonds Plains Rd Bedford Nova Scotia </br>B4B 1B4,44.7239694,-63.73610999999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2010,Give/Get-a-Ride Tim Horton's at 36 Verdi Dr Bedford,36 Verdi Dr Bedford Nova Scotia </br>B4A 0C2,44.7494173,-63.64175359999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2011,Give/Get-a-Ride Tim Horton's at 930 Bedford Hwy Bedford,930 Bedford Hwy Bedford Nova Scotia </br>B4A 1A8,44.714271,-63.6784945,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2012,Give/Get-a-Ride Tim Horton's at 193 Commercial St Berwick,193 Commercial St Berwick Nova Scotia </br>B0P 1E0,45.0429822,-64.7356376,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2013,Give/Get-a-Ride Tim Horton's at 184 Pictou Rd Bible Hill,184 Pictou Rd Bible Hill Nova Scotia </br>B2N 2T1,45.3777046,-63.2511449,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2014,Give/Get-a-Ride Tim Horton's at 642 Granville St Bridgetown,642 Granville St Bridgetown Nova Scotia </br>B0S 1C0,44.84567699999999,-65.2688012,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2015,Give/Get-a-Ride Tim Horton's at 244 Dominion St Bridgewater,244 Dominion St Bridgewater Nova Scotia </br>B4V 2K8,44.3707431,-64.52730389999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2016,Give/Get-a-Ride Tim Horton's at 421 Lahave St Bridgewater,421 Lahave St Bridgewater Nova Scotia </br>B4V 3A2,44.377198,-64.5154506,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2017,Give/Get-a-Ride Tim Horton's at 464 Lahave St Bridgewater,464 Lahave St Bridgewater Nova Scotia </br>B4V 3T2,44.3775522,-64.515821,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2018,Give/Get-a-Ride Tim Horton's at 9 MacCulloch Rd Cookville,9 MacCulloch Rd Cookville Nova Scotia </br>B4V 2W1,44.3933379,-64.52963559999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2019,Give/Get-a-Ride Tim Horton's at 289 NS-2 Brookfield,289 NS-2 Brookfield Nova Scotia </br>B0N 1C0,45.2689666,-63.28707919999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2020,Give/Get-a-Ride Tim Horton's at 289 NS-2 Chester,Chester Nova Scotia,44.5422758,-64.2388063,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2021,Give/Get-a-Ride Tim Horton's at 7210 Nova Scotia Trunk 1 Coldbrook,7210 Nova Scotia Trunk 1 Coldbrook Nova Scotia </br>B4R 1A2,45.0676019,-64.5649353,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2022,Give/Get-a-Ride Tim Horton's at 4 Forest Hills Pkwy Cole Harbour,4 Forest Hills Pkwy Cole Harbour Nova Scotia </br>B2W 5G7,44.6738144,-63.4915568,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2023,Give/Get-a-Ride Tim Horton's at 106 Ilsley Ave Dartmouth,106 Ilsley Ave Dartmouth Nova Scotia </br>B3B 1L3,44.6985717,-63.5861287,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2024,Give/Get-a-Ride Tim Horton's at 116 Wyse Rd Dartmouth,116 Wyse Rd Dartmouth Nova Scotia </br>B3A 1M3,44.67067189999999,-63.5777682,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2025,Give/Get-a-Ride Tim Horton's at 14 Highfield Park Dr Dartmouth,14 Highfield Park Dr Dartmouth Nova Scotia </br>B3A 4T6,44.6907814,-63.5855706,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2026,Give/Get-a-Ride Tim Horton's at 15 Akerley Blvd Dartmouth,15 Akerley Blvd Dartmouth Nova Scotia </br>B3B 1J6,44.707365,-63.6085948,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2027,Give/Get-a-Ride Tim Horton's at 159 Main St Dartmouth,159 Main St Dartmouth Nova Scotia </br>B2X 1S1,44.6827603,-63.53658540000001,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2028,Give/Get-a-Ride Tim Horton's at 16 Kiltearn Row Dartmouth,16 Kiltearn Row Dartmouth Nova Scotia </br>B3B 0G8,44.7076795,-63.5636249,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2029,Give/Get-a-Ride Tim Horton's at 180 Wyse Rd Dartmouth,180 Wyse Rd Dartmouth Nova Scotia </br>B3A 1M6,44.6719532,-63.5805271,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2030,Give/Get-a-Ride Tim Horton's at 207 Portland St Dartmouth,207 Portland St Dartmouth Nova Scotia </br>B2Y 1J5,44.6683086,-63.5621195,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2031,Give/Get-a-Ride Tim Horton's at 21 Micmac Blvd Dartmouth,21 Micmac Blvd Dartmouth Nova Scotia </br>B3A 4N3,44.6863598,-63.55936829999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2032,Give/Get-a-Ride Tim Horton's at 244 Waverley Rd Dartmouth,244 Waverley Rd Dartmouth Nova Scotia </br>B2X 2C4,44.6975221,-63.5470918,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2033,Give/Get-a-Ride Tim Horton's at 275 Baker Dr Dartmouth,275 Baker Dr Dartmouth Nova Scotia </br>B2W 0L6,44.65496270000001,-63.5285617,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2034,Give/Get-a-Ride Tim Horton's at 365 Pleasant St Dartmouth,365 Pleasant St Dartmouth Nova Scotia </br>B2Y 3S4,44.6499348,-63.5459159,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2035,Give/Get-a-Ride Tim Horton's at 369 Caldwell Rd Dartmouth,369 Caldwell Rd Dartmouth Nova Scotia </br>B2V 1A4,44.6578185,-63.49087,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2036,Give/Get-a-Ride Tim Horton's at 577 Main St Dartmouth,577 Main St Dartmouth Nova Scotia </br>B2W 4K1,44.69386129999999,-63.5002182,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2037,Give/Get-a-Ride Tim Horton's at 623 Windmill Rd Dartmouth,623 Windmill Rd Dartmouth Nova Scotia </br>B3B 1B6,44.6974039,-63.60461179999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2038,Give/Get-a-Ride Tim Horton's at 644 Portland St Dartmouth,644 Portland St Dartmouth Nova Scotia </br>B2W 6C4,44.6712253,-63.52629059999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2039,Give/Get-a-Ride Tim Horton's at 646 Main St Dartmouth,646 Main St Dartmouth Nova Scotia </br>B2W 3T7,44.69524939999999,-63.4963779,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2040,Give/Get-a-Ride Tim Horton's at 84 Main St Dartmouth,84 Main St Dartmouth Nova Scotia </br>B2X 1R5,44.6810468,-63.54312880000001,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2041,Give/Get-a-Ride Tim Horton's at 88 Alderney Dr Dartmouth,88 Alderney Dr Dartmouth Nova Scotia </br>B2Y 2N5,44.66437,-63.5689517,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2042,Give/Get-a-Ride Tim Horton's at 975 Wilkinson Ave Dartmouth,975 Wilkinson Ave Dartmouth Nova Scotia </br>B3B 0H6,44.7103197,-63.56857780000001,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2043,Give/Get-a-Ride Tim Horton's at 975 Wilkinson Ave Debert,Debert Nova Scotia </br>B0M,45.4377194,-63.45844859999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2044,Give/Get-a-Ride Tim Horton's at 490 NS-303 Digby,490 NS-303 Digby Nova Scotia </br>B0V 1A0,44.59922599999999,-65.77058,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2045,Give/Get-a-Ride Tim Horton's at 93 Warwick St Digby,93 Warwick St Digby Nova Scotia </br>B0V 1A0,44.6158189,-65.7641746,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2046,Give/Get-a-Ride Tim Horton's at 29 Commercial St Dominion,29 Commercial St Dominion Nova Scotia </br>B1G 1B3,46.2112811,-60.0200926,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2047,Give/Get-a-Ride Tim Horton's at 10 Cow Bay Rd Eastern Passage,10 Cow Bay Rd Eastern Passage Nova Scotia </br>B3G 1K7,44.61227179999999,-63.4933116,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2048,Give/Get-a-Ride Tim Horton's at 1104 Main Rd Shearwater,1104 Main Rd Shearwater Nova Scotia </br>B0J 3A0,44.6238059,-63.5100983,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2049,Give/Get-a-Ride Tim Horton's at 267 NS-214 Elmsdale,267 NS-214 Elmsdale Nova Scotia </br>B2S 1K1,44.9762802,-63.50645159999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2050,Give/Get-a-Ride Tim Horton's at 6739 NS-2 Enfield,6739 NS-2 Enfield Nova Scotia </br>B2T 1C3,44.9240783,-63.54039789999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2051,Give/Get-a-Ride Tim Horton's at 4716 Shore Rd Eskasoni,4716 Shore Rd Eskasoni Nova Scotia </br>B1W 1K5,45.9424193,-60.6216869,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2052,Give/Get-a-Ride Tim Horton's at 3286 NS-2 Fall River,3286 NS-2 Fall River Nova Scotia </br>B2T 1J2,44.8182101,-63.6104397,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2053,Give/Get-a-Ride Tim Horton's at 366 Park Rd Florence,366 Park Rd Florence Nova Scotia </br>B1Y 1N4,46.2456425,-60.27396160000001,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2054,Give/Get-a-Ride Tim Horton's at 100 McKeen St Glace Bay,100 McKeen St Glace Bay Nova Scotia </br>B1A 5C2,46.2002906,-59.95825319999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2055,Give/Get-a-Ride Tim Horton's at 112 Reserve St Glace Bay,112 Reserve St Glace Bay Nova Scotia </br>B1A 4W5,46.1923463,-59.9733096,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2056,Give/Get-a-Ride Tim Horton's at 311 Bell Blvd Goffs,311 Bell Blvd Goffs Nova Scotia </br>B2T 1K3,44.8792889,-63.52308369999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2057,Give/Get-a-Ride Tim Horton's at 747 Bell Blvd Goffs,747 Bell Blvd Goffs Nova Scotia </br>B2T 1K3,44.8866474,-63.51504429999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2058,Give/Get-a-Ride Tim Horton's at 180 Prospect Rd Goodwood,180 Prospect Rd Goodwood Nova Scotia </br>B3T 1P2,44.620495,-63.66505290000001,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2059,Give/Get-a-Ride Tim Horton's at 752 Ward Rd Greenwood,752 Ward Rd Greenwood Nova Scotia </br>B0P 1N0,44.9693481,-64.93725669999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2060,Give/Get-a-Ride Tim Horton's at 1 Pine Grove Dr Halifax,1 Pine Grove Dr Halifax Nova Scotia </br>B3R 1S2,44.6126812,-63.61692790000001,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2061,Give/Get-a-Ride Tim Horton's at 1047 Barrington St Halifax,1047 Barrington St Halifax Nova Scotia </br>B3H 2P8,44.6370572,-63.56911669999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2062,Give/Get-a-Ride Tim Horton's at 117 Kearney Lake Rd Halifax,117 Kearney Lake Rd Halifax Nova Scotia </br>B3M 4N9,44.6846676,-63.67419259999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2063,Give/Get-a-Ride Tim Horton's at 1199 Hammonds Plains Rd Hammonds Plains,1199 Hammonds Plains Rd Hammonds Plains Nova Scotia </br>B4B 1B3,44.7247486,-63.7354715,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2064,Give/Get-a-Ride Tim Horton's at 166 Bedford Hwy Halifax,166 Bedford Hwy Halifax Nova Scotia </br>B3M 2J6,44.6720401,-63.6450076,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2065,Give/Get-a-Ride Tim Horton's at 171 Herring Cove Rd Herring Cove,171 Herring Cove Rd Herring Cove Nova Scotia </br>B3V 1H2,44.6258325,-63.617248,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2066,Give/Get-a-Ride Tim Horton's at 1781 Upper Water St Halifax,1781 Upper Water St Halifax Nova Scotia </br>B3J 3R6,44.6491245,-63.5723012,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2067,Give/Get-a-Ride Tim Horton's at 200 Bedford Hwy Halifax,200 Bedford Hwy Halifax Nova Scotia </br>B3M 2K2,44.6748387,-63.64767999999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2068,Give/Get-a-Ride Tim Horton's at 217 Chain Lake Dr Halifax,217 Chain Lake Dr Halifax Nova Scotia </br>B3S 1C1,44.6541317,-63.6781909,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2069,Give/Get-a-Ride Tim Horton's at 278 Lacewood Dr Halifax,278 Lacewood Dr Halifax Nova Scotia </br>B3M 3P6,44.6617367,-63.6557333,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2070,Give/Get-a-Ride Tim Horton's at 3600 Dutch Village Rd Halifax,3600 Dutch Village Rd Halifax Nova Scotia </br>B3N 2S3,44.6573601,-63.63267029999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2071,Give/Get-a-Ride Tim Horton's at 390 Osborne St Halifax,390 Osborne St Halifax Nova Scotia </br>B3N 3J6,44.6310365,-63.63162819999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2072,Give/Get-a-Ride Tim Horton's at 40 Peakview Way Halifax,40 Peakview Way Halifax Nova Scotia </br>B3M 0G2,44.6991656,-63.6870682,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2073,Give/Get-a-Ride Tim Horton's at 5 Lakelands Blvd Halifax,5 Lakelands Blvd Halifax Nova Scotia </br>B3K 5L2,44.6362451,-63.6688158,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2074,Give/Get-a-Ride Tim Horton's at 5201 Duke St Halifax,5201 Duke St Halifax Nova Scotia </br>B3J 1N9,44.65011399999999,-63.57609910000001,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2075,Give/Get-a-Ride Tim Horton's at 5511 Spring Garden Rd Halifax,5511 Spring Garden Rd Halifax Nova Scotia </br>B3J 1G9,44.6431749,-63.5773692,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2076,Give/Get-a-Ride Tim Horton's at 5685 Leeds St Halifax,5685 Leeds St Halifax Nova Scotia </br>B3K 4M2,44.66924119999999,-63.6135137,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2077,Give/Get-a-Ride Tim Horton's at 5980 University Ave Halifax,5980 University Ave Halifax Nova Scotia </br>B3K 6R8,44.6377615,-63.5840338,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SCHOOL
+2078,Give/Get-a-Ride Tim Horton's at 5859 University Ave Halifax,5859 University Ave Halifax Nova Scotia </br>B3H 4B7,44.639689,-63.584112,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SCHOOL
+2079,Give/Get-a-Ride Tim Horton's at 6020 Young St Halifax,6020 Young St Halifax Nova Scotia </br>B3K 2A2,44.6586746,-63.6022943,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2080,Give/Get-a-Ride Tim Horton's at 6034 Lady Hammond Rd Halifax,6034 Lady Hammond Rd Halifax Nova Scotia </br>B3K 2R6,44.664914,-63.6120227,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2081,Give/Get-a-Ride Tim Horton's at 6046 Young St Halifax,6046 Young St Halifax Nova Scotia </br>B3K 2A2,44.6586775,-63.60227819999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2082,Give/Get-a-Ride Tim Horton's at 6136 University Ave Halifax,6136 University Ave Halifax Nova Scotia </br>B3H 4J2,44.63683959999999,-63.58912360000001,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SCHOOL
+2083,Give/Get-a-Ride Tim Horton's at 6230 Coburg Rd Halifax,6230 Coburg Rd Halifax Nova Scotia </br>B3H 2A2,44.63605889999999,-63.5939861,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2084,Give/Get-a-Ride Tim Horton's at 6455 Quinpool Rd Halifax,6455 Quinpool Rd Halifax Nova Scotia </br>B3L 1B1,44.6443227,-63.601874,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2085,Give/Get-a-Ride Tim Horton's at 6570 Bayers Rd Halifax,6570 Bayers Rd Halifax Nova Scotia </br>B3L 2B3,44.6525128,-63.6138882,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2086,Give/Get-a-Ride Tim Horton's at 7001 Mumford Rd Halifax,7001 Mumford Rd Halifax Nova Scotia </br>B3L 4R3,44.6497071,-63.6184056,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2087,Give/Get-a-Ride Tim Horton's at 7010 Mumford Rd Halifax,7010 Mumford Rd Halifax Nova Scotia </br>B3L 4W7,44.6477845,-63.62221539999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2088,Give/Get-a-Ride Tim Horton's at 923 Robie St Halifax,923 Robie St Halifax Nova Scotia </br>B3H 1G3,44.6313301,-63.58145709999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2089,Give/Get-a-Ride Tim Horton's at 5470 Gangway Rd Halifax,5470 Gangway Rd Halifax Nova Scotia </br>B3K 5M5,44.6600466,-63.5943401,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2090,Give/Get-a-Ride Tim Horton's at 45 Sweetgrass Rd Hantsport,45 Sweetgrass Rd Hantsport Nova Scotia </br>B0P 1P0,45.0683414,-64.22009969999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2091,Give/Get-a-Ride Tim Horton's at 2301 Hwy 2 Hardwood Lands,2301 Hwy 2 Hardwood Lands Nova Scotia </br>B0N 1Y0,45.0542481,-63.43260369999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2092,Give/Get-a-Ride Tim Horton's at 104 Trans-Canada Hwy Havre Boucher,104 Trans-Canada Hwy Havre Boucher Nova Scotia </br>B0H 1P0,45.65338759999999,-61.44428009999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2093,Give/Get-a-Ride Tim Horton's at 30 Webster St Kentville,30 Webster St Kentville Nova Scotia </br>B4N 1H4,45.0779661,-64.4951105,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2094,Give/Get-a-Ride Tim Horton's at 70 Aberdeen St Kentville,70 Aberdeen St Kentville Nova Scotia </br>B4N 2N3,45.07865049999999,-64.4967344,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2095,Give/Get-a-Ride Tim Horton's at 806 Main St Kingston,806 Main St Kingston Nova Scotia </br>B0P 1R0,44.99132609999999,-64.93939759999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2096,Give/Get-a-Ride Tim Horton's at 170 Bristol Ave Liverpool,170 Bristol Ave Liverpool Nova Scotia </br>B0T 1K0,44.0459526,-64.7217974,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2097,Give/Get-a-Ride Tim Horton's at 257 Cobequid Rd Lower Sackville,257 Cobequid Rd Lower Sackville Nova Scotia </br>B4C 4H3,44.7603903,-63.65748480000001,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2098,Give/Get-a-Ride Tim Horton's at 40 Freer Ln Lower Sackville,40 Freer Ln Lower Sackville Nova Scotia </br>B4C 0A2,44.75692480000001,-63.6586838,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2099,Give/Get-a-Ride Tim Horton's at 629 Sackville Dr Lower Sackville,629 Sackville Dr Lower Sackville Nova Scotia </br>B4C 2S4,44.7694913,-63.687378,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2100,Give/Get-a-Ride Tim Horton's at 70 First Lake Dr Lower Sackville,70 First Lake Dr Lower Sackville Nova Scotia </br>B4C 3E4,44.7776275,-63.6708945,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2101,Give/Get-a-Ride Tim Horton's at 810 Sackville Dr Lower Sackville,810 Sackville Dr Lower Sackville Nova Scotia </br>B4E 1R7,44.7749771,-63.6948051,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2102,Give/Get-a-Ride Tim Horton's at 84 Beaver Bank Rd Lower Sackville,84 Beaver Bank Rd Lower Sackville Nova Scotia </br>B4E 1J7,44.7834469,-63.69225659999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2103,Give/Get-a-Ride Tim Horton's at 134 Victoria Road Lunenburg,134 Victoria Road Lunenburg Nova Scotia </br>B0J 2C0,44.3762593,-64.3246964,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2104,Give/Get-a-Ride Tim Horton's at 33 Edgewater St Mahone Bay,33 Edgewater St Mahone Bay Nova Scotia </br>B0J 2E0,44.4500017,-64.3808507,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2105,Give/Get-a-Ride Tim Horton's at 10639 NS-2 Debert,10639 NS-2 Debert Nova Scotia </br>B0M 1G0,45.3927591,-63.4944274,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2106,Give/Get-a-Ride Tim Horton's at 201 Churchill Dr Debert,201 Churchill Dr Nova Scotia </br>B1S 0H1,46.1189022,-60.1921428,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2107,Give/Get-a-Ride Tim Horton's at 8226 Hwy 1 Meteghan,8226 Hwy 1 Meteghan Nova Scotia </br>B0W 2J0,44.1883243,-66.1609868,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2108,Give/Get-a-Ride Tim Horton's at 1624 Sackville Dr Middle Sackville,1624 Sackville Dr Middle Sackville Nova Scotia </br>B4E 0T2,44.7943912,-63.7238608,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2109,Give/Get-a-Ride Tim Horton's at 241 Main St Middleton,241 Main St Middleton Nova Scotia </br>B0S 1P0,44.9415658,-65.0711441,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2110,Give/Get-a-Ride Tim Horton's at 645 Evangeline Trl Mount Uniacke,645 Evangeline Trl Mount Uniacke Nova Scotia </br>B0N 2A0,44.89397109999999,-63.8317493,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2111,Give/Get-a-Ride Tim Horton's at 7868 Nova Scotia Trunk 7 Musquodoboit Harbour,7868 Nova Scotia Trunk 7 Musquodoboit Harbour Nova Scotia </br>B0J 2L0,44.7845434,-63.1503117,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2112,Give/Get-a-Ride Tim Horton's at 242 Westville Rd New Glasgow,242 Westville Rd New Glasgow Nova Scotia </br>B2H 2J5,45.5834456,-62.6548523,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2113,Give/Get-a-Ride Tim Horton's at 322 E River Rd New Glasgow,322 E River Rd New Glasgow Nova Scotia </br>B2H 5C5,45.5628226,-62.64810919999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2114,Give/Get-a-Ride Tim Horton's at 687 E River Rd New Glasgow,687 E River Rd New Glasgow Nova Scotia </br>B2H 5C8,45.5756202,-62.64257949999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2115,Give/Get-a-Ride Tim Horton's at 750 Westville Rd New Glasgow,750 Westville Rd New Glasgow Nova Scotia </br>B2H 2J8,45.5764207,-62.6676491,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2116,Give/Get-a-Ride Tim Horton's at 9061 Commercial St New Minas,9061 Commercial St New Minas Nova Scotia </br>B4N 3E6,45.0681371,-64.4556874,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2117,Give/Get-a-Ride Tim Horton's at 9256 Commercial St New Minas,9256 Commercial St New Minas Nova Scotia </br>B4N 3E6,45.0665004,-64.4440614,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2118,Give/Get-a-Ride Tim Horton's at 3400 Plummer Ave New Waterford,3400 Plummer Ave New Waterford Nova Scotia </br>B1H 1Y9,46.2485875,-60.08658349999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2119,Give/Get-a-Ride Tim Horton's at 106 King St North Sydney,106 King St North Sydney Nova Scotia </br>B2A 2T6,46.2136685,-60.26250419999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2120,Give/Get-a-Ride Tim Horton's at 7 Blowers St North Sydney,7 Blowers St North Sydney Nova Scotia </br>B2A 2Y3,46.2111721,-60.24755090000001,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2121,Give/Get-a-Ride Tim Horton's at 7 Main St Oxford,Main St Oxford Nova Scotia </br>B0M,45.7269141,-63.8793369,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2122,Give/Get-a-Ride Tim Horton's at 4019 Eastern Ave Parrsboro,4019 Eastern Ave Parrsboro Nova Scotia </br>B0M 1S0,45.4057902,-64.3250406,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2123,Give/Get-a-Ride Tim Horton's at 65 Weaver Rd Pictou,65 Weaver Rd Pictou Nova Scotia </br>B0K 1H0,45.6795489,-62.7285996,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2124,Give/Get-a-Ride Tim Horton's at 603 Reeves St Port Hawkesbury,603 Reeves St Port Hawkesbury Nova Scotia </br>B9A 2R8,45.6159886,-61.356525,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2126,Give/Get-a-Ride Tim Horton's at 5215 Nova Scotia Trunk 7 Porters Lake,5215 Nova Scotia Trunk 7 Porters Lake Nova Scotia </br>B3E 1J7,44.7447002,-63.2830162,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2127,Give/Get-a-Ride Tim Horton's at 2249 Main St Reserve Mines,2249 Main St Reserve Mines Nova Scotia </br>B1E 1J9,46.1806345,-60.0200583,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2128,Give/Get-a-Ride Tim Horton's at 9966 Grenville St Saint Peters,9966 Grenville St Saint Peters Nova Scotia </br>B0E 3B0,45.6553421,-60.87639290000001,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2129,Give/Get-a-Ride Tim Horton's at 20 Provider Rd Shearwater,20 Provider Rd Shearwater Nova Scotia </br>B0J 3A0,44.62903120000001,-63.5163969,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2130,Give/Get-a-Ride Tim Horton's at 85 Ohio Rd Shelburne,85 Ohio Rd Shelburne Nova Scotia </br>B0T 1W0,43.7775548,-65.3397542,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2131,Give/Get-a-Ride Tim Horton's at 42 Main St Springhill,42 Main St Springhill Nova Scotia </br>B0M 1X0,45.650219,-64.0594339,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2132,Give/Get-a-Ride Tim Horton's at 219 S Foord St Stellarton,219 S Foord St Stellarton Nova Scotia </br>B0K 1S0,45.56124699999999,-62.65914710000001,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2133,Give/Get-a-Ride Tim Horton's at 85 Main St W Stewiacke,85 Main St W Stewiacke Nova Scotia </br>B0N 1T0,45.1401717,-63.3614098,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2134,Give/Get-a-Ride Tim Horton's at 1058 Kings Rd Sydney,1058 Kings Rd Sydney Nova Scotia </br>B1S 1C7,46.1123,-60.2182102,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2135,Give/Get-a-Ride Tim Horton's at Upper Grand Lake Rd Sydney,1172 Grand Lake Rd Sydney Nova Scotia </br>B1M 1A2,46.1678467,-60.10265800000001,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2136,Give/Get-a-Ride Tim Horton's at 1250 Grand Lake Rd Sydney,1250 Grand Lake Rd Sydney Nova Scotia </br>B1P 6L2,46.1700345,-60.0917619,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2137,Give/Get-a-Ride Tim Horton's at 1269 Kings Rd Sydney,1269 Kings Rd Sydney Nova Scotia </br>B1S 1E1,46.1076475,-60.2234539,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2138,Give/Get-a-Ride Tim Horton's at 2293 Kings Rd Sydney,2293 Kings Rd Sydney Nova Scotia </br>B1L 1C2,46.0707446,-60.2766421,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2139,Give/Get-a-Ride Tim Horton's at 396 Welton St Sydney,396 Welton St Sydney Nova Scotia </br>B1P 5S7,46.14438260000001,-60.16010149999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2140,Give/Get-a-Ride Tim Horton's at 45 Weatherbee Rd Sydney,45 Weatherbee Rd Sydney Nova Scotia </br>B1M 0A1,46.1135054,-60.17544169999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2141,Give/Get-a-Ride Tim Horton's at 479 George St Sydney,479 George St Sydney Nova Scotia </br>B1P 1K5,46.1369803,-60.19132510000001,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2142,Give/Get-a-Ride Tim Horton's at 547 Grand Lake Rd Sydney,547 Grand Lake Rd Sydney Nova Scotia </br>B1P 5T3,46.1468858,-60.1530808,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2143,Give/Get-a-Ride Tim Horton's at 800 Grand Lake Rd Sydney,800 Grand Lake Rd Sydney Nova Scotia </br>B1P 6S9,46.1473931,-60.13716590000001,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2144,Give/Get-a-Ride Tim Horton's at 915 Victoria Rd Sydney,915 Victoria Rd Sydney Nova Scotia </br>B1N 1K5,46.1582027,-60.1862916,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2145,Give/Get-a-Ride Tim Horton's at 1844 St Margarets Bay Rd Timberlea,1844 St Margarets Bay Rd Timberlea Nova Scotia </br>B3T 1B8,44.6460794,-63.71396470000001,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2146,Give/Get-a-Ride Tim Horton's at 33 Main St Trenton,33 Main St Trenton Nova Scotia </br>B0K 1X0,45.6065783,-62.638575,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2147,Give/Get-a-Ride Tim Horton's at 1195 Treaty Trail Truro,1195 Treaty Trail Truro Nova Scotia </br>B6L 1W1,45.334015,-63.3041551,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2148,Give/Get-a-Ride Tim Horton's at 236 Robie St Truro,236 Robie St Truro Nova Scotia </br>B2N 1L1,45.3688827,-63.30231070000001,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2149,Give/Get-a-Ride Tim Horton's at 282 Pictou Rd Truro,282 Pictou Rd Truro Nova Scotia </br>B2N 2T4,45.3808643,-63.2405161,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2150,Give/Get-a-Ride Tim Horton's at 51 Robie St Truro,51 Robie St Truro Nova Scotia </br>B2N 1K8,45.3680423,-63.31597919999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2151,Give/Get-a-Ride Tim Horton's at 3614 Hammonds Plains Rd Upper Tantallon,3614 Hammonds Plains Rd Upper Tantallon Nova Scotia </br>B3Z 4R2,44.7049173,-63.85737239999999,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2152,Give/Get-a-Ride Tim Horton's at 5126 St Margarets Bay Rd Upper Tantallon,5126 St Margarets Bay Rd Upper Tantallon Nova Scotia </br>B3Z 1E2,44.6867698,-63.8759393,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2153,Give/Get-a-Ride Tim Horton's at 2014 Diamond St Westville,2014 Diamond St Westville Nova Scotia </br>B0K 0A8,45.5614011,-62.71088090000001,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2154,Give/Get-a-Ride Tim Horton's at 2014 Trans-Canada Hwy Westville,Trans-Canada Hwy Westville Nova Scotia,45.5759931,-62.732592,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2155,Give/Get-a-Ride Tim Horton's at 9243 Trans-Canada Hwy Whycocomagh,9243 Trans-Canada Hwy Whycocomagh Nova Scotia </br>B0E 3M0,45.97033769999999,-61.1344153,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2156,Give/Get-a-Ride Tim Horton's at 317 Wentworth Rd Windsor,317 Wentworth Rd Windsor Nova Scotia B0N 2T0,44.9922901,-64.1130768,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2157,Give/Get-a-Ride Tim Horton's at 4 King Street Extension Windsor,4 King Street Extension Windsor Nova Scotia </br>B0N 2T0,44.9963037,-64.1388079,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2158,Give/Get-a-Ride Tim Horton's at 7 Cole Dr Windsor,7 Cole Dr Windsor Nova Scotia </br>B0N 2T0,44.9903742,-64.1142328,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2159,Give/Get-a-Ride Tim Horton's at 370 Main St Wolfville,370 Main St Wolfville Nova Scotia </br>B4N 1K6,45.091927,-64.3596177,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2160,Give/Get-a-Ride Tim Horton's at 520 Main St Yarmouth,520 Main St Yarmouth Nova Scotia </br>B5A 1H8,43.8442811,-66.1182804,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+2161,Give/Get-a-Ride Tim Horton's at 75 Starrs Rd Yarmouth,75 Starrs Rd Yarmouth Nova Scotia B5A 2T6,43.8435867,-66.1066554,,https://www.timhortons.ca/,icons/meeting-point-icon.png,SPONSOR
+3000,"Car Pool Parking Lot at Highway 102, Exit 11 at Stewiacke",199 Main St W Stewiacke Nova Scotia </br>B0N 2J0,45.14077,-63.3678499,,,icons/CarpoolPark.png,CARPOOL
+3001,"Car Pool Parking Lot at Highway 102, Exit 12 at Brookfield",16 W Brookfield Cemetery Rd Brookfield Nova Scotia </br>B0N 1C0,45.2496056,-63.29705250000001,,,icons/CarpoolPark.png,CARPOOL
+3002,"Car Pool Parking Lot at Highway 102, Exit 13 at Truro",Truro Nova Scotia </br>B2N 5B6,45.3466375,-63.2878315,,,icons/CarpoolPark.png,CARPOOL
+3003,"Car Pool Parking Lot at Highway 104, Exit 5 at Springhill",772 Salt Springs Rd Springhill Nova Scotia </br>B0M 1X0,45.68862379999999,-64.00204240000001,,,icons/CarpoolPark.png,CARPOOL
+3004,"Car Pool Parking Lot at Highway 104, Exit 17 at Valley",709 Pictou Rd Valley Nova Scotia </br>B6L 2P3,45.3988913,-63.2038054,,,icons/CarpoolPark.png,CARPOOL
+3005,"Car Pool Parking Lot at Highway 104, Exit 19 at Salt Springs",831 Old Coach Rd Salt Springs Nova Scotia </br>B0K 1P0,45.5485651,-62.8990727,,,icons/CarpoolPark.png,CARPOOL
+3006,"Car Pool Parking Lot at Highway 104, Exit 27 at Sutherlands River",125 School Rd Thorburn Nova Scotia </br>B0K 1W0,45.5916286,-62.51440899999999,,,icons/CarpoolPark.png,CARPOOL
+3007,"Car Pool Parking Lot at Highway 103, Exit 6 at Hubbards",Hubbards Nova Scotia </br>B0J 1T0,44.6314708,-64.0798294,,,icons/CarpoolPark.png,CARPOOL
+3008,"Car Pool Parking Lot at Highway 103, Exit 7 at East River",2251 Lighthouse Rte Chester Nova Scotia </br>B0J 2C0,44.5894942,-64.17736820000002,,,icons/CarpoolPark.png,CARPOOL
+3009,"Car Pool Parking Lot at Highway 103, Exit 8 at Chester",Nova Scotia </br>B0J 1J0,44.586849,-64.26724039999999,,,icons/CarpoolPark.png,CARPOOL
+3010,"Car Pool Parking Lot at Highway 103, Exit 9 at Chester Basin",Nova Scotia </br>B0J 1K0,44.5755714,-64.3142672,,,icons/CarpoolPark.png,CARPOOL
+3011,"Car Pool Parking Lot at Highway 103, Exit 10 at Oakland",8364 Lighthouse Rte Black Point Nova Scotia </br>B0J 1T0,44.6511439,-63.97664099999999,,,icons/CarpoolPark.png,CARPOOL
+3012,"Car Pool Parking Lot at Highway 103, Exit 11 at Blockhouse",180 Langille Lake Rd Blockhouse Nova Scotia </br>B0J 1E0,44.450017,-64.427756,,,icons/CarpoolPark.png,CARPOOL
+3013,"Car Pool Parking Lot at Highway 103, Exit 12 at Cookville",14 Cook's Ln Cookville Nova Scotia </br>B4V 7P5,44.3980754,-64.5327787,,,icons/CarpoolPark.png,CARPOOL
+3014,"Car Pool Parking Lot at Highway 103, Exit 13 at Wileville",26 David Wile Rd Halifax Nova Scotia </br>B4V 5J6,44.3703164,-64.546055,,,icons/CarpoolPark.png,CARPOOL
+3015,"Car Pool Parking Lot at Highway 103, Exit 17A at Mill Village",Port Medway Rd Mill Village Nova Scotia </br>B0J 2H0,44.1402212,-64.64366869999999,,,icons/CarpoolPark.png,CARPOOL
+3016,"Car Pool Parking Lot at Highway 103, Exit 19 at Liverpool",Nova Scotia </br>B0T 1P0,44.0482615,-64.7296046,,,icons/CarpoolPark.png,CARPOOL
+3017,"Car Pool Parking Lot at Highway 103, Exit 26 at Shelburne",96 Ohio Rd Shelburne Nova Scotia </br>B0T 1W0,43.779503,-65.3403809,,,icons/CarpoolPark.png,CARPOOL
+3018,"Car Pool Parking Lot at Highway 103, Exit 31 at Pubnico",Pubnico Connector Pubnico Nova Scotia </br>B0W 3S0,43.7128751,-65.7760524,,,icons/CarpoolPark.png,CARPOOL
+3019,"Car Pool Parking Lot at Highway 103, Exit 32A at Glenwood",5679 Chemin Old Oak Rd Glenwood Nova Scotia </br>B0W 1W0,43.7942197,-65.873507,,,icons/CarpoolPark.png,CARPOOL
+3020,"Car Pool Parking Lot at Highway 103, Exit 33 at Tusket",316 Gavel Rd Tusket Nova Scotia </br>B0W 3M0,43.8688584,-65.9674979,,,icons/CarpoolPark.png,CARPOOL
+3021,"Car Pool Parking Lot at Highway 101, Exit 32 at Lake Doucette",Nova Scotia </br>B0W 2Y0,44.0566786,-66.1481546,,,icons/CarpoolPark.png,CARPOOL
+3022,"Car Pool Parking Lot at Highway 101, Exit 29 at Little Brook",764 Little Brook Rd Little Brook Nova Scotia </br>B0W 1Z0,44.283712,-66.0797242,,,icons/CarpoolPark.png,CARPOOL
+3023,"Car Pool Parking Lot at Highway 101, Exit 22 at Greywood (Trunk 8)",5959 Clementsvale Rd Annapolis Royal Nova Scotia </br>B0T 1B0,44.69994579999999,-65.4846699,,,icons/CarpoolPark.png,CARPOOL
+3024,"Car Pool Parking Lot at Highway 101, Exit 13 at Kentville",52 Schofield Rd Kentville Nova Scotia </br>B4N 3V8,45.05160009999999,-64.5209234,,,icons/CarpoolPark.png,CARPOOL
+3025,"Car Pool Parking Lot at Highway 101, Exit 12 at New Minas",5435 Prospect Rd New Minas Nova Scotia </br>B4N 3E4,45.0553669,-64.471906,,,icons/CarpoolPark.png,CARPOOL
+3026,"Car Pool Parking Lot at Highway 101, Exit 9 at Avonport",2186 Gaspereau River Rd Wolfville Nova Scotia </br>B4P 2R3,45.0999414,-64.2662478,,,icons/CarpoolPark.png,CARPOOL
+3027,"Car Pool Parking Lot at Highway 101, Exit 8A at Ben Jackson Road",519 Ben Jackson Rd Hantsport Nova Scotia </br>B0P 1P0,45.0709078,-64.2236649,,,icons/CarpoolPark.png,CARPOOL
+3028,"Car Pool Parking Lot at Highway 101, Exit 3 at Mt. Uniacke",79 Evangeline Trl Mount Uniacke Nova Scotia </br>B0N 1Y0,44.8464395,-63.80305620000001,,,icons/CarpoolPark.png,CARPOOL
+3029,"Car Pool Parking Lot at Highway 101, Exit 4 at St. Croix",Rocks Rd Ellershouse Nova Scotia </br>B0N 1L0,44.963227,-64.0175658,,,icons/CarpoolPark.png,CARPOOL
+3030,"Car Pool Parking Lot at Highway 101, Exit 6 at Windsor",Windsor Nova Scotia </br>B0N 2T0,45.0003035,-64.1348856,,,icons/CarpoolPark.png,CARPOOL
+3031,"Car Pool Parking Lot at Highway 102, Exit 7 at Enfield",68 Grant Rd Enfield Nova Scotia </br>B0N 1Y0,44.922959,-63.53994969999999,,,icons/CarpoolPark.png,CARPOOL
+3032,"Car Pool Parking Lot at Highway 102, Exit 8 at Elmsdale",294 NS-214 Elmsdale Nova Scotia </br>B2S 2K9,44.979547,-63.50923880000001,,,icons/CarpoolPark.png,CARPOOL
+3033,"Car Pool Parking Lot at Highway 102, Exit 9 at Milford",22 Bayberry Dr Hardwood Lands Nova Scotia </br>B0N 2A0,45.05484149999999,-63.4392065,,,icons/CarpoolPark.png,CARPOOL
+3034,"Car Pool Parking Lot at Route 333, Beechville",1311 Prospect Rd Beechville Nova Scotia </br>B3T 1Z4,44.6315265,-63.6637018,,,icons/CarpoolPark.png,CARPOOL
+3035,"Car Pool Parking Lot at Trunk 7, Musquodoboit Harbour",Musquodoboit Harbour Nova Scotia,44.78727,-63.1481356,,,icons/CarpoolPark.png,CARPOOL
+3036,"Car Pool Parking Lot at Trunk 7, East Chezzetcook",18 Heritage View Dr Head of Chezzetcook Nova Scotia </br>B3E 0G5,44.7494917,-63.239588,,,icons/CarpoolPark.png,CARPOOL
+3037,"Car Pool Parking Lot at Trunk 7, Porters Lake",Porters Lake Nova Scotia </br>B3E 1H8,44.744656,-63.286438,,,icons/CarpoolPark.png,CARPOOL
+3038,"Car Pool Parking Lot at Mineville Road at Highway 107, East Preston",Nova Scotia </br>B2Z 1K3,44.7138278,-63.39535100000001,,,icons/CarpoolPark.png,CARPOOL
+3039,Car Pool Parking Lot at Intersection of Route 320 and Whiteside Road,3154 Whiteside Rd Louisdale Nova Scotia </br>B0E 1V0,45.60692179999999,-61.08656930000001,,,icons/CarpoolPark.png,CARPOOL
+3040,Car Pool Parking Lot at Intersection of Highway 125 and Trunk 22,1467 George St Sydney Nova Scotia </br>B1P 1P2,46.1174294,-60.17026839999999,,,icons/CarpoolPark.png,CARPOOL
+3041,Car Pool Parking Lot at Paqtnkek-Niktuek Indian Reserve No. 23 (Afton),Paqtnkek-Niktuek Indian Reserve No. 23,45.59389,-61.74094,,,icons/CarpoolPark.png,CARPOOL
+4000,Give/Get-a-Ride Gary's Groceries at NS-4 Havre Boucher,"12557 NS-4, Havre Boucher, Nova Scotia </br>B0H 1P0 </br>+1 902-234-3473",45.680811,-61.530304,,,icons/meeting-point-icon.png,SPONSOR
+4001,Give/Get-a-Ride Atlantic Superstore Paint Street Port Hawkesbury,"50 Paint St, Port Hawkesbury, NS </br>B9A 3K1 </br>+1 902-625-5123",45.61911,-61.33395,,,icons/meeting-point-icon.png,SPONSOR
+4002,Give/Get-a-Ride Maritime Inn Port Hawkesbury,"717 Reeves St, Port Hawkesbury, NS </br>B9A 2S2 </br>+1 902-625-0320",45.61413,-61.35098,,,icons/meeting-point-icon.png,SPONSOR
+5000,CBBC Career College Inc,315 Jameson St Sydney Nova Scotia Canada </br>B1N 2P7 </br>+1 902-564-2222,46.16073,-60.18022,,http://www.cbbccareercollege.ca/,icons/CBBCCareerCollege.png,SCHOOL
+5010,Maritime Business College,"800 Sackville Dr, Lower Sackville, Nova Scotia </br>B4E 1R8 </br>+1 902-463-6700",44.77429,-63.69541,,http://www.maritimebusinesscollege.ca,icons/MaritimeBusinessCollege.png,SCHOOL
+5020,Nova Scotia College of Early Childhood Education Society,"6208 Quinpool Rd, Halifax, Nova Scotia </br>B3L 1A3 </br>+1 902-423-7114",44.6456,-63.59587,,http://www.nscece.com,icons/NSCollegeofEarlyChildhood.png,SCHOOL
+5030,Academy of Learning Career College,"6960 Mumford Rd Suite 130, Halifax, Nova Scotia </br>B3L 4V9 </br>+1 902-455-3395",44.64496,-63.61891,,http://www.academyoflearning.com,icons/AcademyofLearningCollage.png,SCHOOL
+5040,Academy Of Cosmetology,"Thornhill Drive, Windmill Rd, Dartmouth, Nova Scotia </br>B3B 1R9 </br>+1 902-469-7788",44.69917,-63.59154,,http://www.academyofcosmetology.com,icons/AcademyofCosmetology.png,SPONSOR
+5050,HDC Hair & Esthetics,"278 Lacewood Dr #108, Halifax, Nova Scotia </br>B3M 3N8 </br>+1 902-455-0535",44.66159,-63.65409,,http://www.hairdesigncentre.com,icons/HairDesignCentreLimited.png,SPONSOR
+5060,Canadian College of Acupuncture and Traditional Chinese Medicine,"1306 Bedford Hwy, Bedford, Nova Scotia </br>B4A 1C8 </br>+1 902-600-9030",44.72641,-63.66674,,https://www.ccatcm.ca/,icons/CCATCM.png,SCHOOL
+5070,Carpenter Millwright College (CMC),"1000 Sackville Dr, Middle Sackville, Nova Scotia </br>B4E 0C2 </br>+1 902-252-3553",44.77975,-63.70154,,http://carpentermillwrightcollege.ca/,icons/CarpenterMilwrightCollege.png,SCHOOL
+5080,Eastern Esthetics Career College & LCN Canada,"19 Crane Lake Dr, Halifax, Nova Scotia </br>B3S 1B5 </br>+1 902-450-2160",44.63787,-63.66769,,http://www.lcneast.com/,icons/EasternCollege.png,SCHOOL
+5090,Hair Masters Salon & School,"26 Archibald Av, North Sydney, Nova Scotia </br>B2A 2W3 </br>+1 902-794-2460",46.21001,-60.25046,,https://www.facebook.com/p/Hair-Masters-North-Sydney-100048685903923/,icons/HairMastes.png,SPONSOR
+5100,Dexter Institute Private Career College,"927 Rocky Lake Dr, Bedford, Nova Scotia </br>B4A 3S6 </br>+1 902-832-4537",44.74706,-63.62977,,http://www.dexterinstitute.com/,icons/DexterInstitute.png,SCHOOL
+5110,PeopleWorx Society,"11 Opportunity Ln, Coldbrook, Nova Scotia </br>B4R 0A5 </br>+1 866-609-9675",45.07126,-64.5605,,https://peopleworx.ca/,icons/PeopleWorx.png,SPONSOR
+5120,Medavie HealthEd,"50 Eileen Stubbs Ave unit 154, Dartmouth, Nova Scotia </br>+1 888-798-3888",44.69762,-63.57856,,https://www.medaviehealthed.com/,icons/MedavieHealthEd.png,SPONSOR
+5130,Transport Training Centres of Canada | Dartmouth,"9 Pettipas Dr #1, Dartmouth, Nova Scotia </br>B3B 1K1 </br>+1 902-468-8999",44.71015,-63.61318,,http://www.ttcc.ca/dartmouth,icons/TransportTrainingCentres.png,SPONSOR
+5140,Island Career Academy,"721 Alexandra St, Sydney, Nova Scotia </br>B1S 2H4 </br>+1 902-564-6112",46.10908,-60.20134,,http://www.islandcareeracademy.ca/,icons/IslandCareerAcademy.png,SPONSOR
+5150,ICT Northumberland College,"1888 Brunswick St, Halifax, Nova Scotia </br>B3J 3Y3 </br>+1 902-425-2869",44.64924,-63.57823,,https://ictschools.com/,icons/ICTNorthumberlandCollege.png,SCHOOL
+5160,Maritime Environmental Training Institute (METI),"301 Alexandra St, Sydney, Nova Scotia </br>B1S 2E8",46.12119,-60.19717,,http://www.metiatlantic.com/,icons/Meti.png,SPONSOR
+5170,Centre For Distance Education - A Division of Eastern College,"280 George St, Sydney, Nova Scotia </br>B1P 1J6",46.14085,-60.19364,,http://www.cd-ed.com/,icons/CentreforDistanceEducation.png,SCHOOL
+5180,Canadian College Of Massage & Hydrotherapy,"Mumford Professional Centre, 6960 Mumford Rd #180, Halifax, Nova Scotia </br>B3L 4P1 </br>+1 902-832-3268",44.64484,-63.61941,,http://www.ccmhhalifax.com/,icons/CanadianCollegeofMassageHydrotherapy.png,SCHOOL
+5190,Atlantic Flight Attendant Academy,"#2, 6148 Quinpool Rd, Halifax, Nova Scotia </br>B3L 1A3 </br>+1 902-422-0339",44.64603,-63.59445,,http://www.flightattend.com/,icons/AtlanticFlightAttendantAcademy.png,SPONSOR
+5200,Nova Scotia Firefighters School,"48 Powder Mill Rd, Waverley, Nova Scotia </br>B2R 1E9 </br>+1 902-861-3823",44.7758,-63.60706,,https://fireschool.ca/,icons/NovaScotiaFirefightersSchool.png,SPONSOR
+5210,Medavie HealthEd,"50 Eileen Stubbs Ave unit 154, Dartmouth, Nova Scotia </br>B3B 0M7 </br>+1 888-798-3888",44.69762,-63.57856,,https://www.medaviehealthed.com/,icons/MedavieHealthEd.png,SPONSOR
+5220,Elevate Beauty Institute of Cosmetology,"77 Crescent Dr, New Minas, Nova Scotia </br>B4N 3G7 </br>+1 902-365-3993",45.06961,-64.46188,,https://www.elevatebeauty.ca/,icons/ElevateBeautyInstituteofCosmetology.png,SPONSOR
+5230,Breton Commercial Truck Training,"270 Stable Dr, Sydney, Nova Scotia </br>B1P 0B9 </br>+1 902-562-2088",46.14953,-60.18658,,https://www.bretoncommercialtrucktraining.ca/,icons/BretonCommercialTruckTraining.png,SPONSOR
+5240,Futureworx,"80 Glenwood Dr, Truro, Nova Scotia </br>B2N 1P3 </br>+1 902-895-2837",45.3513,-63.28886,,http://futureworx.ca/,icons/FutureWorx.png,SPONSOR
+5250,Building Trades Advancement College of Nova Scotia,"24 Beechville Park Dr Suite 101, Beechville, Nova Scotia </br>B3T 1L1 </br>+1 833-221-2822",44.64183,-63.68944,,http://btacns.com/,icons/BretonCommercialTruckTraining.png,SCHOOL
+5260,Nova Scotia SPCA Provincial Office,"7 Scarfe Ct, Dartmouth, Nova Scotia </br>B3B 1W1 </br>+1 902-835-4798",44.70741,-63.59603,,http://www.novascotiaspca.ca/,icons/SPCACollegeofAnimalWelfare.png,SPONSOR
+5270,Oxford International Halifax - Career College and English School,"1801 Hollis St, Halifax, Nova Scotia </br>B3J 3N4 </br>+1 902-491-1526",44.64923,-63.57329,,https://oicolleges.com/halifax/,icons/OxfordInternational.png,SCHOOL
+5280,Annapolis Valley Flight Training Centre Inc.,"Canadian Forces Base Greenwood, 566 Ad Astra Way, Greenwood, Nova Scotia </br>B0P 1R0 </br>+1 902-824-5303",44.97915,-64.92085,,https://avftc.ca/,icons/AnnapolisValleyFlightTrainingCentre.png,SPONSOR
+5290,Halifax Regional Police Northbrook Training Centre,"2 Chapman St, Dartmouth, Nova Scotia </br>B3A 3L7 </br>+1 902-490-5345",44.6769,-63.58215,,https://www.halifax.ca/about-halifax/employment/work-halifax-regional-police/halifax-regional-police-cadet-recruitment,icons/HalifaxRegionalPoliceTrainingSchool.png,SPONSOR
+5300,Maritime Conservatory of Performing Arts,"6199 Chebucto Rd, Halifax, Nova Scotia </br>B3L 1K7 </br>+1 902-423-6995",44.65024,-63.59736,,http://maritimeconservatory.com/,icons/MaritimeConservatoryofPerformingArts.png,SPONSOR
+5310,Eastern College - Halifax Campus,"6940 Mumford Rd #111, Halifax, Nova Scotia </br>B3L 0B7 </br>+1 902-423-3933",44.64385,-63.61921,,http://www.easterncollege.ca/,icons/EasternCollege.png,SCHOOL

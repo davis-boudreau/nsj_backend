@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Real-time API Search v1.7</title>
+    <style>
+        /* Base font styles */
+        body,
+        input,
+        button,
+        li,
+        th,
+        td {
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+
+        #searchContainer {
+            margin: 20px;
+            position: relative;
+            /* Required for absolute positioning of results */
+        }
+
+        #searchBox {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        #searchQuery {
+            flex-grow: 1;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        #clearButton,
+        #submitButton {
+            padding: 8px 12px;
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+
+        #loadingIndicator {
+            display: none;
+            margin-bottom: 10px;
+        }
+
+        #searchResultsList {
+            position: absolute;
+            /* Position results below the input */
+            top: 100%;
+            /* Place below the input */
+            left: 0;
+            width: 100%;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-height: 200px;
+            overflow-y: auto;
+            display: none;
+            /* Initially hidden */
+            z-index: 10;
+            /* Ensure results are above other elements */
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #searchResultsList li {
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+        }
+
+        #searchResultsList li:last-child {
+            border-bottom: none;
+        }
+
+        #searchResultsList li:hover {
+            background-color: #f0f0f0;
+        }
+
+        #resultsTable {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            display: none;
+            /* Initially hidden */
+        }
+
+        #resultsTable th,
+        #resultsTable td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        #resultsTable thead {
+            display: none;
+            /* Hide the table header initially */
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+</head>
+
+<body>
+    <div id="searchContainer">
+        <div id="searchBox">
+            <input type="text" id="searchQuery" autocomplete="off">
+            <button id="clearButton">Clear</button>
+            </div>
+        <div id="loadingIndicator">Loading...</div>
+        <ul id="searchResultsList"></ul>
+        <table id="resultsTable">
+            <thead>
+                <tr>
+                    <th>Geoname</th>
+                    <th>County</th>
+                    <th>Latitude</th>
+                    <th>Longitude</th>
+                    <th>Location Narrative</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script>
+        // Get references to HTML elements
+        const searchQueryInput = document.getElementById('searchQuery');
+        const clearButton = document.getElementById('clearButton');
+        // const submitButton = document.getElementById('submitButton'); // Submit button not in HTML
+        const loadingIndicator = document.getElementById('loadingIndicator');
+        const searchResultsList = document.getElementById('searchResultsList');
+        const resultsTable = document.getElementById('resultsTable');
+        const resultsTableBody = document.querySelector('#resultsTable tbody');
+
+        // Array to store all results fetched from the API
+        let allResults = [];
+
+        // Function to perform the API search
+        const performSearch = () => {
+            // Get the current search query from the input field
+            const searchQuery = searchQueryInput.value;
+
+            // If the search query is empty, hide the results list and table
+            if (searchQuery.trim() === "") {
+                searchResultsList.style.display = 'none';
+                resultsTable.style.display = 'none';
+                return;
+            }
+
+            // Display the loading indicator
+            loadingIndicator.style.display = 'block';
+            // Clear any previous search suggestions
+            searchResultsList.innerHTML = "";
+            // Show the search results list
+            searchResultsList.style.display = 'block';
+            // Ensure the results table is hidden when new suggestions are being fetched
+            resultsTable.style.display = 'none';
+
+            // Encode the search query for safe use in the URL
+            const encodedQuery = encodeURIComponent(searchQuery);
+            // Construct the API URL with the search query
+            const apiUrl = `http://localhost:8000/api/v1/stn/GetOrigin?geoname=${encodedQuery}`;
+
+            // Make an HTTP GET request to the API using Axios
+            axios.get(apiUrl)
+                .then(response => {
+                    // Hide the loading indicator when the request is complete
+                    loadingIndicator.style.display = 'none';
+                    // Check if the response contains data and results
+                    if (response.data && response.data.results) {
+                        // Store all the fetched results in the allResults array
+                        allResults = response.data.results;
+                        // Iterate through each result in the response
+                        response.data.results.forEach(result => {
+                            // Create a new list item for each result
+                            const listItem = document.createElement('li');
+                            // Set the text content of the list item to the geoname and county
+                            listItem.textContent = `${result.geoname} ${result.county}`;
+                            // Add an event listener to the list item for when it's clicked
+                            listItem.addEventListener('click', () => {
+                                // When a suggestion is clicked, set the input field value to the geoname
+                                searchQueryInput.value = `${result.geoname}`;
+                                // Hide the search results list
+                                searchResultsList.style.display = 'none';
+                            });
+                            // Append the list item to the search results list
+                            searchResultsList.appendChild(listItem);
+                        });
+                    } else {
+                        // If no results are found, display a "No results found." message
+                        searchResultsList.innerHTML = "<li>No results found.</li>";
+                        allResults = []; // Clear stored results
+                    }
+                })
+                .catch(error => {
+                    // Hide the loading indicator if an error occurs
+                    loadingIndicator.style.display = 'none';
+                    // Log the error to the console
+                    console.error('Error fetching data:', error);
+                    // Display an error message in the search results list
+                    searchResultsList.innerHTML = "<li>Error fetching data. Check console.</li>";
+                    allResults = []; // Clear stored results
+                });
+        };
+
+        // Function to display the search results in the table
+        const displayResultsInTable = (results) => {
+            // Clear any existing rows in the table body
+            resultsTableBody.innerHTML = "";
+            // If there are results to display
+            if (results && results.length > 0) {
+                // Iterate through each result
+                results.forEach(result => {
+                    // Create a new table row
+                    const row = document.createElement('tr');
+                    // Populate the table row with data from the result object
+                    row.innerHTML = `
+                        <td>${result.geoname}</td>
+                        <td>${result.county}</td>
+                        <td>${result.nad83_lat}</td>
+                        <td>${result.nad83_lon}</td>
+                        <td>${result.locn_narr}</td>
+                    `;
+                    // Append the row to the table body
+                    resultsTableBody.appendChild(row);
+                });
+                // Display the table
+                resultsTable.style.display = 'table';
+            } else {
+                // If no results, hide the table and display a "No results to display." message
+                resultsTable.style.display = 'none';
+                resultsTableBody.innerHTML = "<tr><td colspan='5'>No results to display.</td></tr>";
+            }
+        };
+
+        // Event listener for the search input field using Lodash debounce
+        // The performSearch function will be called 300ms after the user stops typing
+        searchQueryInput.addEventListener('input', _.debounce(performSearch, 300));
+
+        // Event listener for the clear button
+        clearButton.addEventListener('click', () => {
+            // Clear the search input field
+            searchQueryInput.value = "";
+            // Hide the search results list
+            searchResultsList.style.display = 'none';
+            // Hide the results table
+            resultsTable.style.display = 'none';
+            // Clear the content of the results table
+            displayResultsInTable([]);
+        });
+
+        // Event listener for the (non-existent in HTML) submit button
+        // submitButton.addEventListener('click', () => {
+        //     const selectedGeoname = searchQueryInput.value;
+        //     const selectedResult = allResults.find(result => result.geoname === selectedGeoname);
+        //     if (selectedResult) {
+        //         displayResultsInTable([selectedResult]);
+        //     } else {
+        //         displayResultsInTable([]); // Clear table if no match
+        //     }
+        // });
+    </script>
+</body>
+
+<!-- test for synching -->
+
+</html>

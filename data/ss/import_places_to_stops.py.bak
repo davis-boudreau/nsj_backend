@@ -1,0 +1,96 @@
+import psycopg
+import csv
+from decouple import config
+
+ALLOWED_CATEGORIES = {"SCHOOL", "MEET_POINT", "CARPOOL", "SPONSOR", "ORIGIN_PRIVATE"}
+
+def import_places(csv_file: str):
+    with psycopg.connect(
+        dbname=config("POSTGRES_DB"),
+        user=config("POSTGRES_USER"),
+        password=config("POSTGRES_PASSWORD"),
+        host=config("POSTGRES_HOST"),
+        port=config("POSTGRES_PORT"),
+    ) as conn:
+        with conn.cursor() as cur:
+            # Ensure table exists
+            cur.execute("SELECT to_regclass('public.stops');")
+            if not cur.fetchone()[0]:
+                raise RuntimeError("Table public.stops does not exist. Run Django migrations first.")
+
+            # Ensure required columns exist
+            cur.execute("""
+                SELECT column_name
+                FROM information_schema.columns
+                WHERE table_schema='public' AND table_name='stops';
+            """)
+            cols = {r[0] for r in cur.fetchall()}
+            required = {
+                "stop_id","stop_name","stop_desc","stop_lat","stop_lon","zone_id","stop_url","stop_icon",
+                "stop_category","is_public","agency_id"
+            }
+            missing = required - cols
+            if missing:
+                raise RuntimeError(
+                    "Stops table is missing columns: "
+                    + ", ".join(sorted(missing))
+                    + ". Run makemigrations/migrate after updating the model."
+                )
+
+            # Replace existing public seed stops only
+            cur.execute("DELETE FROM public.stops WHERE is_public = TRUE;")
+
+            with open(csv_file, "r", encoding="utf-8-sig", newline="") as f:
+                reader = csv.DictReader(f)
+                inserted = 0
+                skipped = 0
+
+                for row in reader:
+                    place_id = (row.get("place_id") or "").strip()
+                    if not place_id:
+                        skipped += 1
+                        continue  # prevent blank PK inserts
+
+                    category = (row.get("place_category") or "").strip().upper() or "MEET_POINT"
+                    if category not in ALLOWED_CATEGORIES:
+                        category = "MEET_POINT"
+
+                    icon = (row.get("place_icon") or "").strip().lstrip("/")  # normalize "/icons/x" -> "icons/x"
+
+                    cur.execute("""
+                        INSERT INTO public.stops (
+                            stop_id, stop_name, stop_desc, stop_lat, stop_lon,
+                            zone_id, stop_url, stop_icon,
+                            stop_category, is_public, agency_id
+                        )
+                        VALUES (
+                            %(place_id)s,
+                            NULLIF(%(place_name)s, ''),
+                            NULLIF(%(place_desc)s, ''),
+                            NULLIF(%(place_lat)s, '')::double precision,
+                            NULLIF(%(place_lon)s, '')::double precision,
+                            NULLIF(%(zone_id)s, '')::integer,
+                            NULLIF(%(place_url)s, ''),
+                            NULLIF(%(place_icon)s, ''),
+                            %(stop_category)s,
+                            TRUE,
+                            NULL
+                        );
+                    """, {
+                        "place_id": place_id,
+                        "place_name": (row.get("place_name") or "").strip(),
+                        "place_desc": (row.get("place_desc") or "").strip(),
+                        "place_lat": (row.get("place_lat") or "").strip(),
+                        "place_lon": (row.get("place_lon") or "").strip(),
+                        "zone_id": (row.get("zone_id") or "").strip(),
+                        "place_url": (row.get("place_url") or "").strip(),
+                        "place_icon": icon,
+                        "stop_category": category,
+                    })
+                    inserted += 1
+
+            conn.commit()
+            print(f"✅ Imported {inserted} public places into public.stops. Skipped {skipped} row(s) with blank place_id.")
+
+if __name__ == "__main__":
+    import_places("./data/places.csv")

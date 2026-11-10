@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSCC Journey v0.3</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <style>
+        /* Base Styles */
+        body, html { margin: 0; padding: 0; font-family: sans-serif; height: 100%; }
+        #app-container { display: flex; flex-direction: column; height: 100%; }
+        .main-container { display: flex; flex-wrap: wrap; justify-content: center; margin: 20px auto; max-width: 1200px; width: 95%; height: 100%; }
+        .data-panel { background: #fff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin: 10px; padding: 20px; }
+
+        /* Layout Specific */
+        .form-panel { flex: 1 1 320px; }
+        .map-table-panel { display: flex; flex-direction: column; flex: 2 2 600px; overflow: hidden; height: 100%; }
+        #map { flex: 2; min-height: 300px; max-height: 400px; height: 100%; }
+        .waypoints-panel { border-top: 1px solid #ddd; flex: 1; overflow-y: auto; height: 100%; }
+        .waypoints-table { border-collapse: collapse; display: none; width: 100%; }
+        .waypoints-table th, .waypoints-table td { border-bottom: 1px solid #ddd; padding: 12px; text-align: left; }
+        .waypoints-table th { background-color: #f2f2f2; font-weight: bold; }
+        .waypoints-table tr:hover { background-color: #fafafa; }
+
+        /* Form Elements & Search */
+        .search-container { margin-top: 20px; position: relative; }
+        .search-box { display: flex; align-items: center; margin-bottom: 10px; }
+        .search-query, .form-input { border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; padding: 8px; width: 100%; }
+        .form-input { padding: 10px; }
+        .clear-button { padding: 8px 12px; background-color: #f0f0f0; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; margin-left: 5px; }
+        .loading-indicator { display: none; margin-bottom: 10px; }
+        .search-results-list { position: absolute; top: 100%; left: 0; width: 100%; background-color: white; border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); max-height: 200px; overflow-y: auto; display: none; z-index: 10; list-style-type: none; padding: 0; margin: 0; }
+        .search-results-list li { padding: 8px; border-bottom: 1px solid #eee; cursor: pointer; }
+        .search-results-list li:last-child { border-bottom: none; }
+        .search-results-list li:hover { background-color: #f0f0f0; }
+        .form-label { display: block; font-weight: bold; margin-bottom: 5px; }
+        .form-group { margin-bottom: 15px; }
+
+        /* Buttons */
+        .action-buttons, .form-buttons { display: flex; gap: 16px; }
+        .action-buttons { justify-content: center; }
+        .form-buttons { justify-content: space-between; }
+        .action-button, .form-button { border: none; border-radius: 4px; color: white; cursor: pointer; padding: 8px 12px; transition: background-color 0.3s ease; }
+        .action-button { background-color: #4caf50; }
+        .action-button:hover { background-color: #45a049; }
+        .form-button { background-color: #007bff; padding: 12px 20px; border-radius: 5px; }
+        .form-button:hover { background-color: #0056b3; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .main-container { flex-direction: column; align-items: stretch; }
+            .data-panel { width: 100%; margin: 10px 0; }
+        }
+        @media (max-width: 480px) {
+            .form-buttons { flex-direction: column; gap: 8px; }
+            .form-button { width: 100%; margin-bottom: 5px; }
+        }
+
+        /* Loading Overlay */
+        #loadingOverlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.8); display: none; justify-content: center; align-items: center; z-index: 1000; }
+        #loadingOverlay.active { display: flex; }
+    </style>
+</head>
+
+<body>
+    <div id="app-container">
+        <div id="loadingOverlay">
+            <div>Loading...</div>
+        </div>
+        <div class="main-container">
+            <div class="form-panel data-panel">
+                <h2>NSCC Journey Client Side v0.3</h2>
+                <div id="startSearchContainer" class="search-container">
+                    <h3>Start Location</h3>
+                    <div id="startSearchBox" class="search-box">
+                        <input type="text" id="startSearchQuery" class="search-query" autocomplete="off">
+                        <button id="startClearButton" class="clear-button">Clear</button>
+                    </div>
+                    <div id="startLoadingIndicator" class="loading-indicator">Loading...</div>
+                    <ul id="startSearchResultsList" class="search-results-list"></ul>
+                </div>
+
+                <div id="destSearchContainer" class="search-container">
+                    <h3>Destination Location</h3>
+                    <div id="destSearchBox" class="search-box">
+                        <input type="text" id="destSearchQuery" class="search-query" autocomplete="off">
+                        <button id="destClearButton" class="clear-button">Clear</button>
+                    </div>
+                    <div id="destLoadingIndicator" class="loading-indicator">Loading...</div>
+                    <ul id="destSearchResultsList" class="search-results-list"></ul>
+                </div>
+
+                <form id="route-form">
+                    <div class="form-buttons">
+                        <button type="button" id="get-routes-btn" class="form-button">Get Routes</button>
+                        <button type="button" id="reset-map-btn" class="form-button">Reset Map</button>
+                    </div>
+                </form>
+
+                <div id="closestStopsContainer" class="search-container">
+                    <h3>Closest Stops</h3>
+                    <div id="closestStopsBox" class="search-box">
+                        <input type="text" id="closestStopsResults" class="search-query" autocomplete="off">
+                    </div>
+                    <div id="closestStopsLoadingIndicator" class="loading-indicator">Loading...</div>
+                    <ul id="closestStopsResultsList" class="search-results-list"></ul>
+                </div>
+
+            </div>
+            <div class="map-table-panel data-panel">
+                <div id="map"></div>
+                <div class="waypoints-panel">
+                    <table id="waypoints-table" class="waypoints-table">
+                        <thead>
+                            <tr>
+                                <th>Waypoint Name</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Wait for the DOM content to be loaded before executing the javascript
+        document.addEventListener('DOMContentLoaded', () => {
+          const apiKey = '5b3ce3597851110001cf6248597ab31ae19e4da99a06d24b3869a54b';
+          const getRoutesButton = document.getElementById('get-routes-btn');
+          const resetMapButton = document.getElementById('reset-map-btn');
+    
+          let markers = [], routeLayer = null, midpointMarker = null, closestStopsMarkers = [];
+    
+          // Global Variables for Selected Start & Destination
+          let startGeoname = "", startCounty = "", startLat = null, startLon = null;
+          let destStopName = "", destLat = null, destLon = null;
+    
+          // Form Elements
+          const startSearchQueryInput = document.getElementById('startSearchQuery');
+          const startSearchResultsList = document.getElementById('startSearchResultsList');
+          const startLoadingIndicator = document.getElementById('startLoadingIndicator');
+          const destSearchQueryInput = document.getElementById('destSearchQuery');
+          const destSearchResultsList = document.getElementById('destSearchResultsList');
+          const destLoadingIndicator = document.getElementById('destLoadingIndicator');
+          const closestStopsResultsList = document.getElementById('closestStopsResultsList');
+          const closestStopsLoadingIndicator = document.getElementById('closestStopsLoadingIndicator');
+    
+    
+          // Function to clear the start search query form
+          document.getElementById('startClearButton').addEventListener('click', () => {
+            document.getElementById('startSearchQuery').value = '';
+            startSearchResultsList.innerHTML = "" // Clear the html list
+            startSearchResultsList.style.display = 'none'; // Hide the results list
+            startGeoname = "";
+            startCounty = "";
+            startLat = null;
+            startLon = null;
+          });
+    
+          // Function to clear the destination search query form
+          document.getElementById('destClearButton').addEventListener('click', () => {
+            document.getElementById('destSearchQuery').value = '';
+            destSearchResultsList.innerHTML = "" // Clear the html list
+            destSearchResultsList.style.display = 'none'; // Hide the results list
+            destStopName = "";
+            startLat = null;
+            startLon = null;
+          });
+    
+          // --- SEARCH FUNCTIONS ---
+          const performSearch = (query, resultsList, apiUrl, updateFunction) => {
+            if (query.trim() === "") {
+              resultsList.style.display = 'none';
+              return;
+            }
+            resultsList.innerHTML = "";
+            resultsList.style.display = 'block';
+    
+            axios.get(apiUrl.replace('{searchQuery}', encodeURIComponent(query)))
+              .then(response => {
+                resultsList.innerHTML = "";
+                if (response.data && response.data.results.length > 0) {
+                  response.data.results.forEach(result => {
+                    const listItem = document.createElement('li');
+                    if (apiUrl.includes('GetOrigin')) {
+                      listItem.textContent = `${result.geoname}, ${result.county} County`;
+                    } else if (apiUrl.includes('GetDest')) {
+                      listItem.textContent = result.stop_name;
+                    }
+                    listItem.addEventListener('click', () => {
+                      updateFunction(result);
+                      resultsList.style.display = 'none';
+                    });
+                    resultsList.appendChild(listItem);
+                  });
+                } else {
+                  resultsList.innerHTML = "<li>No results found.</li>";
+                }
+              })
+              .catch(error => {
+                console.error('Error fetching data:', error);
+                resultsList.innerHTML = "<li>Error fetching data.</li>";
+              });
+          };
+    
+          // Function to update the start location selection
+          const updateStartSelection = (result) => {
+            // Set the value of the start search input field to the geoname from the result
+            startSearchQueryInput.value = `${result.geoname}, ${result.county} County`;
+    
+            // Update the global variables with the start location details
+            startGeoname = result.geoname; // Geoname of the start location
+            startCounty = result.county   // County of the start location
+            startLat = result.nad83_lat;   // Latitude of the start location (NAD83 coordinate system)
+            startLon = result.nad83_lon;   // Longitude of the start location (NAD83 coordinate system)
+    
+            // Log the selected start location details to the console
+            console.log("Start Selected:", startGeoname, `${startCounty} County`, startLat, startLon);
+          };
+    
+          // Function to update the destination location selection
+          const updateDestSelection = (result) => {
+            // Set the value of the destination search input field to the stop name from the result
+            destSearchQueryInput.value = result.stop_name;
+    
+            // Update the global variables with the destination location details
+            destStopName = result.stop_name; // Name of the destination stop
+            destLat = result.stop_lat;     // Latitude of the destination stop
+            destLon = result.stop_lon;     // Longitude of the destination stop
+    
+            // Log the selected destination location details to the console
+            console.log("Destination Selected:", destStopName, destLat, destLon);
+          };
+    
+          // Attach event listeners for Real Time form input with debounce
+          startSearchQueryInput.addEventListener('input', _.debounce(() =>
+            performSearch(startSearchQueryInput.value, startSearchResultsList, 'http://localhost:8000/api/v1/stn/GetOrigin?geoname={searchQuery}', updateStartSelection), 300));
+    
+          destSearchQueryInput.addEventListener('input', _.debounce(() =>
+            performSearch(destSearchQueryInput.value, destSearchResultsList, 'http://localhost:8000/api/v1/stn/GetDest?stop_name={searchQuery}', updateDestSelection), 300));
+    
+           // --- FETCH ROUTE FUNCTION ---
+           async function fetchRoute() {
+            console.log("Fetching Route...");
+            console.log("Start:", startGeoname, startLat, startLon);
+            console.log("Destination:", destStopName, destLat, destLon);
+    
+            // Validate start and destination locations
+            if (!startGeoname || !startLat || !startLon) {
+              alert("Please select a valid start location.");
+              return;
+            }
+            if (!destStopName || !destLat || !destLon) {
+              alert("Please select a valid destination.");
+              return;
+            }
+    
+            const start = [startLat, startLon];
+            const destination = [destLat, destLon];
+    
+            // Reset the map and add markers for start and destination
+            resetMap();
+    
+            markers.push(L.marker(start).addTo(map).bindPopup(`<strong>${startGeoname}</strong>`).openPopup());
+            markers.push(L.marker(destination).addTo(map).bindPopup(`<strong>${destStopName}</strong>`).openPopup());
+    
+            const params = {
+              start_lon: start[1],
+              start_lat: start[0],
+              end_lon: destination[1],
+              end_lat: destination[0]
+            };
+    
+            const headers = {
+              'Content-Type': 'application/json',
+              'Authorization': 'Bearer YOUR_API_TOKEN' // Replace with your actual token if needed
+            };
+    
+            try {
+            // Use axios to make the API request
+              const response = await axios.get('http://localhost:8000/api/v1/stn/GetGeoRoutes', { params, headers });
+              const data = response.data;
+    
+              // Remove the previous route layer if it exists
+              if (routeLayer) map.removeLayer(routeLayer);
+    
+              // Testing - Remove for Production
+              console.log(data);
+    
+              // Add the new route layer to the map
+              routeLayer = L.geoJSON(data, { style: { color: 'black', weight: 5 } }).addTo(map);
+    
+              // Calculate and fit the map bounds to the route
+              const routeBounds = L.latLngBounds(data.features[0].geometry.coordinates.map(c => [c[1], c[0]]));
+              map.fitBounds(routeBounds, { padding: [20, 20] });
+    
+              // Calculate the midpoint coordinates
+              const midCoords = data.features[0].geometry.coordinates[Math.floor(data.features[0].geometry.coordinates.length / 2)].reverse();
+              const midpointLatLng = L.latLng(midCoords);
+    
+              // Create the popup content
+              const popupContent = `<b>${startGeoname} to ${destStopName}</b></br>${Math.round(data.features[0].properties.segments[0].distance / 1000)} km ${convertSeconds(data.features[0].properties.segments[0].duration)}`;
+    
+              // Create a marker for the midpoint and bind the popup
+              if (midpointMarker) map.removeLayer(midpointMarker);
+              midpointMarker = L.marker(midpointLatLng).bindPopup(popupContent).addTo(map).openPopup(); // Create, add, and open
+    
+              parseClosestStops(data.closest_stops);
+    
+    
+            } catch (error) {
+              // Handle errors from the API request
+              console.error('Error:', error);
+    
+              if (error.response && error.response.status === 401) {
+                alert('Authorization failed. Please check your API key.');
+              } else if (error.response && error.response.status === 403) {
+                alert('Authorization failed. You do not have permission to access this resource.');
+              } else if (error.request) {
+                // The request was made but no response was received
+                console.error('No response received from the server:', error.request);
+                alert('Failed to connect to the server.');
+              } else {
+                // Something happened in setting up the request that triggered an Error
+                console.error('Error setting up the request:', error.message);
+                alert('An unexpected error occurred.');
+              }
+            }}
+    
+          function parseClosestStops(closestStops) {
+            closestStopsResultsList.innerHTML = ''; // Clear previous list items
+            console.log('Closest Stops Data:', closestStops);
+    
+            // Clear existing closest stops markers from the map
+            closestStopsMarkers.forEach(marker => map.removeLayer(marker));
+            closestStopsMarkers = [];
+    
+            if (closestStops && closestStops.length > 0) {
+              closestStops.forEach(stop => {
+                console.log('Processing Stop:', stop);
+                const stopslistItem = document.createElement('li');
+                stopslistItem.textContent = stop.stop_name;
+                stopslistItem.dataset.stopLat = stop.stop_lat;
+                stopslistItem.dataset.stopLon = stop.stop_lon;
+                stopslistItem.style.cursor = 'pointer';
+    
+                // Add a marker for each closest stop on the map
+                const stopLatLng = [parseFloat(stop.stop_lat), parseFloat(stop.stop_lon)];
+                const stopMarker = L.marker(stopLatLng).bindPopup(`<strong>${stop.stop_name}</strong>`).addTo(map);
+                closestStopsMarkers.push(stopMarker); // Keep track of the markers
+    
+                stopslistItem.addEventListener('click', function() {
+                  const clickedStopName = this.textContent; // Use textContent here
+                  const clickedStopLat = parseFloat(this.dataset.stopLat);
+                  const clickedStopLon = parseFloat(this.dataset.stopLon);
+    
+                  // You can add more functionality here, like focusing the map on the clicked stop
+                  map.setView([clickedStopLat, clickedStopLon], 15);
+                  stopMarker.openPopup();
+                });
+    
+                closestStopsResultsList.appendChild(stopslistItem);
+              });
+              closestStopsResultsList.style.display = 'block'; // Ensure the list is visible
+            } else {
+              closestStopsResultsList.innerHTML = '<li>No closest stops found.</li>';
+              closestStopsResultsList.style.display = 'block'; // Ensure the "no results" message is visible
+            }
+          }
+    
+          // FUNCTION COVERT SECONDS TO HRS MINS
+          function convertSeconds(seconds) {
+            const hours = Math.floor(seconds / 3600);
+            const minutes = Math.floor((seconds % 3600) / 60);
+            // const remainingSeconds = Math.round(seconds % 60);
+            if (hours < 1) {
+              return `${minutes} mins`;
+            }
+            if (hours > 1 && minutes > 1) {
+              return `${hours} hrs ${minutes} mins`;
+            }
+            if (hours > 1 && minutes == 1) {
+              return `${hours} hrs ${minutes} min`;
+            }
+            if (hours == 1 && minutes > 1) {
+              return `${hours} hr ${minutes} mins`;
+            }
+            if (hours == 1 && minutes == 1) {
+              return `${hours} hr ${minutes} min`;
+            }
+          }
+    
+          // --- RESET FUNCTION ---
+          function resetMap() {
+              markers.forEach(m => map.removeLayer(m));
+              markers = [];
+              if (routeLayer) map.removeLayer(routeLayer);
+              if (midpointMarker) map.removeLayer(midpointMarker);
+              // Remove closest stops markers as well
+              closestStopsMarkers.forEach(marker => map.removeLayer(marker));
+              closestStopsMarkers = [];
+          }
+    
+          // Attach Event Listeners for the buttons
+          getRoutesButton.addEventListener('click', fetchRoute);
+          resetMapButton.addEventListener('click', resetMap);
+    
+          // Initialize Leaflet Map (Nova Scotia centered)
+          const map = L.map('map').setView([45.05484, -63.4392], 7);
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap contributors' }).addTo(map);
+        });
+      </script>
+
+</body>
+</html>

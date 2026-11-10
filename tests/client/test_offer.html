@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPTN Phase 2: GTFS Offer Creator (Debug Mode)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        #map { height: 800px; width: 100%; z-index: 1; }
+        .search-results { max-height: 200px; overflow-y: auto; z-index: 100; }
+        .day-pill:checked + label { background-color: #1d4ed8; color: white; border-color: #1d4ed8; }
+    </style>
+</head>
+<body class="bg-slate-50 min-h-screen">
+
+    <nav class="bg-blue-900 text-white p-4 mb-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="font-bold text-xl">CPTN Driver Portal <span class="text-sm font-normal opacity-75">| Phase 2 GTFS Engine</span></div>
+            <div id="authHeader" class="text-xs italic">Checking auth...</div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto px-4 pb-12">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            
+            <div class="lg:col-span-5 space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
+                    <h2 class="text-lg font-bold mb-4 text-slate-800 border-b pb-2">Create Service Offer</h2>
+                    
+                    <form id="offerForm" class="space-y-4">
+                        <div class="grid grid-cols-1 gap-4">
+                            <input type="hidden" id="routeGeometry">
+                            <div class="relative">
+                                <label class="block text-xs font-semibold text-slate-500 uppercase">Origin (GeoName Area)</label>
+                                <input type="text" id="originInput" placeholder="Search by area name..." 
+                                       class="w-full mt-1 p-2 border rounded-md focus:ring-2 focus:ring-blue-500 outline-none transition">
+                                <div id="originList" class="search-results absolute w-full bg-white border rounded-b-md shadow-xl hidden"></div>
+                                <input type="hidden" id="originId">
+                                <p id="originDisplay" class="text-xs mt-1 text-blue-600 font-medium"></p>
+                            </div>
+
+                            <div class="relative">
+                                <label class="block text-xs font-semibold text-slate-500 uppercase">Destination (Campus/Stop)</label>
+                                <input type="text" id="destInput" placeholder="Search by stop name..." 
+                                       class="w-full mt-1 p-2 border rounded-md focus:ring-2 focus:ring-blue-500 outline-none transition">
+                                <div id="destList" class="search-results absolute w-full bg-white border rounded-b-md shadow-xl hidden"></div>
+                                <input type="hidden" id="destId">
+                                <p id="destDisplay" class="text-xs mt-1 text-blue-600 font-medium"></p>
+                            </div>
+                        </div>
+
+                        <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+                            <label class="block text-xs font-semibold text-slate-500 uppercase mb-2">Service Calendar (Recurrence)</label>
+                            <div class="grid grid-cols-2 gap-4 mb-3">
+                                <div>
+                                    <label class="text-[10px] text-slate-400 uppercase">Start Date</label>
+                                    <input type="date" id="startDate" class="w-full p-2 border rounded-md text-sm">
+                                </div>
+                                <div>
+                                    <label class="text-[10px] text-slate-400 uppercase">End Date</label>
+                                    <input type="date" id="endDate" class="w-full p-2 border rounded-md text-sm">
+                                </div>
+                            </div>
+                            <div class="flex flex-wrap gap-2">
+                                <div class="relative">
+                                    <input type="checkbox" id="mon" value="monday" class="hidden day-pill day-check">
+                                    <label for="mon" class="px-2 py-1 text-xs border rounded-full cursor-pointer transition">Mon</label>
+                                </div>
+                                <div class="relative">
+                                    <input type="checkbox" id="tue" value="tuesday" class="hidden day-pill day-check">
+                                    <label for="tue" class="px-2 py-1 text-xs border rounded-full cursor-pointer transition">Tue</label>
+                                </div>
+                                <div class="relative">
+                                    <input type="checkbox" id="wed" value="wednesday" class="hidden day-pill day-check">
+                                    <label for="wed" class="px-2 py-1 text-xs border rounded-full cursor-pointer transition">Wed</label>
+                                </div>
+                                <div class="relative">
+                                    <input type="checkbox" id="thu" value="thursday" class="hidden day-pill day-check">
+                                    <label for="thu" class="px-2 py-1 text-xs border rounded-full cursor-pointer transition">Thu</label>
+                                </div>
+                                <div class="relative">
+                                    <input type="checkbox" id="fri" value="friday" class="hidden day-pill day-check">
+                                    <label for="fri" class="px-2 py-1 text-xs border rounded-full cursor-pointer transition">Fri</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-500 uppercase">First Departure</label>
+                                <input type="time" id="depTime" value="08:30" class="w-full mt-1 p-2 border rounded-md">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-500 uppercase">Seats</label>
+                                <input type="number" id="seats" value="3" min="1" class="w-full mt-1 p-2 border rounded-md">
+                            </div>
+                        </div>
+
+                        <div class="p-3 bg-blue-50 rounded-lg border border-blue-100">
+                            <label class="block text-xs font-semibold text-blue-700 uppercase mb-2">Optional: Shuttle Frequency</label>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div>
+                                    <label class="text-[10px] text-blue-400 uppercase">End Window</label>
+                                    <input type="time" id="endTime" class="w-full p-2 border rounded-md text-sm">
+                                </div>
+                                <div>
+                                    <label class="text-[10px] text-blue-400 uppercase">Frequency (Mins)</label>
+                                    <input type="number" id="headway" placeholder="e.g. 15" class="w-full p-2 border rounded-md text-sm">
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit" id="submitBtn" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-lg transition-all shadow-md">
+                            Create GTFS Service
+                        </button>
+                    </form>
+                </div>
+
+                <div id="statusBox" class="hidden p-4 rounded-lg border"></div>
+            </div>
+
+            <div class="lg:col-span-7">
+                <div class="bg-white p-4 rounded-xl shadow-sm border border-slate-200 sticky top-4">
+                    <h2 class="text-lg font-bold mb-4 text-slate-800">Route & Stop Preview</h2>
+                    <div id="map" class="bg-slate-100 rounded-lg"></div>
+                    <p class="text-[10px] text-slate-400 mt-2 italic">* Map uses OpenRouteService for Shape generation.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        // Debug Mode: Custom Field Mapping & Enhanced Logging
+        console.log("🚀 CPTN Debug Mode Initialized with Custom Field Mapping");
+        // Note: The API_BASE is set to match the Django URL configuration for the journey backen api.
+        const API_BASE = '/api/v1/journey'; 
+        // Global variables for map layers and markers to manage state across interactions:
+        let debounceTimer;
+        let routeLayer = null;
+        let originMarker = null;
+        let destinationMarker = null;
+        const areaDefaultIcon = L.icon({
+            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+        });
+        const map = L.map('map').setView([45.6, -62.0], 8);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+        // Stops layer group to manage dynamic stop markers separately from route layers
+        let activeStopsLayer = L.layerGroup().addTo(map);
+
+       // Helper to allow selecting destination directly from the map popup
+        function selectStop(id, name) {
+            document.getElementById('destId').value = id;
+            document.getElementById('destInput').value = name;
+            document.getElementById('destDisplay').innerText = `Selected: ${name}`;
+            map.closePopup();
+            // Trigger route update if origin is already set
+            updateRoutePreview();
+        }
+
+        function getCookie(name) {
+            let cookieValue = null;
+            if (document.cookie && document.cookie !== '') {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    // Does this cookie string begin with the name we want?
+                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+
+        function debounceSearch(func, timeout = 300) {
+            // Creates a debounced version of the provided function `func`
+            // `timeout` is how long to wait after the last call before running `func`
+            return (...args) => {
+                // Clear any existing scheduled call to `func`
+                // This prevents earlier calls from executing
+                clearTimeout(debounceTimer);
+                // Schedule a new execution of `func` after `timeout` milliseconds
+                debounceTimer = setTimeout(() => {
+                    // Call the original function with the correct `this` and arguments
+                    func.apply(this, args);
+                }, timeout);
+            };
+        }
+
+        async function updateRoutePreview() {
+    if (!originMarker || !destinationMarker) return;
+
+    const start = originMarker.getLatLng();
+    const end = destinationMarker.getLatLng();
+
+    try {
+        const res = await fetch(`${API_BASE}/get-route/`, {
+            method: 'POST',
+            headers: { 
+                'Content-Type': 'application/json', 
+                'X-CSRFToken': getCookie('csrftoken') 
+            },
+            body: JSON.stringify({
+                start: [start.lng, start.lat],
+                end: [end.lng, end.lat]
+            })
+        });
+
+        if (!res.ok) {
+            const errorData = await res.json();
+            console.error("🚫 Backend Error:", errorData.error);
+            throw new Error(errorData.error || "Route calculation failed");
+        }
+
+        const data = await res.json();
+        console.log(`🗺️ Backend returned ${data.routes.length} routes and ${data.stops.length} nearby stops.`);
+
+        // --- 1. HANDLE ROUTES ---
+        if (routeLayer) map.removeLayer(routeLayer);
+        routeLayer = L.featureGroup().addTo(map);
+
+        data.routes.forEach((route, index) => {
+            const isPrimary = route.is_primary;
+            const baseStyle = {
+                color: isPrimary ? '#1d4ed8' : '#64748b',
+                weight: isPrimary ? 6 : 5,
+                opacity: isPrimary ? 1 : 0.6,
+                lineCap: 'round',
+                dashArray: isPrimary ? null : '10, 15',
+                pane: isPrimary ? 'overlayPane' : 'tilePane' 
+            };
+
+            const geoJsonLayer = L.geoJSON(route.geometry, {
+                style: baseStyle,
+                onEachFeature: (feature, layer) => {
+                    const dist = (route.summary.distance / 1000).toFixed(1);
+                    const dur = Math.round(route.summary.duration / 60);
+                    const label = isPrimary ? "Recommended Route" : `Alternative ${index}`;
+                    
+                    layer.bindTooltip(`<b>${label}</b><br>${dist} km | ${dur} mins`, { sticky: true });
+
+                    layer.on('mouseover', function() {
+                        layer.setStyle({ weight: isPrimary ? 8 : 7, opacity: 1 });
+                        layer.bringToFront();
+                    });
+
+                    layer.on('mouseout', function() {
+                        layer.setStyle(baseStyle);
+                        const primaryLayer = routeLayer.getLayers().find(l => l.options.isPrimary);
+                        if (primaryLayer) primaryLayer.bringToFront();
+                    });
+
+                    layer.on('click', function() {
+                        layer.bringToFront();
+                        document.getElementById('routeGeometry').value = JSON.stringify(route.geometry);
+                    });
+                }
+            });
+
+            geoJsonLayer.options.isPrimary = isPrimary;
+            routeLayer.addLayer(geoJsonLayer);
+            if (isPrimary) setTimeout(() => geoJsonLayer.bringToFront(), 10);
+        });
+
+        // --- 2. HANDLE CONTEXTUAL STOPS ---
+        if (typeof activeStopsLayer !== 'undefined') {
+            activeStopsLayer.clearLayers();
+        }
+
+        data.stops.forEach(stop => {
+            // BUILD THE URL HERE:
+            // Adjust "/static/icons/" to match your actual Django static folder structure
+            const fullIconUrl = `/static/icons/${stop.icon_filename}`; 
+
+            const stopIcon = L.icon({
+                iconUrl: fullIconUrl,
+                iconSize: [32, 32],
+                iconAnchor: [16, 32],
+                popupAnchor: [0, -32],
+                className: 'active-stop-marker'
+            });
+
+            const marker = L.marker([stop.lat, stop.lng], { icon: stopIcon })
+                .bindPopup(`
+                    <div class="p-2">
+                        <h3 class="font-bold text-blue-900 border-b border-slate-100 pb-1">${stop.name}</h3>
+                        <p class="text-[11px] text-slate-600 mt-2">${stop.desc}</p>
+                    </div>
+                `);
+            
+            activeStopsLayer.addLayer(marker);
+        });
+
+        // --- 3. FIT VIEW & FORM UPDATE ---
+        if (data.routes.length > 0) {
+            map.fitBounds(routeLayer.getBounds(), { padding: [25, 25] });
+            const primaryRoute = data.routes.find(r => r.is_primary) || data.routes[0];
+            document.getElementById('routeGeometry').value = JSON.stringify(primaryRoute.geometry);
+        }
+
+    } catch (err) {
+        console.error("❌ Route Preview Error:", err);
+    }
+}
+        
+        async function performSearch(query, endpoint, listId, inputId, hiddenId, displayId) {
+            console.log(`🔍 Searching ${endpoint} for: "${query}"`);
+            const listEl = document.getElementById(listId);
+            
+            if (query.length < 2) { 
+                listEl.classList.add('hidden'); 
+                return; 
+            }
+
+            try {
+                // --- CONTEXTUAL FILTERING ---
+                // Construct the URL and check if we need to filter stops by a selected Area
+                let url = `${API_BASE}/${endpoint}/?search=${encodeURIComponent(query)}`;
+                
+                if (endpoint === 'stops') {
+                    const selectedAreaId = document.getElementById('originId').value;
+                    if (selectedAreaId) {
+                        console.log(`📍 Filtering stops linked to Area ID: ${selectedAreaId}`);
+                        url += `&area_id=${encodeURIComponent(selectedAreaId)}`;
+                    }
+                }
+
+                const response = await fetch(url);
+                const data = await response.json();
+                
+                // Extract features from the paginated GeoJSON response
+                let results = (data.results && data.results.features) ? data.results.features : [];
+                console.log(`✅ ${endpoint} results found:`, results.length);
+
+                listEl.innerHTML = '';
+                if (results.length === 0) {
+                    listEl.innerHTML = '<div class="p-2 text-sm text-gray-400 italic">No matches found</div>';
+                } else {
+                    results.forEach(item => {
+                        const p = item.properties || {};
+                        let mainName, subDetail, recordId, additionalInfo;
+                        
+                        if (endpoint === 'areas') {
+                            mainName = p.area_name || "Unknown Area";
+                            subDetail = p.county || "";
+                            additionalInfo = p.location_narrative;
+                            recordId = item.id || p.area_id; 
+                        } else {
+                            mainName = p.stop_name || "Unknown Stop";
+                            subDetail = p.stop_description || p.stop_desc || "";
+                            additionalInfo = p.stop_url || "";
+                            recordId = item.id || p.stop_id;
+                        }
+
+                        const div = document.createElement('div');
+                        div.className = "p-3 hover:bg-blue-50 cursor-pointer text-sm border-b transition-colors";
+                        div.innerHTML = `
+                            <div class="font-bold text-slate-700">${mainName}</div>
+                            <div class="text-[10px] text-slate-500 italic">${subDetail}</div>
+                            <div class="text-[10px] text-slate-500 italic">${additionalInfo}</div>`;
+                        
+                        div.onclick = () => {
+                            console.log(`🎯 Locked Selection: ${mainName} (ID: ${recordId})`);
+                            
+                            // 1. Update UI and Hidden Inputs
+                            document.getElementById(hiddenId).value = recordId;
+                            document.getElementById(inputId).value = mainName;
+                            document.getElementById(displayId).innerText = `Selected: ${mainName}`;
+                            listEl.classList.add('hidden');
+
+                            if (item.geometry && item.geometry.coordinates) {
+                                const latLng = [item.geometry.coordinates[1], item.geometry.coordinates[0]];
+                                
+                                if (endpoint === 'areas') {
+                                    // --- ORIGIN: Standard Green Pin ---
+                                    if (originMarker) map.removeLayer(originMarker);
+                                    originMarker = L.marker(latLng, { icon: areaDefaultIcon })
+                                        .addTo(map)
+                                        .bindPopup(`<b>Origin:</b> ${mainName}`)
+                                        .openPopup();
+                                } else {
+                                    // --- DESTINATION: Custom GTFS Icon ---
+                                    if (destinationMarker) map.removeLayer(destinationMarker);
+
+                                    let stopMarkerOptions = {};
+                                    if (p.stop_icon_url) {
+                                        stopMarkerOptions.icon = L.icon({
+                                            iconUrl: p.stop_icon_url,
+                                            iconSize: [38, 38],
+                                            iconAnchor: [19, 38],
+                                            popupAnchor: [0, -38]
+                                        });
+                                    } else {
+                                        // Fallback to a standard Blue pin
+                                        stopMarkerOptions.icon = L.icon({
+                                            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
+                                            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                                            iconSize: [25, 41],
+                                            iconAnchor: [12, 41]
+                                        });
+                                    }
+
+                                    destinationMarker = L.marker(latLng, stopMarkerOptions)
+                                        .addTo(map)
+                                        .bindPopup(`<b>Destination:</b> ${mainName}<br><small>${subDetail}</small>`)
+                                        .openPopup();
+                                }
+
+                                // 3. Smart Framing & Route Preview
+                                if (originMarker && destinationMarker) {
+                                    console.log("📏 Both points set. Recalculating route bounds...");
+                                    const group = new L.featureGroup([originMarker, destinationMarker]);
+                                    map.fitBounds(group.getBounds(), { padding: [70, 70], maxZoom: 14 });
+                                    
+                                    // 4. Auto-fetch route preview
+                                    updateRoutePreview();
+                                } else {
+                                    map.flyTo(latLng, 14);
+                                }
+                            }
+                        };
+                        
+                        listEl.appendChild(div);
+                    });
+                }
+                listEl.classList.remove('hidden');
+            } catch (err) { 
+                console.error(`❌ Search Error [${endpoint}]:`, err); 
+            }
+        }
+
+        async function checkLoginStatus() {
+            const header = document.getElementById('authHeader');
+            try {
+                const res = await fetch(`${API_BASE}/check-auth/`);
+                if (res.ok) {
+                    const user = await res.json();
+                    header.innerHTML = `<span class="text-green-500">●</span> ${user.username} (Driver)`;
+                } else { throw new Error(); }
+            } catch (err) {
+                header.innerHTML = `<a href="/admin" class="text-red-400 underline italic">Not Logged In</a>`;
+            }
+        }
+
+        document.getElementById('originInput').addEventListener('input', e => {
+            debounceSearch(() => performSearch(e.target.value, 'areas', 'originList', 'originInput', 'originId', 'originDisplay'))();
+        });
+
+        document.getElementById('destInput').addEventListener('input', e => {
+            debounceSearch(() => performSearch(e.target.value, 'stops', 'destList', 'destInput', 'destId', 'destDisplay'))();
+        });
+
+        document.getElementById('offerForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            console.group("📤 Submitting Offer Form");
+            
+            const btn = document.getElementById('submitBtn');
+            const status = document.getElementById('statusBox');
+            const selectedDays = Array.from(document.querySelectorAll('.day-check:checked')).map(cb => cb.value);
+
+            const payload = {
+                origin_area_id: document.getElementById('originId').value,
+                destination_stop_id: document.getElementById('destId').value,
+                start_date: document.getElementById('startDate').value,
+                end_date: document.getElementById('endDate').value,
+                days_of_week: selectedDays,
+                departure_time: document.getElementById('depTime').value,
+                available_seats: parseInt(document.getElementById('seats').value)
+            };
+
+            const freqEnd = document.getElementById('endTime').value;
+            const freqMins = document.getElementById('headway').value;
+            if (freqEnd && freqMins) {
+                payload.end_time = freqEnd;
+                payload.headway_minutes = parseInt(freqMins);
+            }
+
+            console.log("📦 Final Payload for POST:", payload);
+            
+            if (!payload.origin_area_id || !payload.destination_stop_id || selectedDays.length === 0) {
+                alert("Missing required fields: Select Origin, Destination, and at least one day.");
+                console.groupEnd();
+                return;
+            }
+
+            btn.disabled = true;
+            btn.innerText = "Generating GTFS Stack...";
+
+            try {
+                const res = await fetch(`${API_BASE}/offers/`, {
+                    method: 'POST',
+                    headers: { 
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': getCookie('csrftoken')
+                    },
+                    body: JSON.stringify(payload)
+                });
+
+                const data = await res.json();
+                console.log("📥 Server Response Data:", data);
+                console.log(`🗺️ Backend returned ${data.routes.length} total routes.`);
+                status.classList.remove('hidden');
+
+                if (res.ok) {
+                    status.className = "p-4 rounded-lg bg-green-50 border border-green-200 text-green-800 block";
+                    status.innerHTML = `<strong>Success!</strong> Service created.<br><span class="text-xs">Trip ID: ${data.trip_id}</span>`;
+                    
+                    if (data.shape && data.shape.geometry) {
+                        if (routeLayer) map.removeLayer(routeLayer);
+                        routeLayer = L.geoJSON(data.shape.geometry, {
+                            style: { color: '#1d4ed8', weight: 5, opacity: 0.7 }
+                        }).addTo(map);
+                        map.fitBounds(routeLayer.getBounds(), { padding: [30, 30] });
+                    }
+                } else {
+                    status.className = "p-4 rounded-lg bg-red-50 border border-red-200 text-red-800 block";
+                    status.innerText = "Error: " + JSON.stringify(data);
+                }
+            } catch (err) {
+                console.error("🔥 POST Error:", err);
+            } finally {
+                btn.disabled = false;
+                btn.innerText = "Create GTFS Service";
+                console.groupEnd();
+            }
+        });
+
+        window.onload = checkLoginStatus;
+    </script>
+</body>
+</html>

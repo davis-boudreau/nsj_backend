@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+db.sqlite3
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+node_modules/
+journey/v0.9/views.py
+tests/client/v0.9/test_offer.html

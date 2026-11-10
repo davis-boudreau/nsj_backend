@@ -1,0 +1,10 @@
+ACCESS="PASTE_ACCESS_TOKEN_HERE"
+
+curl -X POST "http://localhost:8000/api/v1/gtfs/routes/" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $ACCESS" \
+  -d '{
+    "origin_objectid": 1,
+    "destination_stop_id": "1000",
+    "route_short_name": "Journey"
+  }'

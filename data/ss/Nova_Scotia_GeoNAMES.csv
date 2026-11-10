@@ -1,0 +1,2833 @@
+﻿objectid,cgndb_key,geoname,county,nad83_lat,nad83_lon
+1,CAPHL,Halifax,Halifax,44.647401,-63.590651
+2,CBPIB,Yarmouth,Yarmouth,43.838654,-66.115223
+3,CAZHC,Middleton,Annapolis,44.942577,-65.068193
+4,CAVQA,Louisbourg,Cape Breton,45.919865,-59.972807
+5,CAWAZ,Lunenburg,Lunenburg,44.377896,-64.309529
+6,CAAWK,Arichat,Richmond,45.511025,-61.015403
+7,CAUWZ,Liverpool,Queens,44.039147,-64.714759
+8,CBELL,Port Hawkesbury,Inverness,45.616462,-61.356262
+9,CAATB,Antigonish,Antigonish,45.622765,-61.991581
+10,CBILO,Sherbrooke,Guysborough,45.142471,-61.982735
+11,CAGBW,Canso,Guysborough,45.337408,-60.99621
+12,CAGYX,Cheticamp,Inverness,46.629589,-61.012862
+13,CBBJR,New Glasgow,Pictou,45.589332,-62.64479
+14,CBKOM,Stewiacke,Colchester,45.138517,-63.346097
+15,CBIKP,Shelburne,Shelburne,43.763215,-65.323507
+16,CBKDH,Springhill,Cumberland,45.650675,-64.056904
+17,CAASF,Annapolis Royal,Annapolis,44.743729,-65.518907
+18,CAJOA,Digby,Digby,44.620795,-65.758442
+19,CAAOO,Amherst,Cumberland,45.833392,-64.212968
+20,CAPBK,Guysborough,Guysborough,45.391322,-61.497953
+21,CAFBR,Bridgewater,Lunenburg,44.377498,-64.518605
+22,CBLGX,Sydney,Cape Breton,46.137925,-60.195727
+23,CASWE,Kentville,Kings,45.077707,-64.495306
+24,CBMKT,Truro,Colchester,45.364959,-63.279847
+25,CAYZR,Meteghan,Digby,44.188354,-66.161673
+26,CBCYW,Parrsboro,Cumberland,45.405548,-64.325945
+27,CAHEP,Clark's Harbour,Shelburne,43.442634,-65.629012
+28,CARNA,Inverness,Inverness,46.230157,-61.306461
+29,CBPAK,Windsor,Hants,44.99287,-64.135677
+30,CAIYJ,Dartmouth,Halifax,44.670036,-63.577577
+31,CBQOF,Caledonia,Queens,44.374926,-65.03114
+32,CBROD,Wolfville,Kings,45.091713,-64.359242
+33,CBIKA,Sheet Harbour,Halifax,44.923333,-62.537304
+34,CACWS,Bible Hill,Colchester,45.3761,-63.258222
+35,CATKL,Lantz,Hants; Halifax,44.986819,-63.481435
+36,CARCF,Hunts Point,Queens,43.959399,-64.778217
+37,CBOMF,Weymouth,Digby,44.411467,-65.995755
+38,CACPO,Belliveaus Cove,Digby,44.386581,-66.061323
+39,CBBLC,New Ross,Lunenburg,44.736981,-64.456687
+40,CAIJX,Creignish,Inverness,45.732686,-61.45989
+41,CBBWO,North East Point,Shelburne,43.509663,-65.608962
+42,CAKZM,Ecum Secum,Guysborough; Halifax,44.967954,-62.131768
+43,CAQSK,Hopewell,Pictou,45.479172,-62.702486
+44,CARKK,Ingonish Beach,Victoria,46.638225,-60.409125
+45,CBFUK,River John,Pictou,45.751519,-63.059043
+46,CAYYQ,Merigomish,Pictou,45.630201,-62.431822
+47,CBEDO,Pomquet,Antigonish,45.629119,-61.847064
+48,CAMUF,Fox Point,Lunenburg,44.61649,-64.0592
+49,CBNLN,Walton,Hants,45.2287773,-64.0040219
+50,CAAGN,Abercrombie,Pictou,45.630991,-62.690441
+51,CBIDE,Shag Harbour,Shelburne,43.49405,-65.718023
+52,CBOUH,Whycocomagh,Inverness,45.973824,-61.119122
+53,CAWCY,Mabou,Inverness,46.071979,-61.392397
+54,CBAYF,Musquodoboit Harbour,Halifax,44.787246,-63.148102
+55,CAGDC,Cape George,Antigonish,45.831288,-61.926398
+56,CAGBD,Canning,Kings,45.157366,-64.420524
+57,CBNPL,Waverley,Halifax,44.782519,-63.599634
+58,CAJUG,Dover,Guysborough,45.286451,-61.046551
+59,CAMEV,Five Islands,Colchester,45.411567,-64.042931
+60,CBEMJ,Port Lorne,Annapolis,44.947657,-65.264069
+61,CAZAU,Micmac,Hants,45.095876,-63.490177
+62,CAKTC,East Kemptville,Yarmouth,44.076977,-65.779661
+63,CASVC,Kennetcook,Hants,45.177898,-63.721296
+64,CBKMC,Stellarton,Pictou,45.559373,-62.659856
+65,CBKWM,St. Peter's,Richmond,45.6562,-60.875166
+66,CAVYK,Lower West Pubnico,Yarmouth,43.633975,-65.800941
+67,CBEWM,Pugwash,Cumberland,45.850092,-63.660303
+68,CALHK,Enfield,Hants; Halifax,44.943405,-63.536134
+69,CAIOM,Cross Roads Country Harbour,Guysborough,45.27789,-61.884689
+70,CBQOG,Caledonia,Guysborough,45.281773,-62.396668
+71,CBCXV,Parkers Cove,Annapolis,44.811777,-65.5305
+72,CBBAR,Nappan,Cumberland,45.769246,-64.239716
+73,CACLW,Bedford,Halifax,44.725492,-63.667716
+74,CBDZH,Pleasantville,Lunenburg,44.340203,-64.443266
+75,CBRNJ,Hantsport,Hants,45.064005,-64.180837
+76,CBRQG,Londonderry,Colchester,45.47484,-63.603141
+77,CAQKV,Hilden,Colchester,45.306776,-63.293568
+78,CBELR,Port Hood,Inverness,46.016177,-61.530911
+79,CBAQK,Mulgrave,Guysborough,45.612156,-61.391725
+80,CBRCN,Mount Uniacke,Hants,44.892004,-63.829272
+81,CBAIO,Moser River,Halifax,44.969743,-62.256509
+82,CAVQG,Louisdale,Richmond,45.606859,-61.066363
+83,CBNRY,Wedgeport,Yarmouth,43.73979,-65.980041
+84,CATNX,Lawrencetown,Annapolis,44.882197,-65.158668
+85,CBMKS,Truemanville,Cumberland,45.855717,-64.075195
+86,CAFFK,Brooklyn,Queens,44.048548,-64.688678
+87,CASUE,Kemptown,Colchester,45.469078,-63.073595
+88,CBEMP,Port Medway,Queens,44.129597,-64.574855
+89,CBGWC,Sable River,Shelburne,43.84162,-65.059898
+90,CAFFA,Brookfield,Colchester,45.254272,-63.277098
+91,CBFUW,Riverport,Lunenburg,44.29495,-64.327903
+92,CALJP,Eskasoni,Cape Breton,45.941935,-60.616821
+93,CBHPY,Scots Bay,Kings,45.302914,-64.39572
+94,CBBJP,New Germany,Lunenburg,44.546296,-64.72455
+95,CALNI,Fall River,Halifax,44.816958,-63.615471
+96,CABTY,Barrington,Shelburne,43.562872,-65.561674
+97,CAJDV,Debert,Colchester,45.437701,-63.458516
+98,CBELD,Port Felix,Guysborough,45.2514921,-61.2168517
+99,CAAZO,Aspen,Guysborough,45.301433,-62.052442
+100,CAXML,Margaretsville,Annapolis,45.048047,-65.064533
+101,CAZSU,Minasville,Hants,45.282918,-63.81541
+102,CAAOW,Amherst Shore,Cumberland,45.969166,-63.894825
+103,CATWY,Lingan Road,Cape Breton,46.182551,-60.133235
+104,CBETB,Princedale,Annapolis,44.648424,-65.511241
+105,CBGZM,Salmon River,Richmond,45.623736,-60.774032
+106,CAJSR,Dorts Cove,Guysborough,45.348249,-61.451564
+107,CBDPR,Pictou Landing,Pictou,45.672064,-62.677958
+108,CATDW,LaBelle,Queens,44.31886,-64.84038
+109,CAGQY,Centrelea,Annapolis,44.819299,-65.3277
+110,CBMVB,Upper Clyde River,Shelburne,43.9008,-65.487855
+111,CAZGO,Middle Sackville,Halifax,44.776444,-63.696046
+112,CADRW,Birchwood,Cumberland,45.704257,-63.786529
+113,CBBHY,Newburne,Lunenburg,44.586617,-64.594238
+114,CAKVU,East Pubnico,Yarmouth,43.670632,-65.760897
+115,CAGNM,Catalone Gut,Cape Breton,46.011556,-59.954907
+116,CBRFN,North Wallace,Cumberland,45.832942,-63.481299
+117,CABBG,Aulds Cove,Antigonish; Guysborough,45.648475,-61.438589
+118,CAYWA,Meisners Section,Lunenburg,44.598333,-64.770833
+119,CAGRA,Centre Rawdon,Hants,45.046309,-63.836676
+120,CATHY,Lake Road,Hants,45.295875,-63.740518
+121,CBBJB,New Edinburgh,Digby,44.433208,-66.010792
+122,CABUB,Barrington Head,Shelburne,43.568424,-65.577321
+123,CBABG,Moodys Corner,Digby,44.150427,-65.935942
+124,CBCLK,Orangedale East,Inverness,45.935643,-61.067649
+125,CBMIK,Trout Brook,Cape Breton,45.987877,-60.15742
+126,CBLJW,Tatamagouche Mountain,Colchester,45.631557,-63.268856
+127,CARRE,Island Point,Victoria,46.12981,-60.558151
+128,CARVR,Janvrin Harbour,Richmond,45.533971,-61.169085
+129,CATAU,Kinsac,Halifax,44.841645,-63.65733
+130,CBKEJ,Spry Bay,Halifax,44.839041,-62.5919
+131,CBMYM,Upper North Sydney,Cape Breton,46.180573,-60.286479
+132,CAJQY,Doctors Cove,Shelburne,43.516174,-65.632662
+133,CBGNC,Round Hill,Annapolis,44.770536,-65.408317
+134,CAJOG,Diligent River,Cumberland,45.412613,-64.459407
+135,CATLB,La Prairie,Inverness,46.642638,-60.965834
+136,CBRDZ,North Range,Digby,44.506812,-65.838015
+137,CBMZA,Upper Port La Tour,Shelburne,43.512171,-65.469949
+138,CASKE,Jordanville,Guysborough,45.146171,-61.90936
+139,CAWYB,MacLeods Point,Victoria,46.245738,-60.599146
+140,CAEHK,Blandford,Lunenburg,44.493142,-64.109972
+141,CAZLG,Millbrook,Pictou,45.50465,-62.817213
+142,CAHPR,Comeaus Hill,Yarmouth,43.694617,-66.019565
+143,CASKY,Jubilee,Victoria,45.984712,-60.937809
+144,CBMUN,Upper Burnside,Colchester,45.320108,-62.989517
+145,CAFJL,Brule,Colchester,45.739653,-63.178622
+146,CAVUN,Lower Jordan Bay,Shelburne,43.68295,-65.245116
+147,CBETH,Princes Lodge,Halifax,44.6924,-63.660406
+148,CAPKJ,Hannamville,Annapolis,44.712054,-65.196043
+149,CAJJM,D'Escousse,Richmond,45.588071,-60.963711
+150,CATIA,Lake Road Corner,Cumberland,45.468787,-64.342384
+151,CASMK,Juniper Mountain,Cape Breton,45.959223,-60.255555
+152,CATKW,Lapland,Lunenburg,44.293991,-64.679478
+153,CBNUM,Wentworth Valley,Cumberland,45.611812,-63.561483
+154,CBMEW,Torbrook,Annapolis,44.914007,-64.977327
+155,CBJSL,South Side Basin of River Denys,Inverness,45.87974,-61.030454
+156,CABZL,Bay Road Valley,Victoria,46.969834,-60.473708
+157,CAKUW,East Noel,Hants,45.30402,-63.702928
+158,CATGL,Lake Centre,Lunenburg,44.318695,-64.482448
+159,CBNAE,Upper Stewiacke,Colchester,45.22398,-62.991053
+160,CAKGK,Dutch Settlement,Halifax,44.990741,-63.441608
+161,CAVTT,Lower Five Islands,Colchester; Cumberland,45.41354,-64.093752
+162,CAGIX,Caribou River,Pictou,45.754601,-62.831291
+163,CAPWG,Hawker,Richmond,45.634168,-60.993253
+164,CAVWY,Lower Selma,Hants,45.312524,-63.600122
+165,CBMEX,Torbrook East,Kings,44.93087,-64.918791
+166,CALMF,Fairmont,Antigonish,45.700838,-61.978472
+167,CAUZD,Loch Broom,Pictou,45.651452,-62.749623
+168,CBBYD,North Glen,Cape Breton,45.84734,-60.499852
+169,CBRHH,North West Harbour,Shelburne,43.563191,-65.414203
+170,CAXSE,Martins Point,Lunenburg,44.497335,-64.319745
+171,CBKKC,St. Bernard,Digby,44.402225,-66.040096
+172,CBQYJ,Moosehead,Halifax,44.941762,-62.266266
+173,CAAOS,Amherst Point,Cumberland,45.78682,-64.270679
+174,CBBFD,Neils Harbour,Victoria,46.808593,-60.322801
+175,CAWAR,Lumsden Dam,Kings,45.010205,-64.381008
+176,CBAUE,Murphy Lake,Kings,44.902886,-64.533822
+177,CAXKF,Mantua,Hants,45.003231,-64.045197
+178,CBCLG,Onslow Mountain,Colchester,45.425541,-63.306542
+179,CBOQK,White Hill,Pictou,45.489666,-62.75617
+180,CBMYF,Upper New Harbour,Guysborough,45.221295,-61.522762
+181,CAQOC,Hodson,Pictou,45.731523,-62.963472
+182,CAAOQ,Amherst Head,Cumberland,45.888425,-63.992053
+183,CAIPH,Crousetown,Lunenburg,44.261688,-64.485482
+184,CACNY,Beinn Scalpie,Victoria,46.199609,-60.556042
+185,CBBVZ,North East Harbour,Shelburne,43.551559,-65.386229
+186,CBOHY,West Montrose,Colchester,45.429612,-63.711478
+187,CBEKC,Porter,Halifax,44.740749,-63.287114
+188,CBKLP,Steep Creek,Guysborough,45.554809,-61.343544
+189,CBNIL,Walkerville,Richmond,45.60627,-61.195919
+190,CBRFB,North Shore,Cumberland,45.798728,-63.375055
+191,CALMZ,Falkland Ridge,Annapolis,44.672438,-64.857612
+192,CBDXI,Plateau,Inverness,46.606575,-61.002491
+193,CAOEO,Grand Mira South,Cape Breton,45.888003,-60.290671
+194,CAOQY,Greenvale,Pictou,45.508615,-62.482364
+195,CBFWA,Roachvale,Guysborough,45.353834,-61.5499
+196,CAFBW,Brierly Brook Back Road,Antigonish,45.6280556,-62.0433333
+197,CAMRF,Four Mile Brook,Pictou,45.602374,-62.878918
+198,CAEZB,Breac Brook,Cape Breton,45.912332,-60.512247
+199,CBPXL,Woodside,Kings,45.178101,-64.450132
+200,CABQX,Barneys River Station,Pictou,45.595517,-62.267092
+201,CABBV,Avondale,Pictou,45.63651,-62.299827
+202,CADKO,Big Ridge,Cape Breton,45.949791,-60.218772
+203,CAXZN,McCallum Settlement,Colchester,45.491501,-63.256841
+204,CATGU,Lake Egmont,Halifax,44.991641,-63.302187
+205,CBURT,Cornwallis Park,Annapolis,44.651435,-65.630884
+206,CBFYP,Robinsons Corner,Lunenburg,44.560317,-64.257502
+207,CAGYR,Chester Grant,Lunenburg,44.612125,-64.321481
+208,CAZOJ,Millers Corner,Hants,45.191984,-63.689533
+209,CABMK,Bangor,Digby,44.217996,-66.090672
+210,CBJKY,South Athol,Cumberland,45.646651,-64.233682
+211,CACMR,Beech Hill,Lunenburg,44.600436,-64.390146
+212,CAYWY,Melford,Inverness,45.870734,-61.261132
+213,CBLHA,Sydney Forks,Cape Breton,46.060404,-60.303848
+214,CAQLX,Hills Road,Cape Breton,46.045502,-60.10443
+215,CAVZU,Lucasville,Halifax,44.762037,-63.724781
+216,CBPHW,Yankee Line,Victoria,46.116089,-60.924487
+217,CAQTA,Horne Settlement,Hants,44.95373,-63.561799
+218,CARRY,Italy Cross,Lunenburg,44.260396,-64.549666
+219,CBQYH,Moose Harbour,Queens,44.016285,-64.667394
+220,CBNVW,West Bay,Cumberland,45.372094,-64.394585
+221,CBUMM,New Russell,Lunenburg,44.7698,-64.423337
+222,CBPFM,Wreck Cove,Victoria,46.550532,-60.411087
+223,CBPHL,Wyses Corner,Halifax,44.952078,-63.302048
+224,CAVJV,Long Point,Inverness,45.810759,-61.480174
+225,CANGZ,Gaetz Brook,Halifax,44.772802,-63.20883
+226,CBNHP,Waldeck West,Annapolis,44.610997,-65.638782
+227,CAKUF,East Margaretsville,Annapolis; Kings,45.055657,-65.01219
+228,CATWU,Lingan,Cape Breton,46.230409,-60.061375
+229,CAFAL,Briar Lake,Digby,44.144056,-65.969869
+230,CALID,Englishtown,Victoria,46.28107,-60.544502
+231,CBJNM,South Cape Highlands,Inverness,46.16139,-61.379506
+232,CBFAJ,Quinan,Yarmouth,43.920271,-65.825852
+233,CAXHS,Malagawatch,Inverness,45.8394,-60.984915
+234,CBBPZ,Noel Road,Hants,45.204466,-63.737536
+235,CBJNW,South Cove,Victoria,46.038778,-60.895127
+236,CBGLQ,Ross Corner,Kings,45.147487,-64.649819
+237,CANNI,Georgefield,Hants,45.204178,-63.556105
+238,CACKF,Beaver Meadow,Antigonish,45.562067,-62.10049
+239,CAXGF,Mahoneys Beach,Antigonish,45.705128,-61.900496
+240,CATFG,LaHave,Lunenburg,44.292285,-64.356814
+241,CATXK,Liscomb,Guysborough,45.024898,-61.999713
+242,CAKSQ,East Havre Boucher,Antigonish,45.676953,-61.49332
+243,CBBHZ,New Campbellton,Victoria,46.290967,-60.436761
+244,CBKHW,St. Andrews Channel,Cape Breton,45.938232,-60.502437
+245,CBNBF,Urbania,Hants,45.214635,-63.425938
+246,CBNBW,Valley,Colchester,45.383299,-63.203194
+247,CBKTF,Stoddarts,Annapolis,44.698902,-64.93585
+248,CAUDS,Little Dyke,Colchester,45.38392,-63.557409
+249,CBAAT,Montague Gold Mines,Halifax,44.71844,-63.513708
+250,CBDXZ,Pleasant Lake,Yarmouth,43.851644,-66.009561
+251,CBNHR,Walden,Lunenburg,44.556378,-64.501359
+252,CAJHD,Delhaven,Kings,45.205047,-64.377886
+253,CBMZW,Upper Smithfield,Guysborough,45.263416,-62.188757
+254,CBPVP,Upper Canard,Kings,45.126122,-64.468436
+255,CACQW,Benacadie Pond,Cape Breton,45.916843,-60.719783
+256,CBDUK,Pinkneys Point,Yarmouth,43.715058,-66.064913
+257,CBNWB,West Bay Centre,Inverness,45.725377,-61.21165
+258,CAUQB,Little River,Victoria,46.442808,-60.465947
+259,CBOHM,West Mabou,Inverness,46.0711111,-61.4725
+260,CABZW,Bay View,Digby,44.680273,-65.774741
+261,CBCGY,Oceanview,Cape Breton,45.882123,-60.156541
+262,CATGZ,Lake George,Yarmouth,44.0334,-66.054804
+263,CAXMB,Margaree Centre,Inverness,46.34697,-60.999769
+264,CAVVZ,Lower North Grant,Antigonish,45.650166,-62.016573
+265,CABJP,Bald Rock,Halifax,44.469681,-63.580048
+266,CAVUW,Lower L'Ardoise,Richmond,45.601735,-60.741647
+267,CBIQV,Shubenacadie East,Colchester,45.101295,-63.394192
+268,CARPA,Isaacs Harbour,Guysborough,45.179381,-61.659855
+269,CAVBL,Londonderry Station,Colchester,45.459632,-63.571505
+270,CBPTJ,South Range Corner,Digby,44.476411,-65.812181
+271,CACLR,Beckwith,Cumberland,45.833945,-63.812799
+272,CBLOR,The Hawk,Shelburne,43.417769,-65.621021
+273,CANJM,Gardners Mills,Yarmouth,44.027947,-65.975785
+274,CANKU,Gaspereau Mountain,Kings,45.047622,-64.344559
+275,CAOBB,Gracieville,Richmond,45.582304,-60.71977
+276,CBPVM,Union Centre,Pictou,45.530776,-62.761608
+277,CAEJC,Bloomfield,Digby,44.529319,-65.824659
+278,CANCI,Frenchvale,Cape Breton,46.104019,-60.387927
+279,CBSUI,Fraserville,Cumberland,45.386844,-64.672185
+280,CABUD,Barrington Passage,Shelburne,43.527562,-65.609201
+281,CAPWW,Hawthorne,Inverness,45.971057,-61.48339
+282,CAFEV,Broadway,Pictou,45.575172,-62.362342
+283,CBHTH,Seal Island,Yarmouth,43.400081,-66.016096
+284,CALKN,Eureka,Pictou,45.497776,-62.683704
+285,CARGF,Indian Harbour Lake,Guysborough,45.134309,-61.880035
+286,CBDTO,Pine Tree,Pictou,45.600333,-62.544422
+287,CBOIR,West Petpeswick,Halifax,44.746608,-63.168372
+288,CALJG,Erinville,Guysborough,45.378868,-61.749576
+289,CBRCE,Mount Pleasant,Cumberland,45.787684,-63.847949
+290,CBOHJ,West Lochaber,Antigonish,45.410163,-62.036335
+291,CAGAF,Canada Creek,Kings,45.168502,-64.741148
+292,CBPAI,Windham Hill,Cumberland,45.625205,-63.982242
+293,CBNIR,Wallace Bay,Cumberland,45.833972,-63.569483
+294,CAYUE,Meadows Road,Cape Breton,46.036234,-60.293348
+295,CBBIC,New Canada,Lunenburg,44.478457,-64.680128
+296,CBICI,Shad Bay,Halifax,44.522932,-63.787451
+297,CARLE,Inlet Baddeck,Victoria,46.080446,-60.823297
+298,CAPFQ,Halfway Brook,Colchester,45.239359,-63.075124
+299,CAPKO,Hansford,Cumberland,45.722435,-63.791289
+300,CBKJW,Starrs Point,Kings,45.116341,-64.378017
+301,CAKHD,Eagle Head,Queens,44.076779,-64.614363
+302,CARGB,Indian Harbour,Halifax,44.522244,-63.936558
+303,CACND,Beechmont North,Cape Breton,46.112411,-60.332517
+304,CBKNL,Stewartdale,Inverness,46.006088,-61.149699
+305,CBQEI,Gillis Point,Victoria,46.004857,-60.804644
+306,CAJBR,Dayton,Yarmouth,43.873158,-66.10504
+307,CAVRV,Lower Barneys River,Pictou,45.664363,-62.34984
+308,CBDWP,Plaister Mines,Victoria,46.124913,-60.651517
+309,CAGYD,Cherry Hill,Lunenburg,44.152347,-64.490122
+310,CAELR,Blue Sea Corner,Cumberland,45.792238,-63.300496
+311,CAXLL,Marble Mountain,Inverness,45.818323,-61.042516
+312,CATSO,Lesterdale,Guysborough,45.443858,-61.529576
+313,CBQEL,Gillis Point East,Victoria,46.018018,-60.78893
+314,CAYYX,Merland,Antigonish,45.576962,-61.670465
+315,CABGB,Baddeck Bridge,Victoria,46.124067,-60.803515
+316,CAVSE,Lower Branch,Lunenburg,44.418765,-64.573261
+317,CBNCD,Valley Road,Cumberland,45.661024,-63.983202
+318,CBELG,Port George,Annapolis,45.003141,-65.159533
+319,CAUGU,Little Harbour,Pictou,45.646939,-62.561766
+320,CAUZK,Loch Lomond West,Richmond,45.755552,-60.616046
+321,CAYUK,Meadowville,Pictou,45.687775,-62.917599
+322,CBMXD,Upper Lawrencetown,Halifax,44.684227,-63.433693
+323,CASUL,Kenloch,Inverness,46.186631,-61.273536
+324,CAPOM,Hardwood Lands,Hants,45.041674,-63.496207
+325,CAFMV,Burnside,Colchester,45.299226,-62.973988
+326,CBJQU,South Lake Ainslie,Inverness,46.05554,-61.107458
+327,CBPVR,Waterville,Kings,45.052708,-64.678113
+328,CAXTD,Marydale,Antigonish,45.534189,-61.861346
+329,CAVWD,Lower Pleasant Valley,Colchester,45.265397,-63.346499
+330,CBDWM,Plainfield,Pictou,45.650733,-62.958308
+331,CANTU,Glen Morrison,Cape Breton,45.997919,-60.323256
+332,CAGAA,Canaan,Kings,45.031023,-64.486344
+333,CAQBA,Hebbs Cross,Lunenburg,44.304509,-64.563852
+334,CAAWH,Argyle Sound,Yarmouth,43.693473,-65.814064
+335,CBNZW,West Brooklyn,Kings,45.076706,-64.26843
+336,CBADB,Mooseland,Halifax,44.946347,-62.795904
+337,CASLJ,Judique South,Inverness,45.857088,-61.491252
+338,CBCDX,Oakhill,Lunenburg,44.395042,-64.504788
+339,CBGNI,Round Island,Cape Breton,46.05453,-59.925949
+340,CAOPJ,Green Oaks,Colchester,45.257158,-63.432122
+341,CBLPA,The Points West Bay,Richmond,45.749055,-60.985946
+342,CAROJ,Ironville,Cape Breton,46.133167,-60.462183
+343,CBDYX,Pleasant Valley,Antigonish,45.679035,-62.061039
+344,CAFJT,Brule Point,Colchester,45.758718,-63.194112
+345,CAEDC,Black River,Inverness,46.127831,-61.337456
+346,CAGQK,Central Port Mouton,Queens,43.916855,-64.846262
+347,CAOGK,Granton,Pictou,45.608606,-62.741169
+348,CAQJS,Highbury,Kings,45.053552,-64.491611
+349,CAKYN,East Village,Colchester,45.446006,-63.566806
+350,CBHSH,Seaforth,Halifax,44.665862,-63.257679
+351,CAAIZ,Admiral Rock,Hants,45.170264,-63.408454
+352,CBFTR,Riverdale,Digby,44.355806,-65.855785
+353,CATWL,Lindsay Lake,Halifax,45.044694,-63.015887
+354,CBMXF,Upper Leitches Creek,Cape Breton,46.129718,-60.390904
+355,CAPYQ,Hays River,Inverness,46.114167,-61.244728
+356,CBFZM,Rock Elm,Cape Breton,45.929011,-60.344106
+357,CATGD,Lake Annis,Yarmouth,44.056307,-66.005552
+358,CBGHR,Rogers Hill,Pictou,45.637237,-62.829659
+359,CBJWG,Southwest Ridge,Inverness,46.036129,-61.390076
+360,CBOAD,West Caledonia,Queens,44.367316,-65.085288
+361,CBLJF,Tantallon,Halifax,44.659835,-63.902757
+362,CBLDH,Sunrise,Victoria,46.864617,-60.543977
+363,CAYMQ,McLellans Mountain,Pictou,45.50348,-62.532524
+364,CBOTJ,Whites Lake,Halifax,44.528792,-63.759197
+365,CBFVP,Rivulet,Inverness,46.375359,-60.956332
+366,CAAIU,Addington Forks,Antigonish,45.56312,-62.081465
+367,CAGGX,Caribou,Pictou,45.732751,-62.696404
+368,CBEVI,Pubnico,Yarmouth,43.702489,-65.784222
+369,CBFJQ,Rear Judique Chapel,Inverness,45.872181,-61.458975
+370,CBCJF,Oldham,Halifax,44.916058,-63.497656
+371,CARBL,Hunters Mountain,Victoria,46.111447,-60.86158
+372,CBDPU,Piedmont,Pictou,45.605917,-62.372257
+373,CBQNS,Bayfield,Antigonish,45.631183,-61.746369
+374,CBSLB,Eden Lake,Pictou,45.404645,-62.294367
+375,CAYUT,Meaghers Grant,Halifax,44.934865,-63.234674
+376,CAXXA,Mattie Settlement,Guysborough,45.594371,-61.558503
+377,CBBJI,New Elm,Lunenburg,44.404185,-64.824961
+378,CBEGN,Popes Harbour,Halifax,44.810309,-62.64122
+379,CAUJO,Little Judique,Inverness,45.942674,-61.486613
+380,CBBLX,New Truro Road,Colchester,45.667189,-63.28758
+381,CBQCJ,Gilberts Cove,Digby,44.487451,-65.942404
+382,CAKXW,East Skye Glen,Inverness,46.045691,-61.194206
+383,CBBIA,New Canaan,Cumberland,45.513916,-64.283363
+384,CALGD,Elmfield,Pictou,45.642943,-62.931551
+385,CBNZE,West Brook,Cumberland,45.556847,-64.299251
+386,CAVXE,Lower Ship Harbour,Halifax,44.78558,-62.835949
+387,CANTM,Glenholme,Colchester,45.398031,-63.532841
+388,CAMKQ,Florence,Cape Breton,46.259853,-60.265857
+389,CANVO,Goffs,Halifax,44.88242,-63.485608
+390,CBFPN,Renfrew,Hants,45.006038,-63.629652
+391,CBKRC,Stirling Brook,Hants,45.311075,-63.559626
+392,CBHHS,Sandy Cove,Queens,44.05154,-64.714285
+393,CAVUJ,Lower Hillsdale,Inverness,45.90905,-61.434952
+394,CAETG,Boudreauville,Richmond,45.501105,-60.966745
+395,CAODF,Grand Étang,Inverness,46.547161,-61.048383
+396,CAYBC,McCreadyville,Cape Breton,46.311019,-60.290935
+397,CAQKY,Hillcrest,Antigonish,45.45783,-62.060406
+398,CBBJM,New France,Digby,44.3161055,-65.7685166
+399,CAKEJ,Dunmore,Inverness,45.994072,-61.497731
+400,CBGBG,Rocky Bay,Richmond,45.551742,-60.958851
+401,CBNOJ,Waternish,Guysborough,45.215344,-62.018257
+402,CAOMU,Greenfield,Kings,45.013786,-64.325123
+403,CASAP,Jimtown,Antigonish,45.710994,-61.905507
+404,CAELK,Blue Sac Road,Cumberland,45.410791,-64.107258
+405,CBKGD,Squid Cove,Lunenburg,44.579797,-64.206333
+406,CAVVJ,Lower Middle River,Victoria,46.136519,-60.907169
+407,CBCIB,Ohio,Antigonish,45.520251,-62.070221
+408,CBMTD,Union Corner,Hants,45.01836,-64.020307
+409,CABZI,Bayhead,Colchester,45.738295,-63.362797
+410,CATFL,LaHave Islands,Lunenburg,44.2238889,-64.3572222
+411,CBEMC,Port Joli,Queens,43.877754,-64.899604
+412,CBNAC,Upper Springfield,Antigonish,45.467768,-61.837797
+413,CAZFC,Middle Ohio,Shelburne,43.926036,-65.405835
+414,CABIR,Bakers Settlement,Lunenburg,44.396999,-64.677497
+415,CAFVW,Campbelldale,Cape Breton,45.900828,-60.25994
+416,CBCLJ,Orangedale,Inverness,45.90133,-61.095269
+417,CAAVZ,Argyle,Yarmouth,43.795509,-65.856662
+418,CARKG,Inglisville,Annapolis,44.856409,-65.11171
+419,CBFMC,Red Islands,Richmond,45.781008,-60.740153
+420,CBHQB,Scotsburn,Pictou,45.651347,-62.853673
+421,CAZQZ,Millstream,Pictou,45.448723,-62.650331
+422,CAMOV,Forties,Lunenburg,44.731581,-64.567619
+423,CADKE,Big Pond Centre,Cape Breton,45.887489,-60.575745
+424,CAKNV,East Chezzetcook,Halifax,44.723343,-63.238019
+425,CBIUF,Simpsons Corner,Lunenburg,44.536132,-64.7839
+426,CAMYM,Frasers Mills,Antigonish,45.494983,-61.937043
+427,CBNHM,Waldeck,Annapolis,44.626225,-65.637668
+428,CACQR,Belnan,Hants,44.994901,-63.526894
+429,CAMOP,Fort Belcher,Colchester,45.365978,-63.410941
+430,CACZE,Big Brook,Inverness,46.291219,-61.028845
+431,CBHGG,Sand Point,Guysborough,45.517317,-61.25641
+432,CBMYW,Upper Pomquet,Antigonish,45.607284,-61.819064
+433,CAXME,Margaree Harbour,Inverness,46.439153,-61.109108
+434,CBDLV,Petit Étang,Inverness,46.649517,-60.976104
+435,CBKXO,Stronach Mountain,Annapolis,45.030116,-65.013889
+436,CAHZE,Country Harbour Lake,Guysborough,45.306664,-61.916609
+437,CASUG,Kempt Road,Richmond,45.658327,-61.178993
+438,CAXQN,Marshy Hope,Pictou,45.587691,-62.198761
+439,CANVR,Goldboro,Guysborough,45.182331,-61.652193
+440,CBMWW,Upper LaHave,Lunenburg,44.3655,-64.444331
+441,CBRMK,Bishopville,Kings; Hants,45.021188,-64.253235
+442,CAIDL,Craigmore,Inverness,45.768126,-61.470622
+443,CAHCF,Clam Harbour,Halifax,44.733791,-62.876548
+444,CAKUZ,Easton,Digby,44.307874,-65.867276
+445,CAHLK,Coffinscroft,Shelburne,43.548387,-65.553863
+446,CAVQI,Louis Head,Shelburne,43.74145,-65.015381
+447,CAMUV,Fox River,Cumberland,45.414987,-64.52459
+448,CALES,Elgin,Pictou,45.423133,-62.670145
+449,CAGRD,Centreville,Inverness,46.060097,-61.226316
+450,CAWMS,MacIntyre Lake,Inverness; Richmond,45.647465,-61.279043
+451,CBFVC,Riverside,Inverness,45.704025,-61.25142
+452,CABQO,Barneys Brook,Hants,44.996864,-63.466635
+453,CACLB,Beaver River,Digby; Yarmouth,44.004439,-66.148278
+454,CBFNG,Red River,Inverness,46.832557,-60.793161
+455,CANBY,French River,Victoria,46.495299,-60.440565
+456,CBKXA,Strathlorne,Inverness,46.183341,-61.287271
+457,CBJWR,South Williamston,Annapolis,44.878594,-65.118415
+458,CAMNG,Fordview,Inverness,46.361992,-61.077923
+459,CAVYB,Lower Truro,Colchester,45.365967,-63.333314
+460,CAVYE,Lower Vaughan,Hants,44.835191,-64.254526
+461,CBCTQ,Oxford Junction,Cumberland,45.693916,-63.880573
+462,CAXMZ,Marion Bridge Road,Cape Breton,45.971033,-60.225844
+463,CBHGC,Sand Point,Colchester,45.745261,-63.276653
+464,CBEJW,Port Clyde,Shelburne,43.605059,-65.468183
+465,CBNVK,West Arichat,Richmond,45.515006,-61.077795
+466,CBGKJ,Roseland,Colchester,45.111381,-63.278259
+467,CAVTM,Lower Economy,Colchester,45.401291,-63.98589
+468,CAEDG,Black River,Pictou,45.668865,-62.98028
+469,CBKJE,Staples Brook,Colchester,45.451509,-63.393072
+470,CBEWU,Pugwash River,Cumberland,45.812251,-63.693798
+471,CBLXG,Tiddville,Digby,44.42122,-66.169618
+472,CBELU,Port Hood Island,Inverness,46.014187,-61.567807
+473,CAWPC,MacKay Siding,Colchester,45.158055,-63.294815
+474,CAKEX,Dunns Corner,Hants,45.206135,-63.639839
+475,CACQO,Belmont,Colchester,45.424625,-63.385113
+476,CARKM,Ingonish Centre,Victoria,46.670394,-60.407767
+477,CBKSC,St. Marys,Richmond,45.54099,-61.098096
+478,CBBPB,Nineveh,Lunenburg,44.493334,-64.804353
+479,CAQBV,Heckmans Island,Lunenburg,44.382325,-64.24753
+480,CAJDP,DeBaies Cove,Halifax,44.75549,-62.810741
+481,CAKYS,East Walton,Hants,45.250597,-63.955452
+482,CBLPK,Thibeauville,Richmond,45.651718,-60.994712
+483,CAFPI,Burtons,Hants,45.232664,-63.570056
+484,CBGAE,Rockland,Kings,45.006282,-64.702206
+485,CASOU,Keble,Colchester,45.695563,-63.183921
+486,CBOIK,West Northfield,Lunenburg,44.453658,-64.594015
+487,CAVSW,Lower Clarks Harbour,Shelburne,43.43178,-65.616141
+488,CAXNW,Marriotts Cove,Lunenburg,44.555832,-64.270138
+489,CBLBN,Summerville,Hants,45.098419,-64.164094
+490,CAPZO,Head of Jeddore,Halifax,44.776637,-63.071055
+491,CAZRM,Mill Village,Queens,44.145097,-64.648662
+492,CAJQR,Doctors Brook,Antigonish,45.779118,-62.122664
+493,CARTR,Jacksons Point,Cumberland,45.994353,-64.036392
+494,CAXRV,Martinique,Richmond,45.582424,-61.050414
+495,CAKSC,East Ferry,Digby,44.391927,-66.200832
+496,CATSE,Lequille,Annapolis,44.727829,-65.490432
+497,CBFGU,Rankinville,Inverness,46.064321,-61.367558
+498,CBAHU,Morristown,Antigonish,45.747296,-61.908079
+499,CALCR,Eight Island Lake,Guysborough,45.356617,-61.946408
+500,CBHIQ,Sandy Cove,Digby,44.491088,-66.089256
+501,CBLSL,Thomson Station,Cumberland,45.683424,-63.796787
+502,CABZQ,Bayside,Halifax,44.530579,-63.803072
+503,CBINW,Ship Harbour,Halifax,44.807839,-62.882569
+504,CBOKF,West River Station,Pictou,45.447557,-62.909301
+505,CBPVW,Wallbrook,Kings,45.082153,-64.299843
+506,CBREN,North River Bridge,Victoria,46.306711,-60.623639
+507,CARAP,Humes Rear,Victoria,46.072877,-60.93206
+508,CBFJM,Rear Estmere,Victoria,45.943222,-60.965294
+509,CAQLN,Hillsburn,Annapolis,44.797454,-65.567701
+510,CBIRS,Sight Point,Inverness,46.193987,-61.408094
+511,CAVUT,Lower LaHave,Lunenburg,44.284959,-64.335298
+512,CBGGY,Rodney,Cumberland,45.608751,-64.034715
+513,CBDFS,Pembroke,Hants,45.222316,-64.060959
+514,CBQDO,Gillis Cove,Inverness,45.914423,-61.054216
+515,CBHSM,Seal Cove,Inverness,45.878349,-61.115
+516,CAEKP,Blue Mountain,Pictou,45.487074,-62.439982
+517,CAJZE,Dublin Shore,Lunenburg,44.269233,-64.364909
+518,CATUI,Lewis Mountain,Inverness,46.024512,-61.058345
+519,CAWDA,Mabou Harbour,Inverness,46.084909,-61.419652
+520,CAHQA,Commons,Lunenburg,44.547698,-64.229756
+521,CAIPS,Crowell,Shelburne,43.542499,-65.606466
+522,CBBKA,New Harbour East,Guysborough,45.194371,-61.477178
+523,CBKOZ,St. Georges Channel,Richmond,45.724796,-61.026375
+524,CATWG,Linden,Cumberland,45.877949,-63.822916
+525,CAVSI,Lower Burlington,Hants,45.08767,-64.135605
+526,CAXON,Marshalls Crossing,Pictou,45.640097,-62.636605
+527,CBNVE,West Advocate,Cumberland,45.347617,-64.818538
+528,CAYSO,Meadow,Victoria,46.31526,-60.653625
+529,CANZL,Gormanville,Hants,45.257501,-63.753108
+530,CANSM,Glencoe,Pictou,45.410999,-62.54631
+531,CAZWA,Mira Road,Cape Breton,46.106335,-60.157692
+532,CAROH,Iron Rock,Pictou,45.405846,-62.533061
+533,CBPCV,Wolfes Landing,Cape Breton,45.880987,-60.053194
+534,CBRHO,Aldershot,Kings,45.09234,-64.510397
+535,CBNUY,Wentzells Lake,Lunenburg,44.474081,-64.618532
+536,CBDVE,Pipers Glen,Inverness,46.196937,-61.124268
+537,CAVEG,Long Hill,Victoria,46.119287,-60.684616
+538,CAGQC,Central Grove,Digby,44.341271,-66.262603
+539,CBUOU,Moschelle,Annapolis,44.753333,-65.466568
+540,CBHRU,Seabright,Halifax,44.614547,-63.925612
+541,CABZR,Bay St. Lawrence,Victoria,47.002024,-60.466616
+542,CAZHE,Middleton,Antigonish,45.426914,-61.996681
+543,CAVVP,Lower Mount Thom,Pictou,45.524016,-62.947242
+544,CBINQ,Shinimicas Bridge,Cumberland,45.872207,-63.909289
+545,CAPXB,Hay Cove,Richmond,45.754384,-60.741914
+546,CBMGG,Tracadie,Antigonish,45.6254,-61.6648
+547,CARNN,Irish Cove,Richmond; Cape Breton,45.820117,-60.676519
+548,CBJQX,South Lochaber,Guysborough,45.381702,-62.04241
+549,CBJXR,Spa Springs,Annapolis,44.979481,-65.049501
+550,CAMTX,Fox Island Main,Guysborough,45.337986,-61.10427
+551,CATHE,Lakelands,Hants,44.922424,-63.889933
+552,CADEW,Big Intervale Cape North,Victoria,46.840527,-60.599371
+553,CBMKU,Truro Heights,Colchester,45.347385,-63.314962
+554,CBTXJ,Sunny Brae,Pictou,45.402005,-62.503842
+555,CBQNE,Baxters Harbour,Kings,45.229264,-64.515249
+556,CBKRB,Stirling,Richmond,45.732797,-60.434511
+557,CABUN,Barrios Beach,Antigonish,45.64596,-61.625265
+558,CCAAS,Grand Lake,Halifax,44.892195,-63.591517
+559,CBGAX,Rockville,Yarmouth,43.775063,-66.113169
+560,CBEYE,Purlbrook,Antigonish,45.564132,-62.037868
+561,CBOLJ,West Tarbot,Victoria,46.35605,-60.575408
+562,CBOAJ,Westchester Station,Cumberland,45.6212,-63.657679
+563,CBHFF,Sandfield,Cape Breton,45.960988,-60.269902
+564,CBRAW,Mountain Front,Kings,45.153361,-64.59236
+565,CABVH,Barss Corner,Lunenburg,44.566515,-64.681054
+566,CCBEU,Borgald's Point,Lunenburg,44.5544444,-64.3075
+567,CBFUZ,Riversdale,Colchester,45.423015,-63.045172
+568,CBMZD,Upper Rawdon,Hants,45.067867,-63.711667
+569,CBJWY,Spanish Ship Bay,Guysborough,45.028227,-62.031003
+570,CBMXT,Upper Middle River,Victoria,46.187831,-60.935304
+571,CBFTO,River Bourgeois,Richmond,45.631035,-60.942671
+572,CBRCP,Mount Uniacke Gold District,Hants,44.927945,-63.802126
+573,CACQN,Belmont,Hants,45.045028,-64.076694
+574,CBOFK,West Head,Shelburne,43.457595,-65.646553
+575,CAEDI,Black River,Kings,45.008589,-64.410851
+576,CBCFO,Oakland,Lunenburg,44.451923,-64.359984
+577,CBDRZ,Pine Grove,Colchester,45.04383,-63.375053
+578,CAGVA,Charlesville,Shelburne,43.582447,-65.778783
+579,CBDSN,Pinehurst,Lunenburg,44.495901,-64.642651
+580,CAHHX,Cloverdale,Colchester,45.178172,-63.220784
+581,CBFFJ,Ramseys,Colchester,45.089245,-63.252586
+582,CAOTR,Grosses Coques,Digby,44.364115,-66.090509
+583,CBMWU,Upper Kingsburg,Lunenburg,44.272147,-64.283278
+584,CABSM,Barren Hill,Richmond,45.682032,-60.598513
+585,CBVDF,Steam Mill,Kings,45.109622,-64.514166
+586,CAYGE,McGraths Mountain,Pictou,45.539561,-62.358182
+587,CAIQH,Crowes Mills,Colchester,45.400178,-63.365195
+588,CBMFA,Torbrook West,Annapolis,44.906808,-64.99911
+589,CARTX,Jacksonville,Richmond,45.666407,-60.872146
+590,CBLLL,Taylors Head,Halifax,44.812411,-62.567174
+591,CAOEV,Grand Pré,Kings,45.104443,-64.306368
+592,CBJQF,South Haven,Victoria,46.20831,-60.593793
+593,CBNEW,Victoria Vale,Annapolis,45.003932,-65.07527
+594,CBPAN,Windsor Road,Lunenburg,44.623722,-64.277722
+595,CAKXY,East Southampton,Cumberland,45.592048,-64.20188
+596,CBOFX,West Inglisville,Annapolis,44.853031,-65.140814
+597,CBOIM,Weston,Kings,45.05794,-64.791715
+598,CBOLF,West Springhill,Annapolis,44.584212,-65.449919
+599,CANGS,Gabarus Lake,Cape Breton,45.814934,-60.23297
+600,CBDWT,Plaster Cove,Victoria,45.970779,-60.827476
+601,CAVSJ,Lower Caledonia,Guysborough,45.27518,-62.271632
+602,CAEGH,Blackstone,Inverness,46.129804,-61.305153
+603,CBOMG,Weymouth Falls,Digby,44.403035,-65.944467
+604,CAEYW,Brazil Lake,Yarmouth,43.991202,-66.00191
+605,CBNMV,Warwick Mountain,Colchester,45.616763,-63.379849
+606,CBEAE,Point Cross,Inverness,46.585921,-61.021836
+607,CBKPL,Stillman,Pictou,45.558475,-62.879673
+608,CAFSY,Cambridge,Hants,45.20094,-64.092892
+609,CAPGK,Halfway River,Cumberland,45.522735,-64.34414
+610,CANTD,Glenelg,Guysborough,45.259617,-62.076327
+611,CBROS,Wilsons Cove,Guysborough,45.005817,-62.04586
+612,CADOD,Billtown,Kings,45.122961,-64.572381
+613,CAANG,Alma,Pictou,45.578384,-62.760316
+614,CBERX,Preston,Halifax,44.715695,-63.434226
+615,CAFFU,Brookside,Colchester,45.388312,-63.259066
+616,CAXJZ,Mansfield,Cumberland,45.80362,-63.938585
+617,CAXLJ,Marble Hill,Inverness,46.037639,-61.54325
+618,CAGXD,Chebogue Point,Yarmouth,43.761346,-66.115977
+619,CAOMT,Greenfield,Hants,45.061274,-63.884832
+620,CABUH,Barrington West,Shelburne,43.564197,-65.593599
+621,CATWB,Linacy,Pictou,45.590507,-62.593386
+622,CBLTK,Three Brooks,Pictou,45.718114,-62.782875
+623,CBQDT,Gillis Lake,Cape Breton,46.055735,-60.400708
+624,CAOEN,Grand Mira North,Cape Breton,45.865519,-60.311457
+625,CADDT,Big Harbour,Victoria,46.148537,-60.600176
+626,CARPF,Isaacs Harbour North,Guysborough,45.198568,-61.682919
+627,CBKDJ,Springhill Junction,Cumberland,45.69265,-64.107511
+628,CBAGV,Morrison Road,Cape Breton,46.091664,-60.029346
+629,CBIKF,Sheet Harbour Passage,Halifax,44.861123,-62.4437
+630,CAGUZ,Charleston,Queens,44.173488,-64.659625
+631,CATDV,Kytes Hill,Cape Breton,46.154562,-60.125137
+632,CBQOK,Caledonia Mills,Antigonish,45.487441,-61.798398
+633,CBPHM,Wyvern,Cumberland,45.562644,-63.945877
+634,CBNUD,Wentworth Centre,Cumberland,45.671284,-63.553584
+635,CBCKQ,Oliver,Colchester,45.659612,-63.31874
+636,CAGEU,Cap La Ronde,Richmond,45.570719,-60.913867
+637,CASTC,Keltic Lodge,Victoria,46.655685,-60.380195
+638,CBBNS,Nictaux Falls,Annapolis,44.905492,-65.031019
+639,CBOAZ,West Dublin,Lunenburg,44.253337,-64.399478
+640,CATKG,Lansdowne,Digby,44.581407,-65.717401
+641,CABYQ,Bateston,Cape Breton,46.005547,-59.909791
+642,CASJN,Jordan Bay,Shelburne,43.70257,-65.23809
+643,CBOYV,Wilmot,Annapolis,44.961624,-64.997928
+644,CAWEF,MacAulays Hill,Victoria,46.14081,-60.681609
+645,CBBQA,Noel Shore,Hants,45.310831,-63.647422
+646,CBKRH,St. Joseph,Digby,44.264008,-66.011745
+647,CANJA,Garden of Eden,Pictou,45.433502,-62.317359
+648,CBRBQ,Mount Auburn,Richmond,45.765605,-60.696238
+649,CATAM,Kingsport,Kings,45.159308,-64.361412
+650,CAYGB,McGraths Cove,Halifax,44.507879,-63.851461
+651,CBOES,Westfield,Queens,44.414485,-65.0215
+652,CAVCM,Long Beach,Cape Breton,46.151908,-59.861073
+653,CAOBN,Graham Hill,Colchester,45.282429,-62.983355
+654,CAAVR,Ardness,Pictou,45.696154,-62.23521
+655,CATIN,Lake William,Lunenburg,44.584864,-64.661247
+656,CAHKT,Coddles Harbour,Guysborough,45.166856,-61.542689
+657,CBFJS,Rear Little River,Victoria,46.433145,-60.481017
+658,CBPTI,South Range,Digby,44.496042,-65.777677
+659,CBGXK,Salem Road,Cape Breton,45.812281,-60.569924
+660,CBRCB,Mount Pleasant,Queens,44.035318,-64.70357
+661,CBOWW,Wileville,Lunenburg,44.372516,-64.556054
+662,CAWBW,Lynche River,Richmond,45.654376,-60.826009
+663,CAYUJ,Meadowvale,Colchester,45.177228,-63.036444
+664,CBKHK,St. Alphonse,Digby,44.132904,-66.176957
+665,CBGKT,Roseway,Shelburne,43.624939,-65.349696
+666,CBENB,Port Richmond,Richmond,45.586285,-61.259605
+667,CBRNG,Halfway Cove,Guysborough,45.343818,-61.375967
+668,CBOLG,West St. Andrews,Colchester,45.10685,-63.29649
+669,CBQGA,Bucklaw,Victoria,46.023524,-60.974225
+670,CBPTG,South Pugwash,Cumberland,45.837102,-63.636464
+671,CBLBM,Summerside,Antigonish,45.604382,-61.782171
+672,CBPTU,South River Station,Antigonish,45.610938,-61.908404
+673,CBPAM,Windsor Junction,Halifax,44.789381,-63.64228
+674,CBAKU,Mossman Corner,Lunenburg,44.442484,-64.577576
+675,CAVWB,Lower Onslow,Colchester,45.379716,-63.392047
+676,CAFDG,Broad Cove,Lunenburg,44.182091,-64.484101
+677,CBCSA,Overton,Yarmouth,43.840141,-66.142981
+678,CALHT,English Corner,Halifax,44.735713,-63.792747
+679,CAUXY,Lloyds,Kings,45.019734,-64.645689
+680,CBCAO,Northwest Cove,Lunenburg,44.534598,-64.026644
+681,CANTI,Glengarry,Inverness,46.055442,-61.442924
+682,CAHZG,Country Harbour Mines,Guysborough,45.254096,-61.821677
+683,CBENO,Portuguese Cove,Halifax,44.521898,-63.53526
+684,CBEJL,Portapique Mountain,Colchester,45.431749,-63.736037
+685,CAJTO,Doucetteville,Digby,44.447953,-65.824338
+686,CATWD,Lincolnville,Guysborough,45.510717,-61.548745
+687,CBIIL,Sheepherders Junction,Pictou,45.368045,-62.840119
+688,CAZFA,Middle New Cornwall,Lunenburg,44.504099,-64.525245
+689,CAMYV,Fraxville,Lunenburg,44.766567,-64.567101
+690,CAGAQ,Canard,Kings,45.132895,-64.435759
+691,CAKWU,East River St. Marys,Pictou,45.390937,-62.16581
+692,CATEY,Laggan,Pictou,45.541266,-62.329258
+693,CBKLA,Ste. Anne du Ruisseau,Yarmouth,43.836555,-65.929905
+694,CAOLB,Graywood,Annapolis,44.64991,-65.450434
+695,CAIXB,Danvers,Digby,44.379639,-65.895813
+696,CBRFC,North Shore,Victoria,46.409106,-60.481024
+697,CAVUG,Lower Greenville,Cumberland,45.637374,-63.611474
+698,CAGMX,Castle Bay,Cape Breton,45.913026,-60.674642
+699,CBBYB,North Framboise,Richmond,45.744061,-60.375517
+700,CBJTD,South Wallace Bay,Cumberland,45.818973,-63.55829
+701,CBCFV,Oak Park,Shelburne,43.589123,-65.634875
+702,CALQB,Farmville,Lunenburg,44.465496,-64.467237
+703,CBPJZ,Youngs Cove,Annapolis,44.853697,-65.460783
+704,CBEJP,Port Ban,Inverness,46.203196,-61.370325
+705,CAFDZ,Broad Cove Banks,Inverness,46.220917,-61.321733
+706,CBKRI,St. Joseph,Antigonish,45.538683,-62.077687
+707,CAUGG,Little Harbour,Shelburne,43.721383,-65.033665
+708,CAUQC,Little River,Cumberland,45.771021,-63.906965
+709,CBIVX,Six Mile Road,Cumberland,45.763111,-63.522735
+710,CBOWR,Wile Settlement,Hants,44.814263,-64.261941
+711,CAZBG,Middleboro,Cumberland,45.756352,-63.572468
+712,CAGIP,Caribou Mines,Halifax,45.05731,-62.941983
+713,CBMTI,Union Square,Lunenburg,44.552358,-64.638965
+714,CANSC,Glen Alpine,Antigonish,45.482736,-62.004836
+715,CBFJU,Rear Monastery,Antigonish,45.587788,-61.617016
+716,CBDHI,Pentz,Lunenburg,44.301946,-64.391216
+717,CAKZJ,Economy Point,Colchester,45.37829,-63.8958
+718,CABRQ,Barrachois Harbour,Cape Breton,46.147888,-60.425195
+719,CAXJC,Manassette Lake,Guysborough,45.433115,-61.358673
+720,CBNWH,West Berlin,Queens,44.072888,-64.581566
+721,CBOHV,West Middle Sable,Shelburne,43.789707,-65.016322
+722,CAMSV,Fox Brook,Pictou,45.502175,-62.716377
+723,CBNER,Victoria Line,Inverness,45.83922,-61.289274
+724,CBBZS,North Medford,Kings,45.192196,-64.370607
+725,CAGKL,Carrington,Cumberland,45.839405,-63.776172
+726,CBVJI,Murray Siding,Colchester,45.365685,-63.206801
+727,CAXRY,Martins Brook,Lunenburg,44.405197,-64.344359
+728,CBOSV,Whites Corner,Kings,45.150311,-64.718629
+729,CAOZS,Gunning Cove,Shelburne,43.680952,-65.344321
+730,CATRI,Leminster,Hants,44.824532,-64.295449
+731,CBBYW,North Kingston,Kings,45.015202,-64.9569
+732,CBORR,White Point,Victoria,46.874902,-60.351259
+733,CAHJA,Coalburn,Pictou,45.56668,-62.59202
+734,CAJIM,Denmark,Colchester,45.709384,-63.159441
+735,CBPDR,Woodfield,Pictou,45.517754,-62.391501
+736,CAZMK,Mill Creek,Cumberland,45.765733,-64.381962
+737,CBETE,Princeport,Colchester,45.290542,-63.471131
+738,CBGAY,Rockville Notch,Kings,44.9503308,-64.891132
+739,CAMEH,Five Houses,Lunenburg,44.280611,-64.338772
+740,CBEAR,Point Michaud,Richmond,45.587463,-60.692611
+741,CBRIX,Big Lorraine,Cape Breton,45.928525,-59.934507
+742,CAKIJ,Earltown,Colchester,45.577463,-63.137586
+743,CARVF,Jamesville,Victoria,45.945836,-60.852206
+744,CBHMT,Scatarie Island,Cape Breton,46.027749,-59.697944
+745,CBNES,Victoria Mines,Cape Breton,46.236843,-60.173081
+746,CABUT,Barr Settlement,Hants,45.13802,-63.627943
+747,CATGY,Lake George,Kings,44.92306,-64.696901
+748,CACYQ,Big Bras d'Or,Victoria,46.285349,-60.41336
+749,CAKVS,East Port Medway,Queens; Lunenburg,44.15325,-64.573019
+750,CACNC,Beechmont,Cape Breton,46.086101,-60.379157
+751,CAGDK,Cape John,Pictou,45.790184,-63.099085
+752,CBNFD,Viewmount,Kings,45.086283,-64.803909
+753,CAKOH,East Dover,Halifax,44.496463,-63.850908
+754,CBMUK,Upper Brookside,Colchester,45.410032,-63.223726
+755,CAEBW,Black Point,Pictou,45.666429,-62.562504
+756,CAZTG,Mineville,Halifax,44.692002,-63.377242
+757,CBENS,Port Wade,Annapolis,44.679039,-65.707715
+758,CATVQ,Lime Hill,Inverness,45.767358,-61.140458
+759,CBISK,Silver Mine,Cape Breton,45.8637,-60.398341
+760,CADEZ,Big Island,Pictou,45.662264,-62.423227
+761,CABLQ,Balls Creek,Cape Breton,46.149998,-60.311178
+762,CAZHD,Middleton,Colchester,45.71659,-63.179321
+763,CBQXU,Moose Brook,Hants,45.279034,-63.840274
+764,CAVYJ,Lower West Jeddore,Halifax,44.69969,-63.020414
+765,CBVHU,Campbellton,Inverness,46.24843,-61.244654
+766,CAAWE,Argyle Head,Yarmouth,43.820319,-65.858062
+767,CAQBE,Hebbville,Lunenburg,44.357391,-64.538469
+768,CBEGX,Poplar Hill,Pictou,45.716711,-62.909178
+769,CARKH,Ingomar,Shelburne,43.564594,-65.358218
+770,CBFVH,Riverside Corner,Hants,45.132721,-63.78767
+771,CASPC,Keddys Corner,Kings,45.112116,-64.571227
+772,CBFPV,Reserve Mines,Cape Breton,46.180327,-60.019615
+773,CAFGF,Brookville,Cumberland,45.403129,-64.596059
+774,CBNBX,Valley Cross Roads,Colchester,45.396631,-63.207564
+775,CBOEW,West Glenmont,Kings,45.188182,-64.520041
+776,CBUSE,Lower River Hebert,Cumberland,45.72787,-64.349399
+777,CBAVP,Murray,Victoria,46.30594,-60.61645
+778,CAVWA,Lower Ohio,Shelburne,43.847177,-65.369719
+779,CBLXR,Tidnish,Cumberland,45.993665,-64.00949
+780,CACOJ,Belgiumtown,Cape Breton,46.190954,-60.011387
+781,CACRI,Ben Eoin,Cape Breton,45.967771,-60.454991
+782,CAHMP,Cole Harbour,Guysborough,45.265248,-61.260307
+783,CAUZJ,Loch Lomond,Richmond,45.766521,-60.566428
+784,CBRJM,Bramber,Hants,45.182171,-64.145655
+785,CAGQH,Central New Annan,Colchester,45.633387,-63.316862
+786,CAIRC,Crows Nest,Guysborough,45.24793,-62.066933
+787,CAROE,Iron Mines,Inverness,45.938658,-61.149448
+788,CBFAE,Queensville,Inverness,45.724959,-61.357626
+789,CBNOD,Waterloo,Lunenburg,44.325165,-64.689307
+790,CBBLY,New Tusket,Digby,44.278388,-65.90386
+791,CAKIN,East Advocate,Cumberland,45.328402,-64.766092
+792,CABAB,Athol Road,Cumberland,45.632065,-64.102664
+793,CBBYF,North Grant,Antigonish,45.666543,-62.034376
+794,CBBKV,Newport Landing,Hants,45.020344,-64.128708
+795,CBKPQ,Stillwater,Guysborough,45.197167,-62.001819
+796,CAANP,Alton,Colchester,45.189759,-63.303385
+797,CBPIC,Yarmouth Bar,Yarmouth,43.81848,-66.147683
+798,CAUAP,Little Brook,Digby,44.302209,-66.121366
+799,CAONJ,Greenhill,Cumberland,45.384419,-64.281179
+800,CAAZI,Ashmore,Digby,44.462993,-65.970116
+801,CBBHV,New Britain,Colchester,45.453454,-64.033848
+802,CALTJ,Fergusons Lake,Richmond,45.645594,-60.606596
+803,CAZRD,Millsville,Pictou,45.615424,-62.89952
+804,CBMRX,Tyndal Road,Cumberland,45.8988,-64.113124
+805,CANUB,Glen Road,Antigonish,45.545938,-62.012539
+806,CAAFW,Aalders Landing,Annapolis,44.828557,-64.907233
+807,CBGZE,Salmon River,Digby,44.051524,-66.161223
+808,CACWW,Bickerton West,Guysborough,45.102975,-61.731594
+809,CBPZM,Dominion,Cape Breton,46.211596,-60.019785
+810,CAPMJ,Harbourview,Victoria,46.271561,-60.612377
+811,CBVBJ,Southside Harbour,Antigonish,45.638253,-61.890448
+812,CBDRY,Pine Grove,Lunenburg,44.417711,-64.521904
+813,CBOYD,Williams Point,Antigonish,45.629309,-61.944306
+814,CAMYR,Frasers Mountain,Pictou,45.601763,-62.588601
+815,CBBXU,Northfield,Queens; Annapolis,44.460561,-65.144558
+816,CBNEH,Victoria,Cumberland,45.730228,-63.680905
+817,CAOCW,Grande Greve,Richmond,45.630926,-60.844442
+818,CBMGP,Trafalgar,Guysborough; Pictou; Halifax,45.288299,-62.659654
+819,CALIF,Enon,Cape Breton,45.811338,-60.535431
+820,CANJR,Garland,Kings,45.111456,-64.772864
+821,CANTH,Glengarry,Lunenburg,44.705557,-64.45708
+822,CBNTW,Weltons Corner,Kings,45.04683,-64.886538
+823,CAVQP,Louisville,Pictou,45.731756,-63.123827
+824,CBHBI,Salt Springs,Cumberland,45.669554,-64.017148
+825,CAKUD,East Mapleton,Cumberland,45.558832,-64.120661
+826,CBDZB,Pleasant Valley,Halifax,45.098945,-62.87438
+827,CBQNW,Cains Mountain,Victoria,45.980226,-60.91631
+828,CACFL,Bear River East,Annapolis,44.601918,-65.591722
+829,CAZRO,Mill Village,Hants,45.102759,-63.458434
+830,CAMVH,Framboise Intervale,Richmond,45.704326,-60.422332
+831,CAQBM,Hebron,Yarmouth,43.887509,-66.090298
+832,CBEFK,Pondville South,Richmond,45.532989,-60.981857
+833,CAYRR,McPhersons Mills,Pictou,45.544361,-62.515621
+834,CAPPL,Harmony,Kings,44.96101,-64.859138
+835,CBLOV,The Lodge,Lunenburg,44.556646,-64.032121
+836,CAEYN,Bras d'Or,Cape Breton,46.253277,-60.289468
+837,CANBU,French River,Pictou,45.575311,-62.424872
+838,CACOE,Belcher Street,Kings,45.088391,-64.461555
+839,CBNAJ,Upper Tantallon,Halifax,44.687808,-63.877807
+840,CATME,Larrys River,Guysborough,45.2232822,-61.3777276
+841,CBRMJ,Ogden,Guysborough,45.346017,-61.631578
+842,CATPF,Leamington,Cumberland,45.603313,-64.094565
+843,CAOCL,Grand Desert,Halifax,44.68728,-63.25847
+844,CAZNQ,Miller Creek,Hants,45.010288,-64.065998
+845,CBBJN,New France,Antigonish,45.556888,-61.727851
+846,CBVKB,Smiths Settlement,Halifax,44.785517,-63.104647
+847,CATXO,Liscomb Mills,Guysborough,45.013041,-62.098321
+848,CAOGW,Grantville,Richmond,45.644318,-61.241068
+849,CBMUJ,Upper Brookfield,Colchester,45.263166,-63.2582
+850,CBUMF,Southwest Cove,Lunenburg,44.524966,-64.012007
+851,CAQTE,Hornes Road,Cape Breton,46.042119,-60.052337
+852,CASXJ,Kewstoke,Inverness,45.989158,-61.217077
+853,CAFBU,Brierly Brook,Antigonish,45.608256,-62.067145
+854,CAHAA,Chimney Corner,Inverness,46.398583,-61.156429
+855,CAKWO,East River Point,Lunenburg,44.57574,-64.162558
+856,CBDPO,Pictou Island,Pictou,45.809347,-62.553876
+857,CBNTZ,Wentworth,Cumberland,45.605058,-63.563706
+858,CARKW,Ingramport,Halifax,44.658815,-63.969699
+859,CAOPB,Greenland,Annapolis,44.579642,-65.579509
+860,CADTB,Black Avon,Antigonish,45.541745,-61.788578
+861,CAGDX,Cape North,Victoria,46.884551,-60.506021
+862,CBHPJ,Scotch Lake,Cape Breton,46.18123,-60.369028
+863,CBJKN,Southampton,Cumberland,45.594495,-64.248481
+864,CBOFW,West Indian Road,Hants,45.114613,-63.575936
+865,CBMEC,Toney River,Pictou,45.772191,-62.895923
+866,CBBLT,Newton Mills,Colchester,45.226532,-62.916508
+867,CAPIA,Halls Harbour,Kings,45.200215,-64.618897
+868,CBCDO,Nyanza,Victoria,46.092181,-60.888148
+869,CALJU,Estmere,Victoria,45.932853,-60.981341
+870,CBFAC,Queensport,Guysborough,45.338891,-61.262369
+871,CACZG,Big Brook,Inverness,45.788959,-61.229673
+872,CBFVM,Riverview,Cumberland,45.802797,-63.769672
+873,CBJSN,South Side of Baddeck River,Victoria,46.14443,-60.77368
+874,CAGQM,Central West River,Pictou,45.576883,-62.843801
+875,CAWBO,Lydgate,Shelburne,43.719843,-65.115738
+876,CAPRI,Harriston,Lunenburg,44.779131,-64.479128
+877,CAQAP,Heather Beach,Cumberland,45.875499,-63.762728
+878,CBNFI,Villagedale,Shelburne,43.52386,-65.544974
+879,CBCDJ,Nuttby,Colchester,45.529644,-63.205622
+880,CBJKG,Sonora,Guysborough,45.060111,-61.901214
+881,CAXHQ,Malagash Station,Cumberland,45.760545,-63.413757
+882,CAWPM,Mackdale,Inverness,45.677346,-61.350373
+883,CBMYN,Upper Ohio,Shelburne,43.976091,-65.429627
+884,CANEK,Front Lake,Cape Breton,46.058306,-60.171559
+885,CAMNS,Forest Home,Kings,44.932186,-64.519008
+886,CAUUL,Little Tancook,Lunenburg,44.472006,-64.138442
+887,CBVJG,Cross Roads,Colchester,45.236242,-62.940936
+888,CAGDB,Cape Forchu,Yarmouth,43.806355,-66.158617
+889,CBBIR,Newcombville,Lunenburg,44.379759,-64.622226
+890,CAORG,Greenwood,Pictou,45.552538,-62.562632
+891,CBDZR,Plympton Station,Digby,44.478908,-65.889859
+892,CAKEI,Dunmore,Antigonish,45.525595,-61.918146
+893,CBARE,Mull River,Inverness,46.014171,-61.335893
+894,CAZIS,Milford,Annapolis,44.589344,-65.413783
+895,CBMUG,Upper Branch,Lunenburg,44.452884,-64.68449
+896,CASUH,Kempt Shore,Hants,45.134524,-64.191347
+897,CABAC,Athol Station,Cumberland,45.687805,-64.214745
+898,CATNW,Lawrencetown,Halifax,44.675579,-63.397701
+899,CAYUZ,Meat Cove,Inverness; Victoria,47.023849,-60.560168
+900,CBEUR,Prospect,Kings,45.03007,-64.625506
+901,CBFND,Red Point East,Victoria,45.934007,-60.884352
+902,CAXTZ,Maryvale,Antigonish,45.735146,-62.043878
+903,CARXA,Jefferson,Cape Breton,46.130796,-60.260176
+904,CBDTX,Pinevale,Antigonish,45.522146,-61.981741
+905,CBPMV,Black Rock,Cumberland,45.377392,-64.417316
+906,CATRB,Leitches Creek,Cape Breton,46.151314,-60.347438
+907,CAHFS,Clearland,Lunenburg,44.481324,-64.409294
+908,CBMWB,Upper Grand Mira,Cape Breton,45.807245,-60.297436
+909,CBKKG,St. Catherines River,Queens,43.841933,-64.857023
+910,CBQDS,Gillisdale,Inverness,46.234673,-61.134482
+911,CBGMO,Rossway,Digby,44.583042,-65.904803
+912,CBCXT,Parker Road,Kings,45.045994,-64.829002
+913,CBNOQ,Watford,Lunenburg,44.535229,-64.662533
+914,CBEMZ,Portree,Inverness,46.396493,-60.972018
+915,CAVVY,Lower Northfield,Lunenburg,44.470727,-64.550046
+916,CABRW,Barra Head,Richmond,45.679091,-60.782497
+917,CAGEP,Cape St. Marys,Digby,44.088662,-66.204886
+918,CBEDE,Polsons Brook,Antigonish,45.45218,-61.888762
+919,CBDXW,Pleasant Hill,Inverness,45.643301,-61.370457
+920,CBRFT,North West Arm,Cape Breton,46.145645,-60.288217
+921,CBJEZ,Smiths Corner,Hants,44.847254,-64.223861
+922,CBMTP,Upper Afton,Antigonish,45.572972,-61.688517
+923,CBEMY,Port Philip,Cumberland,45.849588,-63.739236
+924,CCBGZ,Aaldersville,Lunenburg,44.817047,-64.502214
+925,CBQBC,Giants Lake,Guysborough,45.387901,-61.860717
+926,CBDYW,Pleasant Valley,Yarmouth,43.983392,-65.964466
+927,CBHQF,Scotsville,Inverness,46.188037,-61.157034
+928,CANSJ,Glen Campbellton,Inverness,46.210816,-61.219956
+929,CAFAY,Brickyard Road,Cape Breton,46.026955,-60.028919
+930,CAJIU,Densmores Mills,Hants,45.303295,-63.703608
+931,CBPMT,Black River Road,Cumberland,45.72414,-63.933761
+932,CBOAY,West Dover,Halifax,44.495409,-63.876585
+933,CATHZ,Lake Road,Colchester,45.686213,-63.407851
+934,CBPTR,South River Lake,Antigonish,45.402729,-61.946357
+935,CATHS,Lake Pleasant,Annapolis,44.611204,-64.87878
+936,CAVSK,Lower Canard,Kings,45.138531,-64.388958
+937,CBRFE,North Side Whycocomagh Bay,Inverness,45.983331,-61.032168
+938,CBJIJ,Soapstone Mine,Inverness,45.985993,-61.191533
+939,CBHSF,Seafoam,Pictou,45.783366,-62.978154
+940,CBRRB,Mount Pleasant,Inverness,46.235664,-61.12198
+941,CAGCY,Cape Dauphin,Victoria,46.329129,-60.419279
+942,CBKWA,Stormont,Guysborough,45.223771,-61.739792
+943,CBNAT,Upper Washabuck,Victoria,46.046919,-60.815994
+944,CALGR,Emerald,Inverness,46.316561,-61.035629
+945,CANTR,Glenmore,Halifax,45.070898,-63.149878
+946,CADEU,Big Intervale,Inverness,46.44388,-60.933185
+947,CBAEG,Morden,Kings,45.103148,-64.944397
+948,CBBIV,New Cumberland,Lunenburg,44.285326,-64.449773
+949,CAYXM,Melrose Hill,Inverness,46.082997,-61.300137
+950,CAGWB,Charlos Cove,Guysborough,45.246487,-61.33609
+951,CBQMH,Goodwood,Halifax,44.598655,-63.687277
+952,CBEAB,Point Aconi,Cape Breton,46.320749,-60.297292
+953,CBOJF,Westport,Digby,44.263923,-66.350102
+954,CAZLH,Millbrook,Colchester,45.330044,-63.300206
+955,CBEKA,Port Dufferin,Halifax,44.913976,-62.384088
+956,CBJRG,South Merland,Guysborough,45.543787,-61.633961
+957,CBPJI,Yorke Settlement,Cumberland,45.432309,-64.454933
+958,CAORC,Greenwich,Kings,45.084318,-64.398319
+959,CBLRO,Thomasville,Shelburne,43.566622,-65.452972
+960,CACNE,Beechville,Halifax,44.63619,-63.682053
+961,CATTR,Lewis Cove Road,Richmond,45.662342,-60.698056
+962,CBPSL,Smelt Brook,Victoria,46.869631,-60.38884
+963,CBEKV,Porters Lake,Halifax,44.737684,-63.313075
+964,CBESZ,Prince Albert,Annapolis,45.00461,-65.058286
+965,CATIG,Lake Uist,Richmond,45.778821,-60.63299
+966,CBGXB,Saint Ninian,Inverness,45.953524,-61.441465
+967,CBOAO,West Clifford,Lunenburg,44.419495,-64.740989
+968,CASMY,Kaneville,Cape Breton,46.250265,-60.108519
+969,CBQGF,Buckleys Corner,Kings,45.102519,-64.697091
+970,CAKDN,Duncans Cove,Halifax,44.500731,-63.531044
+971,CANSN,Glencoe,Guysborough,45.426447,-61.739143
+972,CANSQ,Glencoe Station,Inverness,45.991105,-61.445259
+973,CBJVO,Southwest Mabou,Inverness,46.047648,-61.429692
+974,CBLDF,Sunnyville,Guysborough,45.38731,-61.536422
+975,CANPJ,Georgeville,Antigonish,45.824972,-62.019304
+976,CAIAU,Cow Bay,Halifax,44.621802,-63.421895
+977,CAHGT,Clementsport,Annapolis,44.660476,-65.6044
+978,CBJAF,Sluice Point,Yarmouth,43.78674,-65.965131
+979,CBBWI,Northeast Mabou,Inverness,46.092109,-61.402445
+980,CAAPC,Amiraults Hill,Yarmouth,43.811235,-65.975598
+981,CAGWS,Chaswood,Halifax,45.043836,-63.216064
+982,CAMNK,Forest Glade,Annapolis,45.021279,-65.038929
+983,CAZHB,Middle Stewiacke,Colchester,45.226643,-63.136262
+984,CAGIK,Caribou Marsh,Cape Breton,46.044104,-60.20264
+985,CAJMR,Diamond,Pictou,45.631331,-62.976741
+986,CABML,Bangs Falls,Queens,44.247802,-64.831054
+987,CAKUN,East Milford,Halifax,45.013309,-63.43282
+988,CBMWS,Upper Kennetcook,Hants,45.201678,-63.657589
+989,CAHTK,Cooks Brook,Halifax,45.026344,-63.294751
+990,CBAST,Murchyville,Halifax,44.994337,-63.133591
+991,CAFEZ,Brookdale,Cumberland,45.804595,-64.161071
+992,CACIV,Beaver Harbour,Halifax,44.898764,-62.419739
+993,CBJSZ,South Uniacke,Hants,44.86999,-63.785256
+994,CACFA,Bear Point,Shelburne,43.486713,-65.65749
+995,CBBHP,Albany New,Annapolis; Queens,44.4575,-65.089167
+996,CASQN,Kelleys Cove,Yarmouth,43.786254,-66.123881
+997,CBLOP,The Falls,Colchester,45.637413,-63.221934
+998,CAGCO,Cape Auguet,Richmond,45.48583,-61.026069
+999,CBMMP,Tupperville,Annapolis,44.797574,-65.368133
+1000,CBOIH,West New Annan,Colchester,45.639882,-63.360954
+1001,CBMZI,Upper Sackville,Halifax,44.796149,-63.730859
+1002,CAZMX,Mill Creek,Cape Breton,46.276771,-60.300823
+1003,CBPTH,South Quinan,Yarmouth,43.919107,-65.799653
+1004,CAVWW,Lower Sandy Point,Shelburne,43.671993,-65.285303
+1005,CABFZ,Baddeck Bay,Victoria,46.123161,-60.715654
+1006,CAZEW,Middle Melford,Guysborough,45.529312,-61.293472
+1007,CBFIJ,Rawdon Gold Mines,Hants,45.054584,-63.76408
+1008,CBHPC,Scotch Hill,Pictou,45.695138,-62.808913
+1009,CAVSZ,Lower Cove,Cumberland,45.726689,-64.434044
+1010,CBFDY,Rainbow Haven,Halifax,44.646929,-63.423774
+1011,CBPDD,Wolfville Ridge,Kings,45.072737,-64.372693
+1012,CANZB,Gordon Summit,Pictou,45.436641,-62.855916
+1013,CANCK,French Village,Halifax,44.632071,-63.915142
+1014,CBCMP,Otter Brook,Colchester,45.229636,-63.046192
+1015,CAAGP,Aberdeen,Inverness,45.97087,-61.059491
+1016,CBNLX,Wards Brook,Cumberland,45.41004,-64.562858
+1017,CBFVN,Riverville,Inverness,46.136242,-61.329838
+1018,CBMER,Tor Bay,Guysborough,45.192912,-61.358659
+1019,CBRQI,Livingstone Cove,Antigonish,45.868701,-61.971583
+1020,CAFEF,Broad Cove Marsh,Inverness,46.293909,-61.256748
+1021,CBOCR,Western Head,Queens,43.993963,-64.668238
+1022,CBKKL,St. Columba,Victoria,45.986592,-60.85658
+1023,CAWIE,MacDonalds Glen,Inverness,46.13818,-61.455481
+1024,CBHWA,Seaview,Richmond,45.682602,-60.979843
+1025,CABAV,Auburn,Kings,45.017757,-64.873093
+1026,CBEBD,Point Tupper,Richmond,45.607709,-61.364534
+1027,CBBJU,New Grafton,Queens,44.411829,-65.18128
+1028,CBJTB,South Victoria,Cumberland,45.704571,-63.724288
+1029,CBELO,Port Hilford,Guysborough,45.107965,-61.845647
+1030,CAKUT,East Mountain,Colchester,45.421204,-63.182163
+1031,CAREW,Indian Brook,Victoria,46.373506,-60.527829
+1032,CBPNE,Black Rock,Colchester,45.320154,-63.476858
+1033,CBIRC,Shulie,Cumberland,45.59963,-64.571099
+1034,CBNOL,Waterside,Pictou,45.752781,-62.772077
+1035,CBGKI,Rosedale,Inverness,45.991971,-61.274086
+1036,CBRES,North Riverside,Guysborough,45.460607,-61.565109
+1037,CAUYW,Lochaber,Antigonish,45.415009,-62.0251
+1038,CAKSO,East Halls Harbour Road,Kings,45.182114,-64.57375
+1039,CAGKR,Carrs Brook,Colchester,45.396577,-63.94764
+1040,CAQDL,Hemford,Lunenburg,44.508187,-64.789097
+1041,CALSA,Feltzen South,Lunenburg,44.333066,-64.289538
+1042,CAWDH,Mabou Mines,Inverness,46.119311,-61.46512
+1043,CBPEQ,Woodville,Kings,45.099481,-64.657023
+1044,CBBWK,North East Margaree,Inverness,46.326272,-61.00893
+1045,CBMKP,Troy,Inverness,45.68021,-61.434089
+1046,CAJOQ,Dingwall,Victoria,46.896981,-60.468094
+1047,CAJBP,Dayspring,Lunenburg,44.370058,-64.470392
+1048,CBBNQ,Nictaux,Annapolis,44.926537,-65.048264
+1049,CBEMA,Port Howe,Cumberland,45.853451,-63.752995
+1050,CBLCC,Sundridge,Pictou,45.710459,-62.848311
+1051,CABBY,Avondale Station,Pictou,45.625927,-62.295737
+1052,CBOSJ,White Rock,Kings,45.052233,-64.410968
+1053,CBBUL,North Earltown,Colchester,45.618583,-63.136654
+1054,CAJLM,Devon,Halifax,44.916727,-63.403906
+1055,CASLG,Judique North,Inverness,45.892816,-61.486784
+1056,CAKIX,East Bay,Cape Breton,46.019209,-60.371572
+1057,CAKZN,Ecum Secum Bridge,Halifax,44.973994,-62.167829
+1058,CBDIF,Perotte,Annapolis,44.669471,-65.390578
+1059,CAYUD,Meadow Springs,Pictou,45.505232,-62.37751
+1060,CAAUW,Archibalds Mill,Guysborough,45.329086,-62.118455
+1061,CBQCH,Gilbert Mountain,Cumberland,45.512706,-64.227615
+1062,CAKEB,Dungarry,Inverness,46.014683,-61.488784
+1063,CANUF,Glenville,Cumberland,45.693012,-63.949712
+1064,CBNTG,Welsford,Kings,45.087077,-64.757007
+1065,CBRBV,Mount Hanley,Annapolis,44.966199,-65.174112
+1066,CATHC,Lake Killarney,Cumberland,45.852347,-63.865151
+1067,CAKOF,East Dalhousie,Kings; Annapolis,44.708824,-64.7981
+1068,CAOUO,Groves Point,Cape Breton,46.2319,-60.335445
+1069,CBDYO,Pleasant Point,Halifax,44.689932,-63.064667
+1070,CAKFV,Durham,Pictou,45.618859,-62.810407
+1071,CBBKU,Newport Corner,Hants,44.965362,-63.977191
+1072,CBCXG,Parkdale,Lunenburg,44.656904,-64.637525
+1073,CAVZB,Low Landing,Queens,44.266655,-65.142225
+1074,CBHEA,Sand Beach,Yarmouth,43.812209,-66.120977
+1075,CBIQC,Short Beach,Yarmouth,43.94113,-66.149255
+1076,CAGYB,Cherryfield,Lunenburg; Annapolis,44.622206,-64.810481
+1077,CAXKN,Maple Grove,Hants,45.259302,-63.540961
+1078,CASTK,Kempt,Queens,44.428824,-65.120467
+1079,CAQLB,Hillgrove,Digby,44.552334,-65.777217
+1080,CAEWZ,Braeshore,Pictou,45.708483,-62.651238
+1081,CAPKU,Hants Border,Kings; Hants,45.068008,-64.197979
+1082,CBBNU,Nictaux South,Annapolis,44.864945,-65.034911
+1083,CAZFH,Middle Pereau,Kings,45.188889,-64.386111
+1084,CBNVR,West Baccaro,Shelburne,43.464779,-65.486973
+1085,CAJIZ,Denver,Guysborough,45.337,-62.109916
+1086,CAELS,Blues Mills,Inverness,45.924266,-61.199013
+1087,CBBZL,North Lakevale,Antigonish,45.777851,-61.955147
+1088,CBRLQ,Little Lorraine,Cape Breton,45.956635,-59.867096
+1089,CAPRP,Hartford,Cumberland,45.753898,-63.639692
+1090,CAEPM,Boisdale,Cape Breton,46.09613,-60.508363
+1091,CAXIQ,Malignant Cove,Antigonish,45.783937,-62.081598
+1092,CANLY,Gavelton,Yarmouth,43.898207,-65.947051
+1093,CBJDQ,Smithfield,Guysborough,45.277236,-62.145984
+1094,CBFRP,Richfield,Digby,44.125939,-65.926316
+1095,CASIK,Jollimore,Halifax,44.628499,-63.607916
+1096,CBIXP,Skye Glen,Inverness,46.038896,-61.202075
+1097,CAQJN,Higginsville,Halifax,45.055543,-63.067662
+1098,CAUGV,Little Harbour,Richmond,45.582806,-60.737759
+1099,CAYUM,Meagher,Queens,44.39621,-65.055621
+1100,CAXJI,Manganese Mines,Colchester,45.409546,-63.147083
+1101,CAVRQ,Lower Argyle,Yarmouth,43.724522,-65.835374
+1102,CAORH,Greenwood,Kings,44.968923,-64.938631
+1103,CBLZB,Timberlea,Halifax,44.662391,-63.746249
+1104,CAUZR,Lockeport,Shelburne,43.698733,-65.113322
+1105,CACVC,Berwick,Kings,45.045743,-64.736095
+1106,CAWEM,Maccan,Cumberland,45.725655,-64.251833
+1107,CBLIF,Tangier,Halifax,44.805172,-62.693858
+1108,CBEME,Port La Tour,Shelburne,43.497323,-65.474619
+1109,CBBJX,New Harbour,Guysborough,45.169233,-61.451973
+1110,CBOEK,Western Shore,Lunenburg,44.525484,-64.309076
+1111,CBHBV,Sambro,Halifax,44.478563,-63.604887
+1112,CALGE,Elmsdale,Hants; Halifax,44.967494,-63.504482
+1113,CATAQ,Kingston,Kings,44.987141,-64.949971
+1114,CALNY,Falmouth,Hants,44.995399,-64.168406
+1115,CBLNW,Terence Bay,Halifax,44.470113,-63.721591
+1116,CASJT,Jordan Falls,Shelburne,43.815529,-65.232123
+1117,CBJRT,South Ohio,Yarmouth,43.921285,-66.064419
+1118,CBRHX,Avonport,Kings,45.1004,-64.257446
+1119,CAKQU,Eastern Passage,Halifax,44.611917,-63.473294
+1120,CBEMK,Port Maitland,Yarmouth,43.981917,-66.147131
+1121,CAXGA,Mahone Bay,Lunenburg,44.446707,-64.377989
+1122,CAAKZ,Alder Point,Cape Breton,46.293462,-60.283845
+1123,CAXMD,Margaree Forks,Inverness,46.332896,-61.096065
+1124,CAVYR,Lower Woods Harbour,Shelburne,43.521935,-65.734176
+1125,CAMZW,Freeport,Digby,44.279815,-66.321697
+1126,CATGT,Lake Echo,Halifax,44.735924,-63.388691
+1127,CAFBN,Bridgetown,Annapolis,44.841582,-65.291209
+1128,CAZHM,Middlewood,Lunenburg,44.223763,-64.572595
+1129,CBDZL,Plymouth,Yarmouth,43.798117,-66.010194
+1130,CBKRW,St. Margaret Village,Victoria,46.985447,-60.470857
+1131,CBBKR,New Minas,Kings,45.067858,-64.460234
+1132,CAZZU,Monastery,Antigonish,45.607916,-61.612666
+1133,CBOAV,West Dalhousie,Annapolis,44.719036,-65.225626
+1134,CAEUL,Boutiliers Point,Halifax,44.66279,-63.946209
+1135,CBOLY,West Wentworth,Cumberland,45.685578,-63.603457
+1136,CBRHM,Advocate Harbour,Cumberland,45.333367,-64.777525
+1137,CAZSD,Milton,Queens,44.059565,-64.753731
+1138,CAFFI,Brooklyn,Hants,45.006038,-64.010085
+1139,CAQIC,Herring Cove,Halifax,44.570296,-63.568215
+1140,CBOAL,West Chezzetcook,Halifax,44.719727,-63.266145
+1141,CADJW,Big Pond,Cape Breton,45.920548,-60.52293
+1142,CABFY,Baddeck,Victoria,46.100104,-60.753744
+1143,CASCH,Joggins,Cumberland,45.691921,-64.443487
+1144,CBBPS,Noel,Hants,45.295544,-63.74828
+1145,CAZEY,Middle Musquodoboit,Halifax,45.043011,-63.146967
+1146,CBMYA,Upper Musquodoboit,Halifax,45.137478,-62.950169
+1147,CBHJW,Sandy Point,Shelburne,43.707348,-65.322629
+1148,CAKZH,Economy,Colchester,45.384731,-63.914465
+1149,CAOMR,Greenfield,Queens,44.271559,-64.841815
+1150,CBDLE,Petit-de-Grat,Richmond,45.511974,-60.960468
+1151,CAOLW,Great Village,Colchester,45.41655,-63.599912
+1152,CAOCO,Grande Anse,Richmond,45.621586,-61.062356
+1153,CAVWT,Lower Sackville,Halifax,44.760695,-63.672213
+1154,CAJEE,Deep Brook,Annapolis,44.636131,-65.655631
+1155,CASLB,Judique,Inverness,45.876363,-61.490604
+1156,CBELK,Port Hastings,Inverness,45.646132,-61.403182
+1157,CBMOQ,Tusket,Yarmouth,43.855435,-65.974529
+1158,CBDPK,Pictou,Pictou,45.676017,-62.708861
+1159,CBNAR,Upper Vaughan,Hants,44.802701,-64.239414
+1160,CAGRF,Centreville,Kings,45.134147,-64.528721
+1161,CAGYN,Chester,Lunenburg,44.541408,-64.242544
+1162,CAKTA,East Jeddore,Halifax,44.728826,-63.000646
+1163,CBNIQ,Wallace,Cumberland,45.813759,-63.47344
+1164,CBEMR,Port Morien,Cape Breton,46.134414,-59.872243
+1165,CBJQC,South Harbour,Victoria,46.869636,-60.46942
+1166,CAHII,Clyde River,Shelburne,43.631854,-65.480654
+1167,CAXXJ,Mavillette,Digby,44.110016,-66.182456
+1168,CANGM,Gabarus,Cape Breton,45.837845,-60.146754
+1169,CBOLU,Westville,Pictou,45.55632,-62.715396
+1170,CAPCG,Hacketts Cove,Halifax,44.564615,-63.925448
+1171,CABCE,Aylesford,Kings,45.028157,-64.836462
+1172,CBHLD,Saulnierville,Digby,44.260374,-66.128577
+1173,CANZO,Goshen,Guysborough,45.378104,-61.973163
+1174,CAXMY,Marion Bridge,Cape Breton,45.980878,-60.212325
+1175,CBLJT,Tatamagouche,Colchester,45.71214,-63.291092
+1176,CBEJU,Port Bickerton,Guysborough,45.107991,-61.726827
+1177,CAFCB,Brighton,Digby,44.5565,-65.854292
+1178,CBCTP,Oxford,Cumberland,45.736322,-63.867292
+1179,CBGZN,Salmon River,Colchester,45.363822,-63.24713
+1180,CBDXO,Pleasant Bay,Inverness,46.823367,-60.799922
+1181,CBMHO,Trenton,Pictou,45.61052,-62.639371
+1182,CBIQT,Shubenacadie,Hants,45.086521,-63.408315
+1183,CBKDB,Springfield,Annapolis,44.63555,-64.872965
+1184,CBRDW,Northport,Cumberland,45.931486,-63.86434
+1185,CATLK,L'Ardoise,Richmond,45.613388,-60.761443
+1186,CBEMS,Port Mouton,Queens,43.927626,-64.848338
+1187,CBAWU,Mushaboom,Halifax,44.851658,-62.535801
+1188,CARKI,Ingonish,Victoria,46.691905,-60.367833
+1189,CAXSM,Martins River,Lunenburg,44.485819,-64.333876
+1190,CALFM,Ellershouse,Hants,44.944725,-64.007013
+1191,CAPVL,Havre Boucher,Antigonish,45.680697,-61.530657
+1192,CBFUB,River Hebert,Cumberland,45.69028,-64.378037
+1193,CABZS,Bayswater,Lunenburg,44.50459,-64.060659
+1194,CBOFA,West Halls Harbour Road,Kings,45.190559,-64.613612
+1195,CABKP,Balfron,Colchester,45.670384,-63.231773
+1196,CBEFH,Pondville,Richmond,45.540958,-60.992331
+1197,CAHOH,Collingwood Corner,Cumberland,45.608963,-63.936878
+1198,CBAAW,Montrose,Colchester,45.423888,-63.701079
+1199,CBMXH,Upper Linden,Cumberland,45.878129,-63.839136
+1200,CATJK,Lanesville,Colchester,45.13373,-63.237328
+1201,CANMD,Gays River,Colchester,45.033864,-63.354688
+1202,CBFUX,River Ryan,Cape Breton,46.223307,-60.086373
+1203,CBKDF,Springhaven,Yarmouth,43.916032,-65.850692
+1204,CBMZZ,Upper South River,Antigonish,45.444316,-61.929875
+1205,CBMUD,Upper Big Tracadie,Guysborough,45.578267,-61.589071
+1206,CBEEW,Ponds,Pictou,45.690363,-62.289113
+1207,CBTGS,Little Port L'Hebert,Shelburne,43.773772,-64.950749
+1208,CAGQI,Central North River,Colchester,45.44308,-63.218545
+1209,CAHDJ,Claremont,Cumberland,45.672341,-63.9859
+1210,CANUG,Glenville,Inverness,46.153714,-61.316748
+1211,CAPZQ,Head of Loch Lomond,Richmond,45.727103,-60.598659
+1212,CADEJ,Big Hill,Victoria,46.166695,-60.642255
+1213,CAVXR,Lower St. Esprit,Richmond,45.670597,-60.475656
+1214,CAHRP,Conquerall Bank,Lunenburg,44.361221,-64.460074
+1215,CBKEL,Spryfield,Halifax,44.611629,-63.617711
+1216,CANJT,Garlands Crossing,Hants,44.974435,-64.109651
+1217,CAQAS,Heatherton,Antigonish,45.58779,-61.793725
+1218,CBBRO,North Ainslie,Inverness,46.180623,-61.188778
+1219,CATCU,Knoydart,Antigonish; Pictou,45.718123,-62.233194
+1220,CBGFT,Rocky Mountain,Pictou,45.394237,-62.24635
+1221,CBOJV,West River,Antigonish,45.603096,-61.999963
+1222,CBREB,North River,Lunenburg,44.620536,-64.770329
+1223,CAQOD,Hoegs Corner,Colchester,45.43837,-63.773143
+1224,CBHBJ,Salt Springs,Antigonish,45.585502,-62.008516
+1225,CBNVJ,West Apple River,Cumberland,45.459744,-64.834994
+1226,CBCSZ,Owls Head Harbour,Halifax,44.736237,-62.83279
+1227,CAATC,Antigonish Harbour,Antigonish,45.716365,-61.907845
+1228,CAVTD,Lower Debert,Colchester,45.396287,-63.51517
+1229,CBJFA,Smiths Cove,Digby,44.611055,-65.707387
+1230,CANTL,Glen Haven,Halifax,44.641999,-63.91005
+1231,CBCGM,Oban,Richmond,45.722799,-60.921351
+1232,CBMQS,Twin Rock Valley,Inverness,46.154627,-61.125409
+1233,CBFTN,River Bennet,Victoria,46.337831,-60.533319
+1234,CAXLG,Maplewood,Lunenburg,44.626947,-64.622249
+1235,CAXVQ,Masstown,Colchester,45.387963,-63.482225
+1236,CAWAX,Lundy,Guysborough,45.281996,-61.50731
+1237,CBFJF,Rear Boisdale,Cape Breton,46.061498,-60.450976
+1238,CBMEA,Toney Mills,Pictou,45.757538,-62.908074
+1239,CBGLC,Roslin,Cumberland,45.757456,-63.784056
+1240,CATHQ,Lake Paul,Kings,44.870652,-64.678079
+1241,CBJNG,South Brookfield,Queens,44.372603,-64.973276
+1242,CBRPY,South Side,Shelburne,43.449056,-65.597872
+1243,CBAKO,Mosherville,Hants,45.073585,-63.955179
+1244,CBOMJ,Weymouth North,Digby,44.438699,-65.994233
+1245,CBIAV,Selma,Hants,45.321567,-63.537467
+1246,CBOJJ,West Pugwash,Cumberland,45.848879,-63.710003
+1247,CAYMO,McLellans Brook,Pictou,45.545999,-62.603514
+1248,CAIOO,Cross Roads Ohio,Antigonish,45.483679,-62.053435
+1249,CAKCR,Dunakin,Inverness,45.959327,-61.260997
+1250,CAGTZ,Chaplin,Halifax,45.208199,-62.846788
+1251,CBOJI,West Pubnico,Yarmouth,43.672688,-65.797965
+1252,CAVVU,Lower New Cornwall,Lunenburg,44.485191,-64.468559
+1253,CBDZM,Plymouth,Pictou,45.54531,-62.653625
+1254,CBFJC,Rear Big Hill,Victoria,46.172768,-60.67684
+1255,CBRNC,Hadleyville,Guysborough,45.470476,-61.269417
+1256,CBKDP,Springville,Pictou,45.45448,-62.623603
+1257,CBOHE,West Leicester,Cumberland,45.778294,-64.042835
+1258,CBFJH,Rear Christmas Island,Cape Breton,45.967831,-60.720693
+1259,CBPPU,Port Williams,Kings,45.097969,-64.40999
+1260,CBBPC,Nineveh,Victoria,45.954228,-60.976916
+1261,CAIRX,Culloden,Digby,44.657004,-65.831758
+1262,CBDZU,Pockwock,Halifax,44.776156,-63.854935
+1263,CBMHL,Tremont,Kings,44.951591,-64.933028
+1264,CABLW,Balmoral Mills,Colchester,45.647247,-63.196385
+1265,CARQE,Island East River,Pictou,45.479177,-62.66459
+1266,CABBW,Avondale,Hants,45.022959,-64.123657
+1267,CAVSC,Lower Blomidon,Kings,45.246272,-64.360385
+1268,CBMTW,Upper Bass River,Colchester,45.429084,-63.776137
+1269,CANVS,Gold Brook,Victoria,46.233811,-60.925016
+1270,CADQX,Birch Plain,Victoria,46.505348,-60.434307
+1271,CAXSP,Martock,Hants,44.951561,-64.160394
+1272,CBMWE,Upper Gulf Shore,Cumberland,45.87472,-63.614842
+1273,CAHAQ,Churchover,Shelburne,43.711812,-65.356487
+1274,CBBYE,North Grand Pré,Kings,45.132148,-64.318871
+1275,CAUZN,Lochside,Richmond,45.769434,-60.67103
+1276,CAAKE,Albany,Annapolis,44.775732,-65.056896
+1277,CBCLR,Oregon,Victoria,46.320544,-60.650874
+1278,CBRHY,Avonport Station,Kings,45.110206,-64.248254
+1279,CBRVA,Catalone,Cape Breton,45.984696,-59.987058
+1280,CAAKF,Albany Cross,Annapolis,44.720173,-65.023203
+1281,CAHPU,Comeauville,Digby,44.288719,-66.127954
+1282,CASKD,Jordantown,Digby,44.58568,-65.778717
+1283,CANUC,Glenroy,Antigonish,45.543234,-61.87632
+1284,CAHQF,Concession,Digby,44.289384,-66.070644
+1285,CAMMA,Folly Lake,Colchester,45.54637,-63.550894
+1286,CBBMD,New Yarmouth,Cumberland,45.371987,-64.840786
+1287,CAGJD,Carleton,Yarmouth,44.007176,-65.927675
+1288,CAYJL,McKay Section,Hants,45.009175,-63.959078
+1289,CATMQ,Latties Brook,Hants,45.236971,-63.570902
+1290,CBBJO,New Gairloch,Pictou,45.480443,-62.830139
+1291,CBJLN,South Branch,Colchester,45.169435,-63.086448
+1292,CBKKM,St. Croix,Hants,44.9619087,-64.0337763
+1293,CABWP,Barton,Digby,44.536649,-65.873692
+1294,CAEJD,Bloomington,Annapolis,44.853995,-64.994323
+1295,CAGZU,Chignecto,Cumberland,45.736255,-64.211135
+1296,CBRFP,Northwest,Lunenburg,44.404306,-64.356663
+1297,CARYM,Jersey Cove,Victoria,46.314653,-60.545935
+1298,CBEUQ,Prospect,Halifax,44.479092,-63.794483
+1299,CAHMK,Coldstream,Colchester,45.08034,-63.308567
+1300,CAUNS,Little Narrows,Victoria,45.992042,-60.983587
+1301,CBDOS,Phinneys Cove,Annapolis,44.884128,-65.39466
+1302,CAGQA,Central Chebogue,Yarmouth,43.789939,-66.088987
+1303,CAKTD,East LaHave,Lunenburg,44.307446,-64.366878
+1304,CBBYA,North Fourchu,Richmond,45.723773,-60.252961
+1305,CBQLR,Gold River,Lunenburg,44.542544,-64.316615
+1306,CAKSG,East Fraserville,Cumberland,45.399113,-64.638997
+1307,CBKRJ,St. Joseph du Moine,Inverness,46.524106,-61.063601
+1308,CATIH,Lakevale,Antigonish,45.784276,-61.91966
+1309,CBBIH,Newcomb Corner,Halifax,45.068604,-63.042395
+1310,CBFUS,River Philip Centre,Cumberland,45.630391,-63.926647
+1311,CBBZO,North Lochaber,Antigonish,45.464124,-62.011143
+1312,CBOTQ,White Water,Kings,45.253656,-64.353049
+1313,CBRLK,Little Mabou,Inverness,46.044933,-61.5193
+1314,CAXHJ,Malagash,Cumberland,45.772227,-63.376954
+1315,CAYXP,Melvern Square,Annapolis,44.991866,-64.988375
+1316,CAGSV,Chance Harbour,Pictou,45.671267,-62.605953
+1317,CAKVV,East Quinan,Yarmouth,43.926951,-65.80762
+1318,CBEZZ,Queensland,Halifax,44.640038,-64.015553
+1319,CAVUB,Lower Grant Road,Lunenburg,44.57219,-64.292056
+1320,CAXYG,McArras Brook,Antigonish,45.732071,-62.205066
+1321,CBNTQ,Welshtown,Shelburne,43.827921,-65.388216
+1322,CAKFT,Durells Island,Guysborough,45.340631,-61.015475
+1323,CAVXM,Lower South River,Antigonish,45.599769,-61.915641
+1324,CAVUH,Lower Gulf Shore,Cumberland,45.872407,-63.55174
+1325,CBGIH,Roman Valley,Guysborough,45.4577,-61.710553
+1326,CAXBM,MacPhees Corner,Hants,45.117134,-63.538989
+1327,CBGAD,Rockland,Shelburne,43.731007,-65.076692
+1328,CBKCK,Sporting Mountain,Richmond,45.666463,-60.983261
+1329,CATKI,Lansdowne Station,Pictou,45.426599,-62.830162
+1330,CAVTJ,Lower East Chezzetcook,Halifax,44.699667,-63.212439
+1331,CBFYF,Robinson Corner,Kings,45.04851,-64.291607
+1332,CBQYX,Moose Hill,Queens,44.076008,-64.737733
+1333,CBFIT,Raynardton,Yarmouth,43.923724,-65.95761
+1334,CAPQF,Harrigan Cove,Halifax,44.927179,-62.29849
+1335,CBATW,Murphy Cove,Halifax,44.787144,-62.760609
+1336,CBHMS,Scarsdale,Lunenburg,44.598211,-64.635581
+1337,CANZC,Gore,Hants,45.117891,-63.736608
+1338,CBEGW,Poplar Grove,Hants,45.012256,-64.081684
+1339,CAYVE,Medford,Kings,45.179089,-64.366652
+1340,CAMMJ,Foot Cape,Inverness,46.184564,-61.296817
+1341,CAQMC,Hilltown,Digby,44.327873,-65.907536
+1342,CBMAF,Tiverton,Digby,44.3914782,-66.2127923
+1343,CAHCS,Clam Point,Shelburne,43.49176,-65.573535
+1344,CAHLQ,Cogmagun,Hants,45.0941667,-64.0583334
+1345,CANSL,Glencoe,Inverness,45.949041,-61.326861
+1346,CBMWC,Upper Granville,Annapolis,44.82602,-65.345113
+1347,CAMME,Folly Mountain,Colchester,45.483821,-63.530429
+1348,CAXXX,McAdams Lake,Cape Breton,46.040712,-60.451743
+1349,CADPL,Birch Grove,Cape Breton,46.121792,-59.952657
+1350,CBNFP,Virginia East,Annapolis,44.624124,-65.496961
+1351,CBMWR,Upper Kemptown,Colchester,45.53564,-63.112374
+1352,CBETO,Princeville,Inverness,45.752205,-61.283449
+1353,CASMZ,Karsdale,Annapolis,44.7001,-65.659202
+1354,CALSO,Fenwick,Cumberland,45.762893,-64.186835
+1355,CBBXV,Northfield,Hants,45.253491,-63.676382
+1356,CAKUV,East New Annan,Colchester,45.609677,-63.28513
+1357,CBRPV,Westmount,Cape Breton,46.135482,-60.219237
+1358,CATVU,Limerock,Pictou,45.5494,-62.847265
+1359,CAVPB,Lorne,Pictou,45.426111,-62.709154
+1360,CAGDH,Cape Jack,Antigonish,45.68189,-61.564953
+1361,CBAKA,Moshers Corner,Annapolis,45.003273,-65.117829
+1362,CAEWK,Boylston,Guysborough,45.435651,-61.504622
+1363,CBOUL,Whycocomagh Portage,Inverness,45.949704,-61.006519
+1364,CACRP,Benjamins Mill,Hants,44.927416,-64.30863
+1365,CBLHE,Sydney Mines,Cape Breton,46.242301,-60.231459
+1366,CAXBW,MacPherson Lake,Guysborough,45.437939,-61.428066
+1367,CBLHJ,Sylvan Valley,Antigonish,45.631709,-62.014291
+1368,CANKO,Gaspereau,Kings,45.06608,-64.352625
+1369,CARVA,James River,Antigonish,45.570291,-62.131584
+1370,CAORA,Greenville Station,Cumberland,45.648085,-63.669591
+1371,CBBHU,New Boston,Cape Breton,45.971199,-60.087612
+1372,CATAY,Kinsmans Corner,Kings,45.100424,-64.657379
+1373,CBREO,North River Centre,Victoria,46.294233,-60.616447
+1374,CATEM,Laconia,Lunenburg,44.338521,-64.630231
+1375,CBENK,Port Shoreham,Guysborough,45.42446,-61.423404
+1376,CBQSR,Chipman Brook,Kings,45.16243,-64.685404
+1377,CBPEB,Woodlawn,Halifax,44.677466,-63.527333
+1378,CBGSB,Roxbury,Annapolis,44.80993,-65.167116
+1379,CBVFN,Aylesford Lake,Kings,44.963499,-64.676668
+1380,CATIJ,Lakeview,Kings,44.761625,-64.74369
+1381,CAKVC,East Petpeswick,Halifax,44.718094,-63.165077
+1382,CADDV,Big Harbour Centre,Inverness,45.867409,-60.989749
+1383,CBHNH,Schnares Crossing,Lunenburg,44.403007,-64.345205
+1384,CBVNS,Membertou,Cape Breton,46.115056,-60.190457
+1385,CBVHL,South Head,Cape Breton,46.095889,-59.872419
+1386,CBVED,Round Lake,Annapolis,44.519165,-65.008687
+1387,CAOQO,Greens Brook,Pictou,45.42369,-62.202931
+1388,CBCMB,Osborne Harbour,Shelburne,43.724483,-65.11156
+1389,CALNK,Fall River West,Halifax,44.807953,-63.63949
+1390,CABUW,Barrys Corner,Lunenburg,44.429133,-64.476062
+1391,CBVIU,Molega Lake,Lunenburg,44.369743,-64.789822
+1392,CBOKP,West Sheet Harbour,Halifax,44.911335,-62.53548
+1393,CBIMF,Sherose Island,Shelburne,43.53551,-65.600881
+1394,CAHMN,Cole Harbour,Halifax,44.671599,-63.490062
+1395,CBVGP,Cross Roads,Cumberland,45.421054,-64.35454
+1396,CBHCB,Sambro Head,Halifax,44.484762,-63.582955
+1397,CAXXL,Maxwellton,Digby,44.163709,-66.053759
+1398,CANTC,Glendyer Station,Inverness,46.074332,-61.356743
+1399,CBKWR,St. Peters Junction,Richmond,45.605099,-61.29632
+1400,CAKVT,East Preston,Halifax,44.722383,-63.41816
+1401,CAXAW,MacNeils Vale,Victoria,46.023899,-60.797761
+1402,CAUZO,Lochview Road,Halifax,44.825056,-63.615234
+1403,CBVJV,Long Lake,Halifax,45.011933,-62.967702
+1404,CBVJU,Mill Lake,Halifax,45.122253,-62.909146
+1405,CBOBC,West East River,Halifax,44.922231,-62.515775
+1406,CBVIM,Kerrs Mill,Cumberland,45.78392,-63.545048
+1407,CBVGA,Cross Mountain,Victoria,46.480138,-60.695113
+1408,CALGH,Elmwood,Lunenburg,44.580106,-64.629063
+1409,CBNTC,Wellington Station,Halifax,44.862204,-63.617437
+1410,CBVGG,Cape Smokey,Victoria,46.60926,-60.394712
+1411,CBVCA,Oakland Lake,Digby,44.274639,-65.575543
+1412,CAVWR,Lower Rose Bay,Lunenburg,44.288107,-64.290187
+1413,CAAME,Allendale,Shelburne,43.751043,-65.092291
+1414,CBMBI,Todds Island,Halifax,44.680786,-63.909013
+1415,CAAYU,Ashfield,Inverness,45.91239,-61.164172
+1416,CBUTX,Haut de la Baie,Richmond,45.505884,-60.958142
+1417,CANBI,Frenchmans Road,Halifax,44.92145,-63.566914
+1418,CABFR,Back Settlement,Antigonish,45.826393,-61.973836
+1419,CBELZ,Port Hood Station,Inverness,46.000684,-61.529958
+1420,CACOA,Bel Ayr Park,Halifax,44.672808,-63.510876
+1421,CAFFT,Brookside,Halifax,44.540213,-63.714781
+1422,CBENC,Port Royal,Annapolis,44.716781,-65.603574
+1423,CAFPS,Bush Island,Lunenburg,44.236119,-64.374352
+1424,CBBDE,Nauglers Settlement,Halifax,44.982199,-62.254985
+1425,CARVE,James Settlement,Halifax,44.795738,-62.71625
+1426,CAPTG,Hartville,Hants,44.947107,-64.023225
+1427,CATAN,Kings Rest,Colchester,45.401418,-63.76958
+1428,CAPVI,Havendale,Guysborough,45.453648,-61.570313
+1429,CAFIT,Browns Point,Pictou,45.671619,-62.732722
+1430,CAAWS,Arlington West,Annapolis,44.910591,-65.279854
+1431,CBFUA,River Head,Queens,43.947122,-64.837887
+1432,CBVKI,Molega North,Queens,44.380841,-64.862843
+1433,CBVHK,Tower Road,Cape Breton,46.152036,-59.959499
+1434,CBEZS,Quarry St. Anns,Victoria,46.26376,-60.624257
+1435,CAONG,Greenhead Road,Halifax,44.634735,-63.701256
+1436,CBVDW,Black River Lake,Kings,44.978349,-64.379634
+1437,CAIHM,Crandall Road,Inverness,45.634541,-61.341988
+1438,CAMEQ,Five Island Lake,Halifax,44.676826,-63.816017
+1439,CAINS,Crossburn,Kings; Annapolis,44.743215,-64.818978
+1440,CAIUY,Dalhousie,Annapolis,44.689433,-64.932312
+1441,CBUHA,Greenhill,Hants,44.983884,-63.920185
+1442,CBVDU,Salmontail Lake,Kings,44.840873,-64.58796
+1443,CBAAV,Montavista,Hants,44.956096,-63.590804
+1444,CBCLF,Onslow,Colchester,45.391394,-63.30111
+1445,CBRCR,Mount William,Pictou,45.592077,-62.711885
+1446,CBPEC,Woodlawn Heights,Halifax,44.683231,-63.518369
+1447,CBIXR,Skye Mountain,Inverness,45.967676,-61.196435
+1448,CBVEA,Inness Brook,Annapolis,44.439686,-65.437884
+1449,CAFTH,Cameron Beach,Cumberland,45.869357,-63.729427
+1450,CBVBZ,Toms Savannah,Digby,44.267842,-65.754915
+1451,CAKXS,East Side of Ragged Island,Shelburne,43.705533,-65.074434
+1452,CBHPT,Scotchtown,Cape Breton,46.238883,-60.099679
+1453,CBVHX,Pomquet River,Antigonish,45.580416,-61.834546
+1454,CAEZR,Brenton,Yarmouth,43.967523,-66.047164
+1455,CADPU,Birch Hill,Colchester,45.406706,-63.767775
+1456,CAYLE,McKinnons Harbour,Victoria,45.950916,-60.898589
+1457,CANUI,Glenwood,Yarmouth,43.793031,-65.882802
+1458,CAIOZ,Crouchers Forks,Halifax,44.633344,-63.89335
+1459,CAVZF,Low Point,Inverness,45.711555,-61.448944
+1460,CADCS,Big Glace Bay,Cape Breton,46.177824,-59.910324
+1461,CAHMA,Colby Village,Halifax,44.668119,-63.483249
+1462,CALME,Fairmount,Halifax,44.644276,-63.634751
+1463,CAYQU,McNutts Island,Shelburne,43.64602,-65.301497
+1464,CAZJB,Militia Point,Inverness,45.845906,-60.946853
+1465,CBJDI,Smith Cove,Halifax,44.962711,-62.212266
+1466,CBAFL,Morris Island,Yarmouth,43.760412,-65.902709
+1467,CBVBE,Post Road,Antigonish,45.607028,-62.01955
+1468,CACCI,Bear Cove,Digby,44.138587,-66.186187
+1469,CAOLZ,Green Acres,Halifax,44.594962,-63.599423
+1470,CBBKX,Newport Station,Hants,44.963336,-64.056771
+1471,CBVHG,Rossfield,Pictou,45.548414,-62.274241
+1472,CALTD,Fergusons Cove,Halifax,44.599854,-63.559694
+1473,CBVBT,Moose Point,Guysborough,45.404733,-61.443789
+1474,CAAMY,Allenville,Cumberland,45.372034,-64.701608
+1475,CBVBQ,Beaver Mountain,Antigonish,45.567353,-62.154637
+1476,CBVDI,Tupper Lake,Kings,45.023286,-64.588653
+1477,CBFJD,Rear Big Pond,Cape Breton,45.920974,-60.494211
+1478,CADCY,Big Glen,Victoria,46.227828,-60.697561
+1479,CBVDP,Frog Lake,Kings,44.83358,-64.823868
+1480,CBVHD,West Branch,Pictou,45.640339,-63.03886
+1481,CAQVZ,Horton Landing,Kings,45.1125,-64.28178
+1482,CAPQP,Harris Island,Yarmouth,43.648219,-66.028941
+1483,CBNSB,Wedgewood,Halifax,44.681513,-63.671828
+1484,CAKVB,East Pennant,Halifax,44.465935,-63.630429
+1485,CBVEB,Lake Munro,Annapolis,44.527357,-65.340379
+1486,CBVFE,Jacksons Mountain,Yarmouth,43.99389,-65.608908
+1487,CBVDE,East Canaan,Yarmouth,43.970968,-65.869707
+1488,CBFJW,Rear of East Bay,Cape Breton,45.986343,-60.363759
+1489,CBVDA,Richmond,Yarmouth,43.980055,-66.131522
+1490,CAKYI,East Tremont,Kings,44.957137,-64.909087
+1491,CBVDV,Little River Lake,Kings,44.973742,-64.464663
+1492,CBVHR,Shenacadie,Cape Breton,46.020772,-60.648644
+1493,CBGXJ,Salem,Cumberland,45.767496,-64.117992
+1494,CBVBX,Lower Clyde River,Shelburne,43.720898,-65.52771
+1495,CBVEC,Nine Mile Woods,Annapolis,44.509033,-65.261188
+1496,CBVBD,Springfield,Antigonish,45.482432,-61.885207
+1497,CACPB,Belleville,Yarmouth,43.855371,-65.923957
+1498,CBOHG,West Linwood,Antigonish,45.636457,-61.584025
+1499,CBVGT,Higgins Mountain,Cumberland,45.56595,-63.601718
+1500,CBHLE,Saulnierville Station,Digby,44.24488,-66.099726
+1501,CBVJM,Beaver Dam,Halifax,45.02074,-62.762498
+1502,CBOJK,West Quoddy,Halifax,44.914331,-62.353988
+1503,CBUKQ,West Arm Tracadie,Antigonish,45.626989,-61.68939
+1504,CBJSP,South Side River Bourgeois,Richmond,45.634479,-60.980571
+1505,CBNJH,Wallace Heights,Halifax,44.687843,-63.610033
+1506,CBFJE,Rear Black River,Richmond,45.664703,-61.094864
+1507,CBVAY,Yellow Marsh,Guysborough,45.329196,-61.052847
+1508,CACNW,Beinn Bhreagh,Victoria,46.113165,-60.714346
+1509,CBVFS,Stoney Point,Inverness,45.896519,-61.052949
+1510,CBURB,Upper Fox Island,Guysborough,45.33259,-61.150036
+1511,CAOPK,Greenough,Halifax,44.68761,-63.509577
+1512,CBVEQ,Lake Alma,Annapolis,44.640758,-65.131105
+1513,CAFVB,Camerons Mountain,Richmond,45.682314,-61.03355
+1514,CAGRC,Centreville,Cape Breton,46.222307,-60.229638
+1515,CBFVK,Riverton Heights,Pictou,45.543185,-62.664627
+1516,CAODO,Grandique Ferry,Richmond,45.598479,-61.027729
+1517,CBDFT,Pembroke,Colchester,45.262898,-62.937942
+1518,CAKJI,East Berlin,Queens,44.073663,-64.561114
+1519,CBNCC,Valley Mills,Inverness,45.843867,-61.110244
+1520,CAPBX,Gypsum Mines,Hants,44.974617,-64.07197
+1521,CBVBL,Donahue Lake,Guysborough,45.313739,-61.504173
+1522,CALMH,Fairview,Halifax,44.652766,-63.641119
+1523,CBVJF,Hirtle Island,Lunenburg,44.243962,-64.363659
+1524,CAEBV,Black Point,Victoria,47.020141,-60.524739
+1525,CAZAV,Micmac,Pictou,45.61498,-62.527893
+1526,CBJUI,Southwest Cove,Halifax,44.726013,-62.822748
+1527,CBULO,Lennox Passage,Richmond,45.592186,-61.089736
+1528,CAPJH,Hammonds Plains Road,Halifax,44.728805,-63.749641
+1529,CBFTW,River Denys Road,Inverness,45.86179,-61.314923
+1530,CBGWE,Sable River Station,Shelburne,43.831262,-65.056871
+1531,CANTK,Glengarry Valley,Cape Breton,45.873272,-60.505068
+1532,CBRRL,Barkhouse Settlement,Halifax,44.947362,-62.378378
+1533,CBRIC,Balmoral,Richmond,45.659424,-61.079307
+1534,CBVDJ,McGee Lake,Kings,45.002752,-64.590303
+1535,CACMP,Beech Hill,Halifax,44.769191,-62.923097
+1536,CANBZ,French River,Colchester,45.715262,-63.333478
+1537,CBUHD,Williamswood,Halifax,44.516709,-63.641623
+1538,CAIPG,Crouses Settlement,Lunenburg,44.345557,-64.40741
+1539,CAPUB,Hatchet Lake,Halifax,44.569632,-63.722381
+1540,CAQYX,Hubley Mill Lake Road,Halifax,44.693631,-63.863082
+1541,CARCE,Hunts Landing,Queens,43.951508,-64.767799
+1542,CBVHN,Southside Boularderie,Cape Breton,46.194063,-60.460326
+1543,CBSUJ,Cambridge,Kings,45.057251,-64.634775
+1544,CBUTS,Glasgow Point,Richmond,45.566637,-61.095336
+1545,CBOBI,Westerly,Pictou,45.763419,-63.058885
+1546,CBOWO,Wildwood Lake,Halifax,44.686794,-63.503725
+1547,CBRIH,Basin Road,Richmond,45.622635,-61.1898
+1548,CBVFV,Lake O'Law,Inverness; Victoria,46.28122,-60.964558
+1549,CBNJU,Wallace Ridge,Cumberland,45.784106,-63.413402
+1550,CBBDB,Naugle,Halifax,44.662986,-63.377158
+1551,CBOIQ,West Pennant,Halifax,44.47132,-63.653552
+1552,CBJSE,South Scots Bay,Kings,45.24265,-64.398106
+1553,CCABC,Egypt Road,Pictou,45.634167,-62.615278
+1554,CBVIS,Cottage Cove,Annapolis,44.993272,-65.178622
+1555,CBVDR,Tomahawk Lake,Kings,44.885701,-64.749097
+1556,CBHIR,Sandy Cove,Halifax,44.47034,-63.558257
+1557,CAXST,Marvins Island,Lunenburg,44.554898,-64.299909
+1558,CBVGU,Hart Lake,Cumberland; Colchester,45.57657,-63.521457
+1559,CBHPG,Scotch Hill,Inverness,46.408026,-61.086871
+1560,CBVIT,Gates Mountain,Annapolis,44.968662,-65.084298
+1561,CAGRJ,Centreville Reserve Mines,Cape Breton,46.189629,-60.025078
+1562,CBVCK,Prospect Bay,Halifax,44.513029,-63.778402
+1563,CBCDU,Oakfield,Halifax,44.900848,-63.576605
+1564,CBLOD,Terminal Beach,Halifax,44.638695,-63.319127
+1565,CBVFY,McMillan Brook,Victoria,46.527186,-60.713743
+1566,CBOVW,Wilburn,Inverness,45.932441,-61.092705
+1567,CAMBD,Fisher Mills,Guysborough,45.312562,-61.924693
+1568,CBPGQ,Wrights Cove,Halifax,44.693881,-63.611013
+1569,CAKSY,East Inglisville,Annapolis,44.865448,-65.075644
+1570,CCADJ,Bridgetown North,Annapolis County,44.8530056,-65.2958722
+1571,CBVBK,Marshall Point,Guysborough,45.399432,-61.475688
+1572,CAVTO,Lower Eel Brook,Yarmouth,43.817295,-65.907605
+1573,CBVFF,Flintstone Rock,Yarmouth,44.065877,-65.561968
+1574,CBVEU,Scrag Lake,Annapolis,44.792627,-64.989077
+1575,CAMNR,Forest Hills,Halifax,44.675687,-63.486156
+1576,CBCBT,Norwood,Yarmouth,44.061698,-66.02513
+1577,CAOGX,Granville Beach,Annapolis,44.734526,-65.565046
+1578,CBVFO,Creignish Hills,Inverness,45.754458,-61.437155
+1579,CBVDN,Lower Palmer Lake,Kings,44.921441,-64.800461
+1580,CAZBA,Micmac Village,Halifax,44.689534,-63.569246
+1581,CBMXX,Upper Mount Thom,Pictou,45.506597,-62.9951
+1582,CAXUX,Masons Beach,Lunenburg,44.363846,-64.325446
+1583,CBJNQ,South Chegoggin,Yarmouth,43.864063,-66.129898
+1584,CBKXB,Strathlorne Station,Inverness,46.184154,-61.272565
+1585,CAPNS,Hardwood Hill,Cape Breton,46.123611,-60.181728
+1586,CBVGX,Malagash Centre,Cumberland,45.771604,-63.309553
+1587,CAKZR,Ecum Secum West,Halifax,44.963782,-62.166012
+1588,CBNCE,Valley Station,Colchester,45.381753,-63.195415
+1589,CBVJK,Little Barren,Victoria,46.227784,-60.817437
+1590,CAYBX,McCurdys Corner,Colchester,45.387538,-63.304597
+1591,CBMTO,Uplands Park,Halifax,44.724147,-63.741988
+1592,CBIGX,Shaws Bog,Hants,45.02271,-64.175198
+1593,CBLDJ,Sunset Acres,Halifax,44.695525,-63.492598
+1594,CBVGV,Westchester,Cumberland,45.618774,-63.670489
+1595,CBVJP,Loon Lake,Halifax,45.259443,-62.741516
+1596,CACHW,Beaver Cove,Cape Breton,46.06763,-60.557788
+1597,CBVHQ,Islandview,Cape Breton,45.964209,-60.553245
+1598,CBVID,Crooked Lake,Kings,44.908941,-64.547209
+1599,CANQG,Gerrish Valley,Colchester,45.422785,-63.985222
+1600,CBVHE,Hamilton Road,Pictou,45.5638889,-62.7363889
+1601,CBVGE,Bell Lakes,Victoria,46.297163,-60.724754
+1602,CAMNN,Forest Glen,Colchester,45.196835,-63.239267
+1603,CBVGB,MacDonalds Mountain,Victoria,46.425889,-60.710518
+1604,CBVJS,Ten Mile Lake,Halifax,45.133076,-62.682666
+1605,CAMVV,Franey Corner,Lunenburg,44.727149,-64.665668
+1606,CALZH,First Peninsula,Lunenburg,44.38483,-64.304093
+1607,CBUUB,Lac Sec,Richmond,45.561846,-61.007422
+1608,CACPD,Belleville South,Yarmouth,43.847908,-65.91098
+1609,CBVDL,Bennett Bay,Kings,45.237529,-64.461289
+1610,CAXKI,Maple Brook,Inverness,45.814256,-61.27774
+1611,CARAI,Humber Park,Halifax,44.702772,-63.497937
+1612,CAFZY,Canaan,Yarmouth,43.974325,-65.896128
+1613,CATHK,Lake Midway,Digby,44.531287,-66.038859
+1614,CBGKD,Rose,Cumberland,45.59198,-63.769046
+1615,CBGHM,Rogers,Pictou,45.714612,-62.976461
+1616,CBVFJ,Greenwood Square,Kings,44.993927,-64.882801
+1617,CBVFX,Big Barren,Victoria,46.573009,-60.674993
+1618,CAAHM,Academy,Pictou,45.609312,-62.599271
+1619,CBPHZ,Yankeetown,Halifax,44.727448,-63.817264
+1620,CADHU,Big Lots,Lunenburg,44.41351,-64.408108
+1621,CAVQT,Lourdes,Pictou,45.574864,-62.656454
+1622,CBVHB,Campbell Hill,Pictou,45.63774,-62.90441
+1623,CBVCC,Whale Cove,Digby,44.431213,-66.171289
+1624,CBVCW,Lake George,Shelburne,43.7980556,-65.2858333
+1625,CBOHF,West Linden,Cumberland,45.88533,-63.846775
+1626,CBVII,Wentworth Lake,Queens,44.24712,-64.72472
+1627,CBVEK,Lynch Mill,Annapolis,44.617804,-65.333142
+1628,CBVGD,Fortune Barren,Victoria,46.340944,-60.822863
+1629,CABRV,Barra Glen,Victoria,45.972286,-60.841352
+1630,CBKHA,Squirreltown,Annapolis,44.761271,-65.030134
+1631,CANSD,Glen Bard,Antigonish,45.580042,-62.162354
+1632,CATRP,Lennox,Richmond,45.585734,-61.027787
+1633,CAVPD,Lornevale,Colchester,45.470621,-63.658802
+1634,CAHOC,College Grant,Antigonish,45.401439,-62.076165
+1635,CBVCP,Moosehead Island,Shelburne,44.13354,-65.40102
+1636,CBVHW,Black Brook,Cape Breton,46.10528,-59.908673
+1637,CARUR,Jakes Landing,Annapolis,44.40381,-65.220591
+1638,CASOI,Kearney Lake,Halifax,44.686954,-63.684984
+1639,CAVWX,Lower Saulnierville,Digby,44.242354,-66.131804
+1640,CAXMA,Margaree Brook,Inverness,46.315876,-61.080602
+1641,CBRCQ,Mountville,Pictou,45.539845,-62.625296
+1642,CBVJY,West Porters Lake,Halifax,44.687964,-63.312626
+1643,CAFBI,Bridgeport,Cape Breton,46.207328,-59.993411
+1644,CAGXW,Cherry Brook,Halifax,44.709662,-63.479253
+1645,CATIC,Lakeside,Yarmouth,43.894576,-66.10545
+1646,CBVCS,Quinns Meadow,Shelburne,43.748263,-65.479508
+1647,CALAB,Edgewood,Colchester,45.417732,-63.793864
+1648,CAMDQ,Fitzpatricks Mountain,Pictou,45.639386,-62.872289
+1649,CBVCX,Canada Hill,Shelburne,43.802155,-65.123135
+1650,CBVFB,Black Georges Savannah,Yarmouth,43.653278,-65.659057
+1651,CBVHY,Stevens Mountain,Cumberland,45.582149,-63.645285
+1652,CAZFS,Middle River,Lunenburg,44.566878,-64.291269
+1653,CAAJG,Afton Station,Antigonish,45.60788,-61.722498
+1654,CAJUD,Douglas Road,Annapolis,44.975862,-65.137607
+1655,CBVHO,Millville,Cape Breton,46.271683,-60.340558
+1656,CBLHK,Sylvester,Pictou,45.608469,-62.77266
+1657,CBVCZ,Pinnacle Hill,Hants,45.16379,-63.87751
+1658,CAMFE,Five Mile Plains,Hants,44.963753,-64.086477
+1659,CBVDM,Ross Creek,Kings,45.244816,-64.45575
+1660,CAAVS,Ardoise,Hants,44.959226,-63.933699
+1661,CAQPY,Holland Harbour,Guysborough,45.093272,-61.796539
+1662,CBGMX,Round Bay,Shelburne,43.592907,-65.351898
+1663,CAPTQ,Hastings,Annapolis,44.649221,-64.850809
+1664,CBVIQ,Meadowview,Kings,45.082016,-64.506309
+1665,CBFVJ,Riverton,Pictou,45.528316,-62.674158
+1666,CBVFU,Chéticamp Island,Inverness,46.624974,-61.034745
+1667,CBVDD,Woodstock,Yarmouth,44.01724,-66.08664
+1668,CAHYF,Coromonie,Pictou,45.465052,-62.603144
+1669,CBJFZ,Smithsville,Shelburne,43.486563,-65.469811
+1670,CBAEW,Morien,Cape Breton,46.128978,-59.891116
+1671,CBAFA,Morien Junction,Cape Breton,46.129485,-59.921073
+1672,CBOUV,Whynachts Point,Halifax,44.673112,-63.894739
+1673,CBVIJ,Eel Brook,Yarmouth,43.823828,-65.91221
+1674,CALTZ,Fernleigh,Halifax,44.704546,-63.664748
+1675,CBDNE,Pettigrew Settlement,Cumberland,45.542284,-64.356481
+1676,CBUMQ,Beaver Bank Villa,Halifax,44.903603,-63.711129
+1677,CAEHA,Blanchard Road,Pictou,45.471549,-62.479599
+1678,CAITK,Currys Corner,Hants,44.977571,-64.132215
+1679,CBVFH,Alder Plains,Yarmouth,44.117436,-65.659603
+1680,CBMXO,Upper Malagash,Cumberland,45.766636,-63.404629
+1681,CBLID,Tam O'Shanter Ridge,Halifax,44.689036,-63.526812
+1682,CBVDB,Hillview,Yarmouth,43.992112,-66.106636
+1683,CABAH,Atkinson,Cumberland,45.632661,-63.729613
+1684,CAFYH,Campbells Siding,Colchester,45.452537,-63.015621
+1685,CBVDG,Hardwood Lake,Kings,44.853846,-64.632072
+1686,CBVEE,The Halfway,Annapolis,44.587171,-64.978802
+1687,CBVDQ,Hamilton Meadows,Kings,44.80978,-64.774812
+1688,CBVQG,Jacket Lake,Halifax,44.887015,-62.699602
+1689,CAOSZ,Grimms Settlement,Lunenburg,44.344518,-64.381061
+1690,CBOKT,West Side,Yarmouth,43.416747,-66.016096
+1691,CBDNY,Philips Harbour,Guysborough,45.346697,-61.240212
+1692,CBVHH,Melmerby Beach,Pictou,45.66161,-62.516856
+1693,CBHON,Schooner Pond,Cape Breton,46.175092,-59.850904
+1694,CBJJE,Soldiers Cove West,Richmond,45.691156,-60.749991
+1695,CAJFL,Deep Cove Island,Yarmouth,43.668983,-66.041201
+1696,CBVJO,East Lawrencetown,Halifax,44.660931,-63.324123
+1697,CBDZN,Plymouth Park,Pictou,45.54919,-62.658321
+1698,CASJQ,Jordan Branch,Shelburne,43.780112,-65.261851
+1699,CBRBZ,Mount Merrit,Queens,44.442699,-65.10086
+1700,CAXHA,Maitland Forks,Lunenburg,44.437564,-64.497121
+1701,CBFPW,Reserve Rows,Cape Breton,46.186284,-60.012218
+1702,CBLTA,Thornhill,Halifax,44.603472,-63.611473
+1703,CBAEZ,Morien Hill,Cape Breton,46.181229,-59.963231
+1704,CBOAI,Westchester Mountain,Cumberland,45.572516,-63.722909
+1705,CBNIX,Wallace Bridge,Cumberland,45.812771,-63.514853
+1706,CAOTL,Grono Road,Halifax,44.986374,-63.433636
+1707,CBFZU,Rockingham,Halifax,44.673359,-63.644878
+1708,CBUSC,Newtown,Inverness,45.662287,-61.419069
+1709,CBUKS,Little Harbour,Halifax,44.710317,-62.84054
+1710,CANIZ,Garden Lots,Lunenburg,44.369585,-64.28287
+1711,CBGHU,Rogers Hill Cross Roads,Pictou,45.638602,-62.849464
+1712,CAHPE,Colpton,Lunenburg,44.45349,-64.842106
+1713,CATHI,Lake Major,Halifax,44.71338,-63.467261
+1714,CBURS,Gibson Woods,Kings,45.139097,-64.501887
+1715,CAHXD,Corkums Island,Lunenburg,44.349504,-64.323283
+1716,CBVJX,Pace Settlement,Halifax,44.988343,-62.179484
+1717,CBVEH,Wildcat Lake,Annapolis,44.617246,-65.014591
+1718,CBVHA,Black Brook,Pictou,45.440611,-62.168387
+1719,CBVIG,Margo,Digby,44.326663,-66.017237
+1720,CBVFG,McCoys Ridge,Yarmouth,44.180976,-65.478324
+1721,CBSUK,Cambridge Station,Kings,45.06294,-64.635438
+1722,CBBHO,New Aberdeen,Cape Breton,46.214019,-59.964817
+1723,CBUOW,Cape George,Richmond,45.724902,-60.819645
+1724,CBVBN,Dagger Woods,Antigonish,45.59326,-61.840457
+1725,CAFMT,Burnside,Halifax,44.701754,-63.600507
+1726,CBVGQ,Junction Road,Cumberland,45.669248,-64.067322
+1727,CAPVJ,Havenside,Cape Breton,45.919491,-59.958984
+1728,CBPEO,Woodvale,Digby,44.03579,-66.146981
+1729,CBVDZ,Lake LeMarchant,Annapolis,44.489372,-65.529929
+1730,CABAA,Beaver Bank,Halifax,44.824843,-63.680793
+1731,CBVGO,Red River,Cumberland,45.446986,-64.651324
+1732,CBIMK,Sherwood Park,Halifax,44.67876,-63.662154
+1733,CBDJC,Petain,Halifax,44.703585,-63.274841
+1734,CBJZA,Spectacle Lakes,Lunenburg,44.379803,-64.385898
+1735,CAKNU,East Chester,Lunenburg,44.56167,-64.221993
+1736,CAKTV,East Lake Ainslie,Inverness,46.132578,-61.139887
+1737,CBVIO,Clements Park,Kings,44.9622,-64.944078
+1738,CAYOF,McLeods Crossing,Cape Breton,46.183942,-59.998791
+1739,CAOGV,Grant Valley,Hants,45.12759,-63.681293
+1740,CAGQO,Centre,Lunenburg,44.379296,-64.357887
+1741,CBIFY,Shannon Park,Halifax,44.681486,-63.603811
+1742,CBKKB,St. Benoni,Digby,44.214566,-66.119844
+1743,CBVGK,Poison Lake,Cumberland,45.549009,-63.935934
+1744,CAVYL,Lower West River,Antigonish,45.59976,-62.00596
+1745,CBGWF,Sable River West,Shelburne,43.834236,-65.059187
+1746,CBRFO,North Wallace Bay,Cumberland,45.840038,-63.555096
+1747,CBVFQ,Broad Cove,Inverness,46.270719,-61.234619
+1748,CAXMX,Marinette,Halifax,44.973378,-62.656242
+1749,CBNHN,Waldeck East,Annapolis,44.638378,-65.615122
+1750,CBVCU,Reids Hill,Shelburne,43.765823,-65.347888
+1751,CBKTT,Stonehurst East,Lunenburg,44.366569,-64.217958
+1752,CBUTW,Gros Nez,Richmond,45.510676,-60.954564
+1753,CBCBN,North Williamston,Annapolis,44.898925,-65.116119
+1754,CANZM,Goshen,Colchester,45.183233,-62.965392
+1755,CAFFQ,Brook Road,Pictou,45.724527,-63.074033
+1756,CAUAW,Little Brook Station,Digby,44.288734,-66.091472
+1757,CAVAT,Logan Subdivision,Pictou,45.61885,-62.627742
+1758,CAHDP,Clarence West,Annapolis,44.869531,-65.284955
+1759,CAAWT,Armdale,Halifax,44.635932,-63.626356
+1760,CACNG,Beechwood Park,Halifax,44.665306,-63.642763
+1761,CBVDX,Lake Mulgrave,Annapolis,44.530951,-65.508444
+1762,CBVCG,Deep Cove,Lunenburg,44.530141,-64.101639
+1763,CAHBC,Church Point Station,Digby,44.304788,-66.081476
+1764,CATBP,Kirkmount,Pictou,45.523357,-62.574379
+1765,CBKPN,Stillwater,Hants,44.917226,-63.949705
+1766,CBVHI,Westville Road,Pictou,45.5777778,-62.6830556
+1767,CBVEI,Big Molly Upsim Lake,Annapolis,44.6708248,-65.0191915
+1768,CAOMD,Green Bay,Lunenburg,44.214243,-64.436881
+1769,CATUE,Lewis Lake,Halifax,44.825515,-63.777751
+1770,CBVGR,Mattatall Lake,Colchester; Cumberland,45.680752,-63.476942
+1771,CAORK,Greenwood Heights,Halifax,44.652592,-63.737046
+1772,CBDYZ,Pleasant Valley,Pictou,45.537251,-62.788438
+1773,CAYPP,McNabs Island,Halifax,44.619629,-63.537297
+1774,CAAZP,Aspotogan,Lunenburg,44.523559,-64.050463
+1775,CBVCH,Chester Islands,Lunenburg,44.5260435,-64.2250124
+1776,CBMOR,Tusket Falls,Yarmouth,43.88075,-65.97466
+1777,CAYHV,McIntyres Mountain,Inverness,45.773302,-61.370774
+1778,CBVIZ,Shortts Lake,Colchester,45.218259,-63.32654
+1779,CACUH,Berichan,Colchester,45.603936,-63.08362
+1780,CAXLT,Marconi Towers,Cape Breton,46.161814,-59.962671
+1781,CAPGS,Haliburton,Pictou,45.685649,-62.748213
+1782,CAPNN,Hardwood Hill,Pictou,45.655893,-62.814533
+1783,CBVFL,East Kingston,Kings,45.008408,-64.905544
+1784,CAXHX,Malay Falls,Halifax,44.986761,-62.48218
+1785,CBNTV,Welton Landing,Kings,44.978185,-64.528185
+1786,CBVCV,Hartz Point,Shelburne,43.742609,-65.364254
+1787,CATYB,Little Anse,Richmond,45.49431,-60.933119
+1788,CAGWW,Chattan Park,Pictou,45.596271,-62.656275
+1789,CATTV,Lewis Lake,Halifax,44.682095,-63.83533
+1790,CAKSM,East Green Harbour,Shelburne,43.714876,-65.139503
+1791,CBJPU,South Farmington,Annapolis,44.946427,-65.008963
+1792,CARHX,Indian Path,Lunenburg,44.321423,-64.338193
+1793,CAZCF,Middle Clyde River,Shelburne,43.842143,-65.517322
+1794,CAYJI,McKays Corner,Cape Breton,46.18976,-59.989681
+1795,CBVFR,River Denys Station,Inverness,45.820649,-61.185813
+1796,CBBJV,New Harbour,Lunenburg,44.474114,-64.085873
+1797,CBVIV,Pleasant River Lake,Lunenburg,44.543844,-64.881882
+1798,CAPPQ,Harmony Road,Colchester,45.35213,-63.229757
+1799,CAESE,Borneo,Guysborough,45.285007,-61.9081
+1800,CBFJR,Rear Judique South,Inverness,45.859401,-61.411829
+1801,CBVBS,Riverside,Guysborough,45.426777,-61.510564
+1802,CBPDH,Woodbine,Cape Breton,45.994592,-60.290742
+1803,CBVEY,Thomas Brook,Annapolis,44.528742,-65.57337
+1804,CACPX,Bell Neck,Yarmouth,43.877661,-65.906484
+1805,CAIKA,Creignish Rear,Inverness,45.716343,-61.412205
+1806,CBVGF,Gairloch Mountain,Victoria,46.120856,-60.992878
+1807,CBQPX,Lexington,Inverness,45.671577,-61.3761
+1808,CBVBP,Gaspereaux Lake,Antigonish,45.551649,-62.054747
+1809,CBMWI,Upper Hammonds Plains,Halifax,44.754482,-63.84165
+1810,CAKBM,Dufferin,Pictou,45.700819,-62.874679
+1811,CBVJN,College Lake,Halifax,45.234423,-62.800882
+1812,CBEXP,Purcells Cove,Halifax,44.612676,-63.574932
+1813,CBVCT,Beaverdam Lake,Shelburne,43.663517,-65.423877
+1814,CBNJI,Wallace Highlands,Cumberland,45.726485,-63.458226
+1815,CBOUN,Whycocomagh Reserve,Inverness,45.966214,-61.133764
+1816,CBLOW,The Meadows,Pictou,45.599209,-62.6574
+1817,CBVHM,Long Island,Cape Breton,46.197586,-60.383567
+1818,CBFQK,Rhodena,Inverness,45.764845,-61.395829
+1819,CAEYQ,Brass Hill,Shelburne,43.552445,-65.600743
+1820,CBVFA,Bridgetown East,Annapolis,44.8511111,-65.2613889
+1821,CAVYH,Lower Wedgeport,Yarmouth,43.719342,-65.979513
+1822,CBLJC,Tanners Settlement,Lunenburg,44.35418,-64.366019
+1823,CBVCO,Halibut Bay,Halifax,44.545779,-63.553725
+1824,CBFTY,Riverhead,Shelburne,43.573014,-65.59209
+1825,CAETP,Boulderwood,Halifax,44.623621,-63.595238
+1826,CAFFE,Brookland,Pictou,45.553098,-62.927984
+1827,CATKF,Lansberg Siding,Pictou,45.447083,-62.933544
+1828,CBOIS,Westphal,Halifax,44.685496,-63.54143
+1829,CAAYR,Ashby,Cape Breton,46.139583,-60.169361
+1830,CASYX,Killarney,Halifax,44.725995,-63.693903
+1831,CBOHH,West Liscomb,Guysborough,44.999046,-62.099646
+1832,CBLNY,Terence Bay River,Halifax,44.494821,-63.732642
+1833,CBRRA,Port Wallace,Halifax,44.698815,-63.54767
+1834,CBVKW,Third Lake,Halifax,44.851552,-62.674157
+1835,CAHOD,College Grant,Pictou,45.669955,-63.075589
+1836,CBQOH,Caledonia,Cape Breton,46.184861,-59.957714
+1837,CAQYJ,Hubbards Point,Yarmouth,43.835631,-65.97917
+1838,CANPB,Georges River,Cape Breton,46.213086,-60.315196
+1839,CBVEG,Allison Lake,Annapolis,44.571994,-65.268312
+1840,CAPWT,Hawleys Hill,Inverness,46.090749,-61.364263
+1841,CBUNC,Woodburn Station,Pictou,45.61166,-62.551094
+1842,CCAZD,Cross Road Mountain,Cumberland,45.572038,-63.688756
+1843,CAAMG,Allen Heights,Halifax,44.684002,-63.899734
+1844,CBKLI,Steeles Hill,Cape Breton,46.175402,-59.982355
+1845,CAZHK,Middle Village,Halifax,44.510105,-63.888013
+1846,CBFRS,Richmond,Cumberland,45.754164,-63.467683
+1847,CBIMJ,Sherwood Heights,Halifax,44.675185,-63.667844
+1848,CAIKQ,Crichton Park,Halifax,44.680935,-63.566582
+1849,CBRZV,Conway,Digby,44.606795,-65.771716
+1850,CAIBH,Cowie Hill,Halifax,44.632088,-63.620212
+1851,CALKH,Etter Settlement,Hants,44.874078,-63.806947
+1852,CAJJP,Desert,Halifax,44.6881,-63.268506
+1853,CALPX,Farmington,Cumberland,45.565272,-63.895339
+1854,CAGXK,Cheese Factory Corner,Hants,45.087172,-63.653631
+1855,CBVCL,Blind Bay,Halifax,44.524282,-63.82442
+1856,CBHBZ,Sambro Creek,Halifax,44.467427,-63.616079
+1857,CBEJV,Port Caledonia,Cape Breton,46.182189,-59.902038
+1858,CALFE,Ellenvale,Halifax,44.677416,-63.520221
+1859,CBHZC,Second Peninsula,Lunenburg,44.40247,-64.295543
+1860,CAQYR,Hubley,Halifax,44.673434,-63.822149
+1861,CBVJR,Governor Lake,Halifax,45.210359,-62.640217
+1862,CAZSF,Milton Highlands,Yarmouth,43.855587,-66.125358
+1863,CBJKD,Somerset,Lunenburg,44.230827,-64.53824
+1864,CATQW,Leiblin Park,Halifax,44.60112,-63.629838
+1865,CAKTZ,East Linden,Cumberland,45.90388,-63.820047
+1866,CBDAD,Passchendaele,Cape Breton,46.179648,-59.974828
+1867,CBCWP,Panuke Road,Hants,44.956969,-64.084206
+1868,CBVIH,Lake Rossignol,Queens,44.10823,-64.99506
+1869,CAIJT,Creelmans Crossing,Halifax,45.11309,-62.683423
+1870,CAQLR,Hillside,Pictou,45.627167,-62.640209
+1871,CBVJA,East Ironbound Islands,Lunenburg,44.4388889,-64.0886111
+1872,CAUXW,Lloy,Halifax,44.644486,-63.32646
+1873,CBKZO,Sugar Camp,Inverness,45.690057,-61.326704
+1874,CBVHF,Indian Lake,Pictou,45.552488,-62.219793
+1875,CAXKY,Maple Ridge,Antigonish,45.70319,-62.145314
+1876,CBVBM,Keppoch Mountain,Antigonish,45.506832,-62.122191
+1877,CBHFP,Sand Lake,Cape Breton,46.139554,-59.932136
+1878,CBNJX,Wallace River,Cumberland,45.79506,-63.556051
+1879,CAHFL,Clayton Park,Halifax,44.660291,-63.647313
+1880,CBVGH,Moose Lake,Colchester,45.506753,-63.386768
+1881,CBGZY,Salmon River Road,Cape Breton,45.901454,-60.329533
+1882,CBVCE,Fisher Mills,Guysborough,45.331536,-62.053701
+1883,CAVXY,Lower Three Fathom Harbour,Halifax,44.637223,-63.292762
+1884,CBVKA,Owls Head,Halifax,44.742144,-62.837083
+1885,CBBKJ,New Harris Settlement,Victoria,46.239928,-60.49822
+1886,CAFBP,Bridgeview,Halifax,44.671253,-63.655855
+1887,CCABN,Bayers Settlement,,44.749722,-63.148889
+1888,CBVEV,Byers Lake,Colchester,45.590433,-63.415169
+1889,CAXNR,Maroon Hill,Halifax,44.794263,-63.719382
+1890,CAAHA,Abrams River,Yarmouth,43.829683,-65.94081
+1891,CBKDC,Springfield Lake,Halifax,44.813493,-63.744561
+1892,CBVEW,Wrights Lake,Annapolis,44.723306,-65.373127
+1893,CBFJL,Rear Dunvegan,Inverness,46.324702,-61.213493
+1894,CAJKU,Devils Island,Halifax,44.582341,-63.458771
+1895,CAPZY,Head of Wallace Bay,Cumberland,45.815644,-63.584276
+1896,CASWQ,Kerrowgare,Pictou,45.406604,-62.420904
+1897,CAFTV,Cameron Lake,Hants,44.937807,-63.916318
+1898,CABZG,Bayfield Road,Antigonish,45.602387,-61.744569
+1899,CBNUF,Wentworth Creek,Hants,44.994424,-64.089845
+1900,CAZSB,Milton,Yarmouth,43.851183,-66.115602
+1901,CBCJA,Old Cobequid Road,Halifax,44.767083,-63.646236
+1902,CBUTV,Grand Lake,Richmond,45.562582,-61.020494
+1903,CAANM,Alpena,Annapolis,44.833823,-65.044079
+1904,CBNAU,Upper Wedgeport,Yarmouth,43.755169,-65.988847
+1905,CBOYR,Willowdale,Halifax,44.656537,-63.489365
+1906,CAKXN,East Side,Yarmouth,43.400081,-66.016096
+1907,CAGPK,Cedar Lake,Digby; Yarmouth,44.027895,-66.102121
+1908,CBVBB,Trout Lake,Guysborough,45.265704,-61.453932
+1909,CBVBI,Highfield,Antigonish,45.740057,-62.10052
+1910,CAMDN,Fitzpatrick,Pictou,45.733332,-63.029613
+1911,CBAKH,Moshers Island,Lunenburg,44.239736,-64.344808
+1912,CBVEM,Long Lake,Annapolis,44.656368,-65.238036
+1913,CBVGC,James Barren,Victoria,46.40441,-60.803395
+1914,CACCU,Bear Cove,Halifax,44.536716,-63.54527
+1915,CBVEX,Waterloo Lake,Annapolis,44.713327,-64.975772
+1916,CBUTQ,Alderney Point,Richmond,45.490355,-60.957251
+1917,CBRDX,North Preston,Halifax,44.746176,-63.46453
+1918,CBCJK,Old Holland Road,Halifax,44.84524,-63.601275
+1919,CBJRH,South Middleboro,Cumberland,45.749636,-63.595768
+1920,CBVFD,Spar Lake,Yarmouth,43.868707,-65.648788
+1921,CAWCQ,Lyons Brook,Pictou,45.668464,-62.787395
+1922,CARDS,Hydrostone,Halifax,44.664841,-63.602151
+1923,CAWEJ,MacBains Corner,Colchester,45.646176,-63.124977
+1924,CAOMM,Green Creek,Colchester,45.246525,-63.400283
+1925,CBVEJ,Big LaHave Lake,Annapolis,44.652198,-64.961101
+1926,CABAK,Atlanta,Kings,45.154601,-64.494897
+1927,CBIKS,Sheldrake Lake,Halifax,44.673364,-63.792863
+1928,CBQFI,Brule Shore,Colchester,45.740736,-63.237878
+1929,CAMYT,Frasertown,Annapolis,44.640734,-65.533545
+1930,CAKXX,East Slope,Cape Breton,46.18868,-59.997859
+1931,CAJDM,Deans Corner,Lunenburg,44.394885,-64.332352
+1932,CBBKH,New Harbour West,Guysborough,45.196236,-61.494833
+1933,CAZQT,Mill Section,Hants,44.89618,-64.207877
+1934,CAUAI,Little Bras d'Or,Cape Breton,46.239868,-60.29683
+1935,CAGLP,Carters Cove,Richmond,45.688545,-60.844634
+1936,CASWG,Keppoch,Inverness,46.191606,-61.094067
+1937,CAMNP,Forest Hill,Guysborough,45.308035,-61.758914
+1938,CBVBH,Browns Mountain,Antigonish,45.639932,-62.146512
+1939,CBBKT,Newport,Hants,45.005634,-64.013261
+1940,CBVGS,Angevine Lake,Cumberland,45.736548,-63.551409
+1941,CBLOE,Terrace Heights,Pictou,45.602565,-62.652894
+1942,CBVFW,Chéticamp Flats,Victoria,46.636553,-60.641481
+1943,CBOFJ,West Havre Boucher,Antigonish,45.666289,-61.547673
+1944,CBVIP,Upper Dyke,Kings,45.119075,-64.493926
+1945,CBFVL,Riverview,Pictou,45.585045,-62.665221
+1946,CANEG,Front Centre,Lunenburg,44.375636,-64.352726
+1947,CAEZX,Breton Cove,Victoria,46.457406,-60.463789
+1948,CBVEL,Dargie Lake,Annapolis,44.658113,-65.328792
+1949,CBVCY,Rines Creek,Hants,45.140094,-63.404809
+1950,CAMNQ,Forest Hill,Kings,45.045517,-64.351113
+1951,CBVFM,East Berwick,Kings,45.048702,-64.706711
+1952,CACBE,Beaconsfield,Annapolis,44.853685,-65.329164
+1953,CBORL,White Point,Queens,43.963857,-64.74996
+1954,CBVCD,Barrio Lake,Digby,44.205395,-65.817425
+1955,CBVFC,Great Pubnico Lake,Yarmouth,43.759411,-65.675055
+1956,CAGRB,Centreville,Shelburne,43.475435,-65.602149
+1957,CBVCQ,Jordan Lake,Shelburne,44.080313,-65.26973
+1958,CBKSO,St. Marys River,Guysborough,45.080452,-61.9312
+1959,CAUET,Little Forks,Cumberland,45.706355,-64.14974
+1960,CBUSD,River Hebert East,Cumberland,45.702336,-64.358636
+1961,CBUTY,MacNabs Cove,Richmond,45.733624,-60.721385
+1962,CAFJN,Brule Corner,Colchester,45.742698,-63.17197
+1963,CAHSL,Convoy Place,Halifax,44.667852,-63.614311
+1964,CBUTU,Summerville,Yarmouth,43.8885768,-66.0086317
+1965,CBVBG,Linwood Station,Antigonish,45.625233,-61.578853
+1966,CADMX,Big Tracadie,Antigonish,45.619305,-61.635172
+1967,CBVCJ,Otter Lake,Halifax,44.62154,-63.733936
+1968,CBVCF,Mill Lake,Lunenburg,44.64545,-64.088667
+1969,CBCRG,Outram,Annapolis,44.954055,-65.212767
+1970,CBVFP,Melville,Inverness,45.635,-61.3133333
+1971,CBVDY,Faith Hope and Charity Lakes,Annapolis,44.4664,-65.4789
+1972,CBUSF,North Beaver Bank,Halifax,44.886851,-63.703964
+1973,CBOYS,Willowdale,Pictou,45.394715,-62.210988
+1974,CBOUC,Whitney Pier,Cape Breton,46.159307,-60.186625
+1975,CAYZX,Meteghan Station,Digby,44.208269,-66.089235
+1976,CAMMW,Forbes Point,Shelburne,43.550079,-65.748529
+1977,CAZOE,Miller Road,Cumberland,45.84508,-63.619942
+1978,CAREL,Imperoyal,Halifax,44.636176,-63.527305
+1979,CBVBA,Fougere Farm Lake,Guysborough,45.249101,-61.408871
+1980,CBUMN,Beech Hill Farms,Queens,43.982688,-64.791029
+1981,CBULN,Lake of the Woods,Halifax,44.666737,-63.795289
+1982,CAKYX,Eatonville,Cumberland,45.39722,-64.866071
+1983,CBQCL,Gilberts Landing,Digby,44.346158,-66.270034
+1984,CAYVV,Meiklefield,Pictou,45.534191,-62.469202
+1985,CATTL,Lewis Bay West,Cape Breton,45.851516,-60.342762
+1986,CAVWO,Lower River Inhabitants,Richmond,45.608179,-61.236144
+1987,CAPYX,Hazel Glen,Pictou,45.547452,-62.733474
+1988,CATAE,Kings Head,Pictou,45.644706,-62.499821
+1989,CAOFU,Granite Village,Shelburne,43.859915,-64.979641
+1990,CBVAZ,Buchanans Mountain,Guysborough,45.30524,-61.640572
+1991,CAKXJ,East Ship Harbour,Halifax,44.779633,-62.803806
+1992,CADPB,Birch Cove,Halifax,44.684022,-63.665295
+1993,CBVBF,South River Road,Antigonish,45.612649,-61.958326
+1994,CAQYE,Hub,Cape Breton,46.215039,-59.959086
+1995,CAPRE,Harrison Settlement,Cumberland,45.520124,-64.391959
+1996,CBVFZ,Moose Lake,Victoria,46.523295,-60.615461
+1997,CAQAN,Heathbell,Pictou,45.676536,-62.856387
+1998,CAYXS,Melville Cove,Halifax,44.633796,-63.614211
+1999,CAHIK,Clydesdale,Colchester,45.625161,-63.178828
+2000,CBURU,Markland,Halifax,45.031073,-62.96149
+2001,CAWDK,Mabou Station,Inverness,46.069246,-61.398519
+2002,CAPSQ,Hartlin Settlement,Halifax,44.761887,-63.006624
+2003,CBVET,Peters Stillwater,Annapolis,44.739075,-64.886308
+2004,CBVBC,West Side Country Harbour,Guysborough,45.25932,-61.844358
+2005,CBJOA,Southdale,Halifax,44.66467,-63.548772
+2006,CBVHZ,Maccan Woods,Cumberland,45.714598,-64.312457
+2007,CBMVU,Upper Falmouth,Hants,44.964249,-64.21463
+2008,CBKKO,St. Croix Cove,Annapolis,44.921908,-65.298854
+2009,CAKSP,East Hansford,Cumberland,45.719249,-63.7458
+2010,CAGYO,Chester Acres,Lunenburg,44.586466,-64.192504
+2011,CBVGL,Sutherland Lake,Cumberland,45.521381,-63.685085
+2012,CBNEN,Victoria Junction,Cape Breton,46.165486,-60.11993
+2013,CBMZE,Upper River Denys,Inverness,45.902683,-61.230447
+2014,CBDYJ,Pleasant Point,Shelburne,43.721372,-65.098022
+2015,CBUKR,Inglewood,Annapolis,44.853988,-65.302643
+2016,CAHDM,Clarence,Annapolis,44.892969,-65.248266
+2017,CATIK,Lakeview,Halifax,44.767264,-63.629735
+2018,CBAQP,Mulgrave Park,Halifax,44.668516,-63.600898
+2019,CAGEV,Cap Le Moine,Inverness,46.498307,-61.074204
+2020,CBVQH,River Lake,Halifax,44.92098,-62.751418
+2021,CAXQM,Marshville,Pictou,45.752288,-63.124306
+2022,CBKMJ,Sterling,Cape Breton,46.204135,-59.955841
+2023,CBCXF,Parkdale,Halifax,44.643277,-63.710417
+2024,CBVBW,Panuke Lake,Hants,44.830197,-64.132118
+2025,CAGQB,Central Clarence,Annapolis,44.904832,-65.216688
+2026,CBPMU,Black Rock,Kings,45.170015,-64.760888
+2027,CBUOV,Lansdowne,Pictou,45.428592,-62.837274
+2028,CAXPK,Marshes (West Bay),Inverness,45.748259,-61.15956
+2029,CBVDS,Parker Meadows,Kings,44.809354,-64.637038
+2030,CBVAX,Lochiel Lake,Guysborough,45.338953,-62.055034
+2031,CAUAK,Little Bras d'Or South Side,Cape Breton,46.277134,-60.295962
+2032,CBFZQ,Rockfield,Pictou,45.618141,-62.84963
+2033,CANZN,Goshen,Hants,45.163086,-64.075971
+2034,CAMYF,Frasers Grant,Antigonish,45.565679,-61.752351
+2035,CADDW,Big Harbour Island,Inverness,45.86436,-60.942832
+2036,CBVBU,Tickle Road,Guysborough,45.341203,-61.027501
+2037,CAXXO,Mayflower,Digby,44.08335,-66.098408
+2038,CBUMX,Indian Gardens,Queens,44.163461,-64.999773
+2039,CBVDH,Armstrong Lake,Kings,44.77256,-64.735996
+2040,CAXOF,Marsh,Pictou,45.506069,-62.251925
+2041,CBVHV,Henry Island,Inverness,45.977617,-61.597752
+2042,CAYZT,Meteghan Centre,Digby,44.20169,-66.142343
+2043,CBVGI,Rear Georgeville,Antigonish,45.811625,-61.995115
+2044,CBVCM,Big Lake,Halifax,44.524395,-63.861141
+2045,CBGXC,St. Rose,Inverness,46.355397,-61.177912
+2046,CAOQU,Greens Point,Pictou,45.627151,-62.651023
+2047,CAQKH,Highland Acres,Halifax,44.678348,-63.495016
+2048,CBOGD,West LaHave,Lunenburg,44.319684,-64.420605
+2049,CACFO,Bear River Station,Digby,44.616791,-65.69178
+2050,CBESR,Prime Brook,Cape Breton,46.106285,-60.202411
+2051,CBVHC,Dalhousie,Pictou,45.561491,-63.004589
+2052,CBGZR,Salmon River Lake,Guysborough,45.359178,-61.720427
+2053,CBLHN,Table Head,Cape Breton,46.209781,-59.954801
+2054,CBLXT,Tidnish Cross Roads,Cumberland,45.990096,-64.008565
+2055,CBVFI,North Kentville,Kings,45.094961,-64.491107
+2056,CAFNI,Burntcoat,Hants,45.31196,-63.79029
+2057,CAKWX,East River St. Marys West Side,Pictou,45.381488,-62.162663
+2058,CBFXG,Roberts Island,Yarmouth,43.784157,-65.887614
+2059,CBVER,Blanket Hill,Annapolis,44.680048,-65.089994
+2060,CBLCX,Sunnybrook,Lunenburg,44.412869,-64.334535
+2061,CAAMH,Allen Hill,Cumberland,45.400572,-64.718938
+2062,CAKRH,Eastern Points,Lunenburg,44.347314,-64.208831
+2063,CATSZ,Leville,Lunenburg,44.7482,-64.412274
+2064,CBHBM,Salt Springs Station,Cumberland,45.684621,-64.007191
+2065,CBVIY,Simpson Lake,Colchester,45.52592,-63.934445
+2066,CBMCD,Tomkinsville,Cape Breton,46.179218,-60.029903
+2067,CAZRK,Millview,Halifax,44.709339,-63.670346
+2068,CBEJI,Portapique,Colchester,45.405144,-63.703668
+2069,CBVJE,Coveys Island,Lunenburg,44.248872,-64.366195
+2070,CBVGZ,Wallace River West,Cumberland,45.79817,-63.552376
+2071,CAKYQ,East Wallace,Cumberland,45.795943,-63.433327
+2072,CBIGR,Shaw Island,Lunenburg,44.549222,-64.284358
+2073,CBOCJ,Western Head,Shelburne,43.679043,-65.129884
+2074,CBRQH,Glen Moir,Halifax,44.718665,-63.68074
+2075,CAAPY,Anderson Mountain,Pictou,45.625106,-62.565587
+2076,CBVIA,Port Bevis,Victoria,46.162636,-60.654948
+2077,CBKTX,Stonehurst West,Lunenburg,44.364573,-64.233263
+2078,CAQHL,Hermans Island,Lunenburg,44.411935,-64.323846
+2079,CBJWE,South West Port Mouton,Queens,43.898862,-64.814656
+2080,CBPEJ,Woodside,Halifax,44.646121,-63.538989
+2081,CBEMV,Portobello,Halifax,44.739283,-63.550517
+2082,CBUKP,Afton,Antigonish,45.607746,-61.713296
+2083,CBUJK,Cornwallis Square,Kings,45.073268,-64.669889
+2084,CAYUN,Meagher,Halifax,44.933534,-63.242862
+2085,CBVDK,Brow of the Mountain,Kings,45.163122,-64.568278
+2086,CBVDC,Ireton,Yarmouth,43.994321,-66.085336
+2087,CBQRH,Lilydale,Lunenburg,44.391827,-64.34171
+2088,CBPWG,West Bay,Inverness; Richmond,45.708804,-61.171301
+2089,CAKBN,Dufferin Mines,Halifax,44.961077,-62.396968
+2090,CBVEF,The Medway,Annapolis,44.553824,-65.159811
+2091,CAEHC,Blanche,Shelburne,43.50459,-65.405854
+2092,CAVXA,Lower Shag Harbour,Shelburne,43.504221,-65.687312
+2093,CALTY,Fern Hill,Halifax,44.824038,-62.638001
+2094,CCBGE,Eel Bay,Shelburne,43.556261,-65.453586
+2095,CASVV,Kent,Halifax,45.103557,-63.024109
+2096,CAXVF,Masons Point,Halifax,44.668609,-63.914838
+2097,CBVJQ,East Loon Lake Village,Halifax,45.268302,-62.707569
+2098,CBNSY,Wellington,Halifax,44.864773,-63.613852
+2099,CBKPX,Stillwater Lake,Halifax,44.698953,-63.83524
+2100,CBVES,Joe Simon,Annapolis,44.76255,-64.933024
+2101,CBVBO,Meaghers Hill,Guysborough,45.492571,-61.541589
+2102,CAFGL,Brophy,Antigonish,45.738887,-61.943494
+2103,CACZF,Big Brook,Cape Breton,46.005598,-60.684992
+2104,CAPPP,Harmony Park,Halifax,44.715668,-63.720478
+2105,CBVDT,County Line Lake,Kings,44.771345,-64.633753
+2106,CBVHJ,Dalem Lake,Cape Breton,46.252517,-60.416487
+2107,CBMTU,Upper Barneys River,Pictou,45.560781,-62.315842
+2108,CBVBY,Goose Lake,Shelburne,43.586514,-65.515136
+2109,CBVCB,Sissiboo Grand Lake,Digby,44.384667,-65.675444
+2110,CBVCR,Indian Fields,Shelburne,44.04274,-65.465627
+2111,CALRA,Fauxburg,Lunenburg,44.427161,-64.382171
+2112,CBUTZ,Kavanaugh Mills,Colchester,45.607251,-63.257157
+2113,CBFOT,Reid,Halifax,45.086319,-63.065483
+2114,CBRRK,Fleet Settlement,Guysborough,44.994272,-62.171234
+2115,CBVIF,Milford,Hants; Halifax,45.04098,-63.438423
+2116,CBBZU,North Middleboro,Cumberland,45.778944,-63.577865
+2117,CAXLE,Mapleton,Cumberland,45.582121,-64.146724
+2118,CAXGH,Mahoneys Corner,Cumberland,45.690258,-63.628294
+2119,CBVGN,Spicers Cove,Cumberland,45.4301691,-64.8926722
+2120,CBVJT,Greenwood,Halifax,45.113443,-63.007955
+2121,CAGMY,Castlereagh,Colchester,45.490426,-63.770056
+2122,CBVIK,Rocco Point,Yarmouth,43.826347,-65.927413
+2123,CBGXE,Saints Rest,Colchester,45.397605,-63.782798
+2124,CBHHE,Sandy Bay Landings,Queens,43.813745,-64.895278
+2125,CBVKV,Shearwater,Halifax,44.631835,-63.521592
+2126,CAHPX,Commodore Park,Halifax,44.680369,-63.530943
+2127,CBVFT,Debert Lake,Colchester,45.595954,-63.464206
+2128,CBVGY,Shinimicas,Cumberland,45.878853,-63.925874
+2129,CBOXR,Williamsdale,Cumberland,45.593331,-63.853337
+2130,CBVEZ,Cloud Lake,Annapolis; Kings,44.871445,-64.89809
+2131,CAOQZ,Greenville,Yarmouth,43.858821,-66.037696
+2132,CBVIN,McCormack Lake,Colchester,45.541108,-63.863979
+2133,CATLA,La Pointe,Inverness,46.61092,-61.046578
+2134,CAOGY,Granville Centre,Annapolis,44.780725,-65.454162
+2135,CBNRQ,Websters Corner,Pictou,45.486321,-62.52101
+2136,CALKY,Evanston,Richmond,45.617425,-61.215161
+2137,CBPDL,Woodburn,Pictou,45.6174,-62.523847
+2138,CAVUI,Lower Harmony,Colchester,45.347008,-63.160327
+2139,CBRCJ,Mount Thom,Pictou,45.527286,-62.96599
+2140,CBRHN,Alder River,Guysborough,45.487719,-61.71826
+2141,CBBND,Nicholsville,Kings,44.979532,-64.805994
+2142,CBDEV,Peggys Cove,Halifax,44.4933,-63.915096
+2143,CACPA,Belle-Marche,Inverness,46.617423,-60.99426
+2144,CBGAH,Rockley,Cumberland,45.815921,-63.751984
+2145,CBFTT,River Denys Centre,Inverness,45.855168,-61.215129
+2146,CBREC,North River,Colchester,45.424852,-63.253755
+2147,CBDFR,Pembroke,Yarmouth,43.868723,-66.15753
+2148,CAZDY,Middle LaHave,Lunenburg,44.321255,-64.408165
+2149,CAPZS,Head of St. Margarets Bay,Halifax,44.682974,-63.916725
+2150,CAXGZ,Maitland Bridge,Annapolis,44.447112,-65.201288
+2151,CARVG,Jamesville West,Victoria,45.948892,-60.881219
+2152,CAYTM,Meadow Green,Antigonish,45.549199,-61.832657
+2153,CAJRH,Doddridge,Hants,45.209028,-63.631149
+2154,CBJIK,Sober Island,Halifax,44.848631,-62.46523
+2155,CBEDW,Pomquet Forks,Antigonish,45.59001,-61.815118
+2156,CBKWK,St. Pauls,Pictou,45.420726,-62.570836
+2157,CAKSL,East Gore,Hants,45.116312,-63.683239
+2158,CAOES,Grand Narrows,Cape Breton,45.956426,-60.793302
+2159,CABKW,Ballantynes Cove,Antigonish,45.859774,-61.920885
+2160,CBMVA,Upper Clements,Annapolis,44.699186,-65.575402
+2161,CAOLJ,Great Hill,Queens,44.066421,-64.71665
+2162,CBAHT,Morristown,Kings,44.985469,-64.767503
+2163,CANRN,Glassburn,Antigonish,45.503749,-61.760791
+2164,CAJIJ,Dempseys Corner,Kings,45.052625,-64.848922
+2165,CAPJF,Hammonds Plains,Halifax,44.733859,-63.77551
+2166,CACAK,Beach Meadows,Queens,44.064532,-64.638396
+2167,CACPC,Belleville North,Yarmouth,43.865399,-65.938387
+2168,CBFQI,Reynoldscroft,Shelburne,43.53229,-65.455078
+2169,CBNMX,Washabuck Bridge,Victoria,46.010758,-60.875395
+2170,CAPPO,Harmony Mills,Queens,44.404226,-65.075461
+2171,CBFNA,Red Point,Victoria,45.927358,-60.90907
+2172,CAVWL,Lower Prospect,Halifax,44.453804,-63.72686
+2173,CAZIX,Milford Station,Hants,45.040799,-63.436356
+2174,CAFUS,Cameron Settlement,Guysborough,45.284109,-62.493605
+2175,CABRL,Barrachois,Colchester,45.723754,-63.26475
+2176,CADRX,Birchy Head,Lunenburg,44.575112,-64.043797
+2177,CAEXH,Branch LaHave,Lunenburg,44.444924,-64.625293
+2178,CAATG,Antrim,Halifax,44.963886,-63.352089
+2179,CBLJH,Tarbot,Victoria,46.33446,-60.595458
+2180,CBBYT,North Intervale,Guysborough,45.48816,-61.650943
+2181,CAZHP,Midville Branch,Lunenburg,44.423931,-64.636331
+2182,CAATF,Antigonish Landing,Antigonish,45.634598,-61.962121
+2183,CAQSP,Hoppenderry,Guysborough,45.414544,-61.888047
+2184,CAFHB,Broughton,Cape Breton,46.082631,-59.971816
+2185,CBRFM,Northville,Kings,45.147672,-64.564462
+2186,CABDE,Back Centre,Lunenburg,44.369587,-64.359783
+2187,CBAZK,Myers Point,Halifax,44.76654,-63.04501
+2188,CBDVG,Pirate Harbour,Guysborough,45.582613,-61.383679
+2189,CATID,Lakeside,Halifax,44.637029,-63.701036
+2190,CAPPX,Harpellville,Guysborough,45.112088,-61.775345
+2191,CBRJG,Blomidon,Kings,45.227441,-64.363094
+2192,CBCID,Ohio,Digby,44.390738,-66.007491
+2193,CAVYP,Lower Wolfville,Kings,45.097588,-64.325636
+2194,CBKMM,St. Esprit,Richmond,45.64475,-60.52644
+2195,CAMWV,Frankville,Antigonish,45.656127,-61.525357
+2196,CAQLS,Hillside,Cape Breton,46.015006,-60.146794
+2197,CATGS,Lake Doucette,Digby,44.058499,-66.139419
+2198,CANTW,Glenora,Inverness,45.721729,-61.27582
+2199,CAWXO,MacLeod Settlement,Inverness,45.946476,-61.357837
+2200,CAOEY,Grand River,Richmond,45.645499,-60.661844
+2201,CAYXR,Melville,Pictou,45.788911,-63.027747
+2202,CAHBH,Churchview,Inverness,45.987487,-61.145081
+2203,CATRD,Leitches Creek Station,Cape Breton,46.165467,-60.307905
+2204,CBPUG,St. Patricks Channel,Victoria,46.059247,-60.926152
+2205,CAQIU,Hibernia,Queens,44.335973,-64.993164
+2206,CAKUP,East Mines Station,Colchester,45.439083,-63.506679
+2207,CAGQZ,Centre Musquodoboit,Halifax,45.098941,-63.038878
+2208,CAXUR,Mason Point,Inverness,46.130589,-61.227589
+2209,CBPZY,Donkin,Cape Breton,46.181634,-59.874788
+2210,CAAPA,Amiraults Corner,Digby,44.460627,-65.843502
+2211,CAEIG,Blockhouse,Lunenburg,44.447464,-64.412866
+2212,CAZZL,Molega,Queens,44.336472,-64.904277
+2213,CABCG,Aylesford East,Kings,45.029213,-64.810129
+2214,CAGKO,Carrolls Corner,Halifax,45.016687,-63.383248
+2215,CBHGQ,Sand River,Cumberland,45.540633,-64.677131
+2216,CAVYO,Lower Whitehead,Guysborough,45.222091,-61.180387
+2217,CAOEX,Grand River Falls,Richmond,45.702968,-60.616984
+2218,CATAB,Kingsburg,Lunenburg,44.276475,-64.259287
+2219,CABAW,Auburndale,Lunenburg,44.405246,-64.592823
+2220,CATGM,Lake Charlotte,Halifax,44.767763,-62.950109
+2221,CAMNL,Forest Glen,Yarmouth,44.080379,-65.910214
+2222,CBJJA,Soldiers Cove,Richmond,45.700564,-60.737059
+2223,CAAWP,Arisaig,Antigonish,45.760202,-62.162368
+2224,CBPAL,Windsor Forks,Hants,44.941418,-64.186973
+2225,CAZXB,Mitchell Bay,Halifax,44.945604,-62.178206
+2226,CAURG,Little River Harbour,Yarmouth,43.738598,-66.031371
+2227,CAUZI,Loch Katrine,Antigonish,45.430112,-61.934053
+2228,CAXOS,Marsh Brook,Inverness,46.376975,-61.005825
+2229,CATXV,Litchfield,Annapolis,44.778857,-65.606512
+2230,CAVAD,Lockhartville,Kings,45.080722,-64.221111
+2231,CBPUP,The Lookoff,Kings,45.199609,-64.40795
+2232,CASWF,Kenzieville,Pictou,45.582617,-62.306091
+2233,CBKRX,St. Martin,Digby,44.169624,-66.137619
+2234,CABCI,Aylesford Mountain,Kings,45.067001,-64.854823
+2235,CABYG,Bass River,Colchester,45.414698,-63.779324
+2236,CBBJG,Newellton,Shelburne,43.468332,-65.633527
+2237,CBBKI,New Harris Forks,Victoria,46.257669,-60.482747
+2238,CACXD,Big Baddeck,Victoria,46.143233,-60.795205
+2239,CALRN,Feeners Corner,Lunenburg,44.465372,-64.589067
+2240,CBNAA,Upper Southwest Mabou,Inverness,45.954143,-61.372005
+2241,CAQYG,Hubbards,Halifax; Lunenburg,44.642652,-64.054357
+2242,CAFAU,Brickton,Annapolis,44.908926,-65.124121
+2243,CAOMS,Greenfield,Colchester,45.369964,-63.130728
+2244,CAMFI,Five Mile River,Hants,45.217244,-63.614786
+2245,CBJTC,Southville,Digby,44.351579,-65.899111
+2246,CAHWN,Corberrie,Digby,44.23498,-65.928899
+2247,CAVYI,Lower Wentworth,Cumberland,45.70808,-63.55899
+2248,CBDXY,Pleasant Hills,Colchester,45.433689,-63.861711
+2249,CAAZM,Askilton,Inverness,45.694565,-61.306639
+2250,CBFVB,Riverside,Hants,45.122668,-64.115775
+2251,CAGXS,Chelsea,Lunenburg,44.37147,-64.740994
+2252,CAYWV,Melbourne,Yarmouth,43.784042,-66.0551
+2253,CBOTG,Whiteside,Richmond,45.60465,-61.191241
+2254,CAQKW,Hillaton,Kings,45.14732,-64.439227
+2255,CAGRH,Centreville,Digby,44.545651,-66.010973
+2256,CBOGA,West Jeddore,Halifax,44.726179,-63.015042
+2257,CBNNO,Waterford,Digby,44.568935,-65.963682
+2258,CAGHT,Caribou Island,Pictou,45.754981,-62.717973
+2259,CBADR,Moose River,Pictou,45.480959,-62.367844
+2260,CAVRB,Lovat,Pictou,45.518839,-62.850621
+2261,CAXOQ,Marshalltown,Digby,44.579539,-65.80992
+2262,CAJFP,Deepdale,Inverness,46.217899,-61.281073
+2263,CAZCJ,Middle East Pubnico,Shelburne,43.644638,-65.765171
+2264,CBKEM,Spry Harbour,Halifax,44.836578,-62.62035
+2265,CABAS,Atwoods Brook,Shelburne,43.509164,-65.655412
+2266,CBFDO,Ragged Reef,Cumberland,45.678184,-64.463904
+2267,CALPW,Farmington,Lunenburg,44.613328,-64.664844
+2268,CBNWM,West Black Rock,Kings,45.135,-64.723333
+2269,CAHDN,Clarence East,Annapolis,44.924096,-65.170203
+2270,CAYZV,Meteghan River,Digby,44.218649,-66.141874
+2271,CBRMN,Centre Burlington,Hants,45.067162,-64.10383
+2272,CAAZT,Aspy Bay,Victoria,46.923786,-60.486996
+2273,CBRMZ,Habitant,Kings,45.154516,-64.398914
+2274,CBRNE,Half Island Cove,Guysborough,45.346232,-61.199112
+2275,CBEKB,Port Dufferin West,Halifax,44.903846,-62.39871
+2276,CAWSX,MacKinnons Brook,Inverness,46.159142,-61.441529
+2277,CAAHL,Acaciaville,Digby,44.58232,-65.762463
+2278,CAAKH,Albert Bridge,Cape Breton,46.01654,-60.059506
+2279,CAOEJ,Grand Lake Road,Cape Breton,46.149601,-60.138309
+2280,CAYZG,Mersey Point,Queens,44.026784,-64.680249
+2281,CABRM,Barrachois,Cape Breton,46.141462,-60.433668
+2282,CAGDF,Cape George Point,Antigonish,45.869281,-61.904971
+2283,CBBTX,North Brookfield,Queens,44.408043,-64.955342
+2284,CAGAZ,Cannes,Richmond,45.638045,-60.96025
+2285,CBEEH,Pomquet Station,Antigonish,45.612825,-61.820874
+2286,CACFI,Bear River,Digby; Annapolis,44.5764396,-65.6391604
+2287,CBMEY,Torbrook Mines,Annapolis,44.928404,-64.966901
+2288,CAXFB,Maders Cove,Lunenburg,44.434941,-64.354363
+2289,CAORE,Greenwold,Antigonish,45.617153,-61.973555
+2290,CAXHN,Malagash Mine,Cumberland,45.792461,-63.324652
+2291,CBNFV,Voglers Cove,Lunenburg,44.157365,-64.533286
+2292,CBRCD,Mount Pleasant,Digby,44.64279,-65.790491
+2293,CAHBI,Churchville,Pictou,45.512317,-62.637675
+2294,CBENH,Port Saxon,Shelburne,43.593873,-65.435949
+2295,CBNPJ,Waughs River,Colchester,45.695332,-63.243663
+2296,CATHX,Lake Ramsay,Lunenburg,44.752723,-64.520305
+2297,CANTQ,Glenmont,Kings,45.186831,-64.493794
+2298,CBJOZ,South East Passage,Halifax,44.598004,-63.461548
+2299,CBMUY,Upper Chelsea,Lunenburg,44.346848,-64.765401
+2300,CBLFC,Sutherlands River,Pictou,45.587052,-62.497709
+2301,CBOMI,Weymouth Mills,Digby,44.411363,-65.954763
+2302,CAXGN,Main-a-Dieu,Cape Breton,46.005175,-59.846224
+2303,CAZLQ,Mill Cove,Lunenburg,44.591013,-64.064098
+2304,CAKYH,East Tracadie,Antigonish,45.63629,-61.620092
+2305,CBSJR,Margaree,Inverness,46.397142,-61.074805
+2306,CBHKK,Sangaree,Cape Breton,46.005364,-60.101475
+2307,CBJKM,South Alton,Kings,45.009224,-64.537663
+2308,CAHQH,Concord,Pictou,45.452983,-62.79047
+2309,CAIOK,Cross Point,Cape Breton,46.061106,-60.576471
+2310,CADCX,Big Glen,Cape Breton,45.823967,-60.471905
+2311,CAKUO,East Mines,Colchester,45.440353,-63.492404
+2312,CBIKG,Sheet Harbour Road,Halifax,45.121679,-62.900933
+2313,CAXHO,Malagash Point,Cumberland,45.799717,-63.265777
+2314,CBFVE,Riverside,Colchester,45.203065,-63.393305
+2315,CAZRR,Millville,Kings,44.995748,-64.817127
+2316,CANSP,Glencoe Mills,Inverness,45.973585,-61.325067
+2317,CATIL,Lakeville,Kings,45.109538,-64.60789
+2318,CANSX,Glendale,Inverness,45.809383,-61.326555
+2319,CABAO,Atlantic,Shelburne,43.580848,-65.339322
+2320,CAFFJ,Brooklyn,Annapolis,44.940812,-65.117445
+2321,CAKGE,Dutch Brook,Cape Breton,46.065821,-60.201497
+2322,CBREY,North Salem,Hants,45.144905,-63.469609
+2323,CBDZA,Pleasant Valley,Colchester,45.245114,-63.330643
+2324,CAPTP,Hassett,Digby,44.339464,-65.938447
+2325,CBPVO,Upper Burlington,Hants,45.045296,-64.039666
+2326,CANTN,Glenkeen,Guysborough,45.421169,-61.498314
+2327,CBFUY,Riversdale,Queens,44.200466,-64.739925
+2328,CBLMA,Taylors Road,Antigonish,45.61054,-61.876784
+2329,CBELI,Port Greville,Cumberland,45.407853,-64.549683
+2330,CBDYP,Pleasant River,Queens,44.43891,-64.88194
+2331,CBJRA,South Maitland,Hants,45.253569,-63.47282
+2332,CAKFO,Dunvegan,Inverness,46.298244,-61.229432
+2333,CAVSX,Lower Concession,Digby,44.253415,-66.080675
+2334,CAUOR,Little Pond,Cape Breton,46.279102,-60.272849
+2335,CBOPT,Whiteburn Mines,Queens,44.32016,-65.06513
+2336,CAPYW,Hazeldale,Victoria,46.009607,-60.928161
+2337,CBDDR,Peas Brook,Guysborough,45.350803,-61.310024
+2338,CAILM,Croft,Antigonish,45.495698,-61.834057
+2339,CBDXU,Pleasant Harbour,Halifax,44.789004,-62.728292
+2340,CBNIY,Wallace Bridge Station,Cumberland,45.795505,-63.542593
+2341,CAIKG,Crescent Grove,Victoria,46.115966,-60.725037
+2342,CAQKI,Highland Hill,Victoria,45.969678,-60.86965
+2343,CASUK,Kemptville,Yarmouth,44.037221,-65.843282
+2344,CAEKT,Blue Mountain,Kings,44.871211,-64.526494
+2345,CBNML,Warren,Cumberland,45.84564,-64.123554
+2346,CBLHF,Sydney River,Cape Breton,46.103558,-60.228772
+2347,CACOS,Belle Côte,Inverness,46.44438,-61.092446
+2348,CACXG,Big Bank,Victoria,46.216742,-60.493157
+2349,CAPJJ,Hampton,Annapolis,44.903352,-65.347598
+2350,CBLMX,Telford,Pictou,45.572006,-62.460473
+2351,CBOIO,West Paradise,Annapolis,44.84912,-65.239093
+2352,CAKXE,East Sable River,Shelburne,43.783455,-65.002303
+2353,CBHPU,Scotch Village,Hants,45.057102,-64.001998
+2354,CBNUL,Wentworth Station,Cumberland,45.611609,-63.57169
+2355,CBKDA,Springdale,Digby,44.049292,-66.096293
+2356,CBHRK,Scrabble Hill,Colchester,45.437795,-63.614963
+2357,CBMYH,Upper Nine Mile River,Hants,45.079211,-63.626429
+2358,CATHF,Lakelands,Cumberland,45.471682,-64.333624
+2359,CBDVC,Pipers Cove,Cape Breton,45.945608,-60.75601
+2360,CBBYV,North Kemptville,Yarmouth,44.087823,-65.840905
+2361,CBLSN,Thorburn,Pictou,45.564696,-62.547188
+2362,CBALP,Mount Denson,Hants,45.046348,-64.159075
+2363,CABGZ,Baileys Brook,Pictou,45.660474,-62.275756
+2364,CBBHF,Nevada Valley,Inverness,46.051363,-61.245611
+2365,CBREZ,Norths Corner,Kings,45.179517,-64.426775
+2366,CBMXP,Upper Margaree,Inverness,46.211036,-61.142715
+2367,CAONO,Greenhill,Pictou,45.564146,-62.804804
+2368,CBOHU,West Middle River,Victoria,46.181861,-60.94654
+2369,CBOAP,West Cooks Cove,Guysborough,45.347765,-61.504078
+2370,CBFJN,Rear Forks,Victoria,46.199217,-60.723749
+2371,CBBIF,New Chester,Guysborough,45.033282,-62.213995
+2372,CBBIZ,New Dominion,Cape Breton,46.257489,-60.408568
+2373,CBPTK,South Rawdon,Hants,45.006138,-63.854424
+2374,CAMVE,Framboise,Richmond,45.719737,-60.36267
+2375,CAPBM,Guysborough Intervale,Guysborough,45.45469,-61.611488
+2376,CAIVY,Danesville,Queens,44.18947,-64.623157
+2377,CAMYD,Fraser Settlement,Halifax,45.104741,-62.973268
+2378,CBQQV,Lighthouse Road,Digby,44.641532,-65.769185
+2379,CAFTF,Camden,Colchester,45.303481,-63.182737
+2380,CAQLP,Hillsdale,Inverness,45.935178,-61.420739
+2381,CATBN,Kirkhill,Cumberland,45.427987,-64.381195
+2382,CAMNM,Forest Glen,Inverness,46.474241,-60.988605
+2383,CBGKE,Rose Bay,Lunenburg,44.298448,-64.305371
+2384,CAVTZ,Lower Glencoe,Guysborough,45.404268,-61.722814
+2385,CBFQU,Rhodes Corner,Lunenburg,44.378392,-64.417837
+2386,CACGV,Beauly,Antigonish,45.525889,-61.818542
+2387,CBKDN,Springside,Colchester,45.281232,-62.888934
+2388,CAMQU,Fourchu,Richmond,45.715656,-60.259598
+2389,CAOHD,Grass Cove,Victoria,45.987087,-60.810365
+2390,CBADS,Moose River Gold Mines,Halifax,44.98483,-62.942067
+2391,CBRCT,Mount Young,Inverness,46.124917,-61.268363
+2392,CBBSH,North Bloomfield,Pictou,45.509193,-62.449855
+2393,CBESQ,Priestville,Pictou,45.571996,-62.624719
+2394,CABZX,Bay View,Pictou,45.70233,-62.68057
+2395,CANUD,Glen Tosh,Victoria,46.167824,-60.639245
+2396,CBIVU,Six Mile Brook,Pictou,45.587005,-62.899408
+2397,CBHSI,Seagrove,Cumberland,45.996305,-63.984636
+2398,CADRN,Birchtown,Shelburne,43.744555,-65.382375
+2399,CBJSI,South Shore,Cumberland,45.767712,-63.324929
+2400,CAGPW,Central Argyle,Yarmouth,43.768664,-65.840909
+2401,CBQFY,Buckfield,Queens,44.308845,-64.789886
+2402,CBBUB,North Cape Highlands,Inverness,46.190213,-61.343474
+2403,CAQRI,Homeville,Cape Breton,46.085077,-59.898793
+2404,CAZFR,Middle Porters Lake,Halifax,44.70455,-63.294519
+2405,CAQXW,Howie Centre,Cape Breton,46.075181,-60.268493
+2406,CAAUE,Arcadia,Yarmouth,43.826049,-66.064515
+2407,CAHIL,Clydesdale,Antigonish,45.644907,-62.059624
+2408,CCADI,Seffernville,Lunenburg,44.6586722,-64.396025
+2409,CAFFH,Brooklyn,Yarmouth,43.864878,-66.076178
+2410,CALAM,Edwardsville,Cape Breton,46.157841,-60.23061
+2411,CBLUB,Three Fathom Harbour,Halifax,44.654097,-63.297821
+2412,CAKZX,Eden,Inverness,45.855903,-61.125619
+2413,CBQGQ,Buckwheat Corner,Victoria,46.094424,-60.866615
+2414,CAQKJ,Highland Village,Colchester,45.396521,-63.655727
+2415,CAOBG,Grafton,Kings,45.095282,-64.69491
+2416,CATLE,L'Archeveque,Richmond,45.626127,-60.57743
+2417,CAAKD,Alba,Inverness,45.930086,-61.003432
+2418,CAZPX,Mill Pond,Cape Breton,46.306857,-60.354292
+2419,CBIVA,Sissiboo Falls,Digby,44.427575,-65.862233
+2420,CBNBB,Upper Woods Harbour,Shelburne,43.55795,-65.736023
+2421,CBQUS,Christmas Island,Cape Breton,45.974291,-60.744785
+2422,CAJXO,Drum Head,Guysborough,45.149984,-61.602534
+2423,CAANO,Alpine Ridge,Inverness,46.015406,-61.410505
+2424,CBNHQ,Waldegrave,Colchester,45.721803,-63.235298
+2425,CBJVQ,South West Margaree,Inverness,46.281207,-61.143907
+2426,CBNEL,Victoria Harbour,Kings,45.110768,-64.884166
+2427,CBBLZ,New Victoria,Cape Breton,46.253674,-60.127811
+2428,CBQPW,Lewistown,Digby,44.46779,-65.947605
+2429,CAFGE,Brookville,Pictou,45.490244,-62.5814
+2430,CARDK,Hyannas,Inverness,46.072037,-61.271268
+2431,CBDHX,Pereau,Kings,45.175872,-64.40127
+2432,CBIXD,Skir Dhu,Victoria,46.486629,-60.447708
+2433,CAHAU,Church Point,Digby,44.338431,-66.114451
+2434,CBLOF,Terra Nova,Cape Breton,45.848742,-60.528809
+2435,CAGMI,Casey Corner,Kings,45.023483,-64.545358
+2436,CAMAY,Fishermans Harbour,Guysborough,45.115581,-61.691739
+2437,CAXMJ,Margaree Valley,Inverness,46.355865,-60.9717
+2438,CAWDD,Mabou Harbour Mouth,Inverness,46.089384,-61.459989
+2439,CAAYS,Ashdale,Hants,45.012618,-63.925797
+2440,CAHIV,Coady Road,Inverness,46.318361,-61.136554
+2441,CANCF,French Road,Cape Breton,45.902445,-60.226124
+2442,CAJGJ,Deerfield,Yarmouth,43.953425,-65.994546
+2443,CAKSD,East Folly Mountain,Colchester,45.488419,-63.49916
+2444,CALEC,Elderbank,Halifax,44.980296,-63.216329
+2445,CAPTR,Hastings,Cumberland,45.826426,-64.121431
+2446,CADIX,Bigney,Pictou,45.729546,-63.00616
+2447,CACMA,Beecham Settlement,Cumberland,45.96333,-63.994497
+2448,CBJLA,South Bar,Cape Breton,46.201651,-60.200985
+2449,CAPVH,Havelock,Digby,44.304765,-65.920218
+2450,CASZB,Kiltarlity,Inverness,46.211303,-61.158235
+2451,CATYW,Little Bass River,Colchester,45.39981,-63.807576
+2452,CAOGZ,Granville Ferry,Annapolis,44.750709,-65.523418
+2453,CATIY,Lanark,Antigonish,45.651424,-61.946698
+2454,CAHHZ,Cloverville,Antigonish,45.684456,-62.012149
+2455,CBEMH,Port L'Hebert,Shelburne,43.80158,-64.932128
+2456,CBBUD,North Chegoggin,Yarmouth,43.882154,-66.123296
+2457,CAKMG,East Branch,Pictou,45.6608333,-63.0241667
+2458,CACVD,Berwick North,Kings,45.059503,-64.741291
+2459,CBOBB,West Earltown,Colchester,45.58713,-63.198841
+2460,CBFTS,River Denys,Inverness,45.837086,-61.177619
+2461,CAEEA,Black Rock,Victoria,46.293549,-60.400214
+2462,CBHFG,Sandford,Yarmouth,43.920794,-66.147753
+2463,CAZBD,Middle Barneys River,Pictou,45.506343,-62.312552
+2464,CAHUH,Cookville,Lunenburg,44.431789,-64.557965
+2465,CANRD,Glasgow,Cape Breton,46.051302,-60.595993
+2466,CBBLW,Newtonville,Kings,45.040978,-64.38829
+2467,CBCWW,Paradise,Annapolis,44.869747,-65.207954
+2468,CBQXH,Little Liscomb,Guysborough,45.028592,-61.970662
+2469,CAPKZ,Harbour Centre,Antigonish,45.687518,-61.915719
+2470,CBUGW,Catalone Road,Cape Breton,45.990106,-59.946339
+2471,CAKTB,East Jordan,Shelburne,43.761195,-65.211307
+2472,CBJSV,South Tremont,Kings,44.939065,-64.925088
+2473,CBLDN,Surettes Island,Yarmouth,43.76255,-65.934021
+2474,CAZRI,Millvale,Cumberland,45.637168,-63.817208
+2475,CBNTH,Welsford,Pictou,45.72729,-63.054547
+2476,CBNVI,West Amherst,Cumberland,45.808387,-64.247486
+2477,CAQLL,Hillsboro,Inverness,46.071034,-61.347829
+2478,CAETM,Boularderie East,Victoria,46.231207,-60.479828
+2479,CBVHP,Irish Vale,Cape Breton,45.849271,-60.645778
+2480,CBCML,Ottawa Brook,Victoria,45.935915,-60.936693
+2481,CBKIK,Stanley Section,Lunenburg,44.505978,-64.725919
+2482,CBVJC,East Stewiacke,Colchester,45.144427,-63.297874
+2483,CBRFH,North Sydney,Cape Breton,46.207766,-60.254894
+2484,CBBLH,New Salem,Cumberland,45.423412,-64.789889
+2485,CAZTV,Mink Cove,Digby,44.467591,-66.107767
+2486,CBNOM,Watervale,Pictou,45.485078,-62.91469
+2487,CBKZX,Sugar Loaf,Victoria,46.945592,-60.466224
+2488,CBGAI,Rocklin,Pictou,45.497787,-62.782306
+2489,CAHTP,Cooks Cove,Guysborough,45.363072,-61.487646
+2490,CALGF,Elmsvale,Halifax,45.085648,-63.070124
+2491,CAKWQ,East River Sheet Harbour,Halifax,44.919682,-62.513906
+2492,CBRPT,South Salt Springs,Antigonish,45.568678,-62.01217
+2493,CBVKD,Watt Section,Halifax,44.905327,-62.488428
+2494,CAETO,Boularderie West,Cape Breton; Victoria,46.178907,-60.476764
+2495,CARNF,Iona Rear,Cape Breton,45.966363,-60.850316
+2496,CBEWP,Pugwash Junction,Cumberland,45.797029,-63.632817
+2497,CBADM,Moose River,Cumberland,45.417821,-64.17659
+2498,CBBOW,Nine Mile River,Hants,45.041541,-63.576942
+2499,CARKN,Ingonish Ferry,Victoria,46.627788,-60.392452
+2500,CBKAE,Spencers Island,Cumberland,45.354691,-64.715099
+2501,CBTUW,Smithville,Inverness,46.100928,-61.339098
+2502,CACMN,Beech Hill,Antigonish,45.586037,-61.956978
+2503,CAMPA,Fort Lawrence,Cumberland,45.846276,-64.261925
+2504,CACQZ,Benacadie West,Cape Breton,45.937876,-60.731186
+2505,CBOEX,West Gore,Hants,45.093536,-63.778845
+2506,CBOVD,Whynotts Settlement,Lunenburg,44.412949,-64.471648
+2507,CAVYG,Lower Washabuck,Victoria,46.061568,-60.77687
+2508,CBBKO,New Lairg,Pictou,45.454151,-62.811247
+2509,CAHMB,Coldbrook,Kings,45.064705,-64.585412
+2510,CAFGB,Brook Village,Inverness,46.051268,-61.300172
+2511,CANTY,Glenora Falls,Inverness,46.112443,-61.363832
+2512,CBIAI,Selfridge Corner,Kings,45.032312,-64.877707
+2513,CBJSR,South Side Whycocomagh Bay,Inverness,45.940135,-61.052629
+2514,CBOEY,West Green Harbour,Shelburne,43.718293,-65.170746
+2515,CBPXB,Whitehead,Guysborough,45.234305,-61.185363
+2516,CAHFB,Claverhouse,Inverness,46.077435,-61.148424
+2517,CBCHU,Ogilvie,Kings,45.138237,-64.847886
+2518,CAFMG,Burlington,Kings,45.112924,-64.819239
+2519,CBEMN,Port Malcolm,Richmond,45.579707,-61.280322
+2520,CAXGW,Maitland,Lunenburg,44.426016,-64.457444
+2521,CAFEC,Broad Cove Chapel,Inverness,46.255032,-61.268469
+2522,CASCG,Joggin Bridge,Digby,44.597146,-65.737733
+2523,CAPPM,Harmony,Colchester,45.344159,-63.180786
+2524,CAKIU,East Baccaro,Shelburne,43.462454,-65.468454
+2525,CBGKH,Roseburn,Inverness,46.004108,-61.23176
+2526,CBNEI,Victoria Beach,Annapolis,44.675444,-65.751882
+2527,CAGYP,Chester Basin,Lunenburg,44.566628,-64.309334
+2528,CAQBX,Hectanooga,Digby,44.092741,-66.02843
+2529,CATXU,Lismore,Pictou,45.703533,-62.263465
+2530,CBFZL,Rockdale,Richmond,45.615989,-60.80398
+2531,CAHEX,Clarksville,Hants,45.100426,-63.831699
+2532,CBGMA,Ross Ferry,Victoria,46.143662,-60.584029
+2533,CANWN,Goose Cove,Victoria,46.265798,-60.621299
+2534,CBGZP,Salmon River Bridge,Halifax,44.777907,-63.032405
+2535,CBMRE,Two Islands,Cumberland,45.395328,-64.22459
+2536,CAZFX,Middle River,Victoria,46.157132,-60.924044
+2537,CARNE,Iona,Victoria,45.962625,-60.804753
+2538,CAMQR,Fountain Road,Cumberland,45.801696,-63.585783
+2539,CAVXN,Lower Springfield,Antigonish,45.50839,-61.877888
+2540,CBMRP,Two Rivers,Cumberland,45.658743,-64.484261
+2541,CAZCL,Middlefield,Queens,44.208875,-64.864511
+2542,CAWEY,MacCormicks Corner,Inverness,46.156096,-61.275945
+2543,CBFTP,River Centre,Inverness,45.981194,-61.441148
+2544,CBNEV,Victoria Road,Inverness,46.29064,-61.219493
+2545,CBNEK,Victoria Bridge,Cape Breton,45.825691,-60.288107
+2546,CASJU,Jordan Ferry,Shelburne,43.749255,-65.241707
+2547,CAKEA,Dundee,Richmond,45.696354,-61.102218
+2548,CAUZM,Lochside,Richmond,45.544993,-60.996727
+2549,CAPZM,Head of Chezzetcook,Halifax,44.742393,-63.248477
+2550,CBFWY,Roberta,Richmond,45.762548,-60.902556
+2551,CATHG,Lake La Rose,Annapolis,44.705505,-65.434733
+2552,CAAZZ,Athol,Cumberland,45.675061,-64.216162
+2553,CBFUU,River Philip,Cumberland,45.674559,-63.900703
+2554,CADHZ,Big Marsh,Antigonish,45.732986,-62.012342
+2555,CBMWQ,Upper Kempt Head,Victoria,46.111416,-60.631292
+2556,CBMYO,Upper Onslow,Colchester,45.392199,-63.29091
+2557,CAXJF,Manchester,Guysborough,45.452594,-61.468248
+2558,CABUR,Barronsfield,Cumberland,45.737115,-64.359825
+2559,CBKUO,Stoney Island,Shelburne,43.470055,-65.570082
+2560,CAGQN,Central Woods Harbour,Shelburne,43.541408,-65.733454
+2561,CAZVV,Miramichi,Inverness,46.031678,-61.31301
+2562,CBCDV,Oakfield,Cape Breton,46.006265,-60.154122
+2563,CAALT,Allains Creek,Annapolis,44.7301,-65.523739
+2564,CBEJB,Portage,Cape Breton,46.038639,-60.340454
+2565,CBNSZ,Wellington,Queens,44.301265,-64.814707
+2566,CANWB,Goldenville,Guysborough,45.124503,-62.013346
+2567,CBEBF,Poirierville,Richmond,45.578863,-60.925662
+2568,CABZK,Bayport,Lunenburg,44.321517,-64.311319
+2569,CAMTJ,Fox Harbour,Cumberland,45.854995,-63.45091
+2570,CAKYM,East Uniacke,Hants,44.907277,-63.781152
+2571,CBMUZ,Upper Clarence,Annapolis,44.951265,-65.163683
+2572,CATLR,L'Ardoise West,Richmond,45.613643,-60.776454
+2573,CAZHL,Middle West Pubnico,Yarmouth,43.654449,-65.802077
+2574,CAPDA,Haddon Hill,Lunenburg,44.548341,-64.248789
+2575,CAETL,Boularderie Centre,Victoria,46.194884,-60.52295
+2576,CBAAH,Monks Head,Antigonish,45.649012,-61.837811
+2577,CBFVI,River Tillard,Richmond,45.649522,-60.918795
+2578,CBHQA,Scots Bay Road,Kings,45.227445,-64.398854
+2579,CAGJK,Carleton Village,Shelburne,43.660524,-65.332787
+2580,CBRBN,Mountain Road,Pictou,45.703401,-63.107494
+2581,CAKVX,East River,Lunenburg,44.586447,-64.166634
+2582,CBNAY,Upper Whitehead,Guysborough,45.297452,-61.175726
+2583,CADKQ,Big Ridge South,Cape Breton,45.928259,-60.232561
+2584,CAJDF,Dean,Halifax,45.190364,-62.887231
+2585,CAZCH,Middle Country Harbour,Guysborough,45.236792,-61.767087
+2586,CBHCW,Sampsons Cove,Richmond,45.503216,-60.936015
+2587,CAMMD,Folly Lake Station,Colchester,45.523086,-63.548137
+2588,CBCIS,Old Barns,Colchester,45.347667,-63.391385
+2589,CBDVV,Pitchers Farm,Antigonish,45.55123,-61.979252
+2590,CAWPB,MacKays Corner,Pictou,45.76314,-62.823642
+2591,CBNWC,West Bay Road,Inverness,45.731231,-61.257365
+2592,CAURA,Little River,Digby,44.444398,-66.145221
+2593,CBBDV,Necum Teuch,Halifax,44.960862,-62.224272
+2594,CAXUA,Maryville,Inverness,45.939093,-61.515355
+2595,CATAS,Kingsville,Inverness,45.781795,-61.31672
+2596,CBMYR,Upper Pereau,Kings,45.186829,-64.4052
+2597,CBFJB,Rear Balls Creek,Cape Breton,46.13143,-60.345665
+2598,CBPTF,South Port Morien,Cape Breton,46.106923,-59.845681
+2599,CAGFF,Capstick,Victoria,47.000251,-60.508366
+2600,CAVXD,Lower Shinimicas,Cumberland,45.900806,-63.891139
+2601,CBOGZ,West Lake Ainslie,Inverness,46.110548,-61.209678
+2602,CALZT,First South,Lunenburg,44.367688,-64.345975
+2603,CAQLY,Hillsvale,Hants,44.951127,-63.881362
+2604,CBRJZ,East Wentworth,Cumberland,45.625334,-63.497757
+2605,CBJRI,South Milford,Annapolis,44.573865,-65.399925
+2606,CAHRL,Conns Mills,Cumberland,45.761828,-63.704838
+2607,CBVNV,East Port L'Hebert,Queens,43.821865,-64.925123
+2608,CBEAN,Point Hill,Cumberland,45.346548,-64.804871
+2609,CBOHC,West Lawrencetown,Halifax,44.668104,-63.378699
+2610,CAQCH,Hedgeville,Pictou,45.757921,-62.98747
+2611,CBIMI,Sherwood,Lunenburg,44.719105,-64.298058
+2612,CBBJS,New Glen,Victoria,46.209645,-60.770049
+2613,CBEWR,Pugwash Point,Cumberland,45.870998,-63.673085
+2614,CBVJW,Oyster Pond,Halifax,44.778983,-63.007764
+2615,CAKIP,East Amherst,Cumberland,45.848651,-64.183067
+2616,CACQT,Benacadie,Cape Breton,45.946211,-60.726298
+2617,CBJDR,Smithfield,Colchester,45.27306,-63.076499
+2618,CAQWH,Hortonville,Kings,45.10874,-64.29162
+2619,CASXD,Ketch Harbour,Halifax,44.491758,-63.552467
+2620,CBADZ,Morar,Antigonish,45.850967,-61.985208
+2621,CBOHB,West Lakevale,Antigonish,45.764959,-61.920092
+2622,CAELE,Blue Rocks,Lunenburg,44.356264,-64.242349
+2623,CABCR,Baccaro,Shelburne,43.479097,-65.473888
+2624,CBCAM,Northside East Bay,Cape Breton,46.002613,-60.442664
+2625,CADXO,Blacketts Lake,Cape Breton,46.066583,-60.324318
+2626,CAEZW,Brentwood,Colchester,45.222416,-63.289725
+2627,CAMEI,Five Houses,Colchester,45.396301,-63.73299
+2628,CAGQT,Centredale,Pictou,45.418817,-62.647129
+2629,CBMUF,Upper Blandford,Lunenburg,44.515638,-64.122675
+2630,CBLUW,Three Mile Plains,Hants,44.964456,-64.096523
+2631,CBNGK,Waddens Cove,Cape Breton,46.08676,-59.85447
+2632,CASLE,Judique Intervale,Inverness,45.915046,-61.479219
+2633,CBMLN,Tufts Cove,Halifax,44.682187,-63.596887
+2634,CAIVD,Dalhousie Road,Kings,44.728732,-64.693243
+2635,CBLCH,Sunken Lake,Kings,44.997485,-64.444238
+2636,CAFXY,Campbells Mountain,Inverness,46.008603,-61.194736
+2637,CBJPZ,South Greenwood,Kings,44.976821,-64.873028
+2638,CAETK,Boularderie,Victoria,46.163555,-60.568025
+2639,CBJLH,South Berwick,Kings,45.034498,-64.715577
+2640,CADVM,Black Brook,Cape Breton,46.217173,-60.43157
+2641,CAKIR,East Apple River,Cumberland,45.470431,-64.771017
+2642,CBNVG,West Alba,Inverness,45.907696,-61.012325
+2643,CANAG,French Cove,Richmond,45.704067,-60.829389
+2644,CAOMA,Green Acres,Kings,45.001792,-64.91692
+2645,CAIAB,Cove Road,Colchester,45.388669,-63.882969
+2646,CBNSX,Wellington,Yarmouth,43.912872,-66.104161
+2647,CAZBZ,Middle Cape,Cape Breton,45.867185,-60.614953
+2648,CAXGX,Maitland,Hants,45.318016,-63.49746
+2649,CBLXS,Tidnish Bridge,Cumberland,45.983333,-64.05
+2650,CBLGH,Sweets Corner,Hants,44.982479,-64.047348
+2651,CBETF,Princeport Road,Colchester,45.298673,-63.438266
+2652,CAGQJ,Central Onslow,Colchester,45.377924,-63.325177
+2653,CAFFL,Brooklyn Corner,Kings,45.088493,-64.577924
+2654,CAGPU,Centennial,Inverness,45.820184,-61.464158
+2655,CBPER,Woodville,Hants,45.032757,-63.934596
+2656,CAZVR,Mira Gut,Cape Breton,46.03876,-59.965881
+2657,CAOVD,Guinea,Annapolis,44.660364,-65.57363
+2658,CBCAF,North Noel Road,Hants,45.228395,-63.746097
+2659,CBJSF,South Section,Halifax,45.016903,-63.155156
+2660,CBJKC,Somerset,Kings,45.073973,-64.74948
+2661,CAIKB,Crescent Beach,Lunenburg,44.235101,-64.414366
+2662,CAVVH,Lower Meaghers Grant,Halifax,44.914231,-63.221081
+2663,CBDEE,Peck Meadow Corner,Kings,45.017139,-64.366804
+2664,CBPWX,Wharton,Cumberland,45.421549,-64.397383
+2665,CBAEV,Morganville,Digby,44.514981,-65.60011
+2666,CBEAI,Point Edward,Cape Breton,46.162707,-60.276642
+2667,CACVF,Berwick West,Kings,45.029135,-64.760482
+2668,CAHBX,Clam Bay,Halifax,44.736154,-62.928132
+2669,CARND,Inverside,Inverness,46.239953,-61.27875
+2670,CAYWQ,Melanson,Kings,45.075162,-64.31668
+2671,CBEND,Port Royal,Richmond,45.539719,-61.084838
+2672,CAYXL,Melrose,Guysborough,45.261453,-62.040434
+2673,CANIU,Gannon Road,Cape Breton,46.225548,-60.252703
+2674,CBKOS,St. Francis Harbour,Guysborough,45.445028,-61.319425
+2675,CBPAQ,Wine Harbour,Guysborough,45.075475,-61.846507
+2676,CBBKK,New Haven,Victoria,46.821283,-60.322183
+2677,CAVVC,Lower Maccan,Cumberland,45.759982,-64.308528
+2678,CBJQP,South Ingonish Harbour,Victoria,46.629652,-60.437621
+2679,CAHGU,Clementsvale,Annapolis,44.621529,-65.555563
+2680,CBHBH,Salt Springs,Pictou,45.543512,-62.882039
+2681,CBQBG,Gibbon,Cape Breton,46.11384,-60.237566
+2682,CBITK,Simms Settlement,Lunenburg; Halifax,44.621456,-64.094744
+2683,CBUKJ,Wallace Station,Cumberland,45.775283,-63.498814
+2684,CAAYT,Ashdale,Antigonish,45.523704,-62.040088
+2685,CBHRW,Seabrook,Digby,44.610258,-65.810825
+2686,CBJSQ,South Side River Denys,Inverness,45.851272,-61.216091
+2687,CBRNM,Hazel Hill,Guysborough,45.32456,-61.030876
+2688,CAGPY,Central Caribou,Pictou,45.711003,-62.722411
+2689,CAPMI,Harbourview,Inverness,45.986221,-61.524715
+2690,CAZOK,Millers Corner,Cumberland,45.635482,-64.076545
+2691,CATII,Lakeview,Queens,44.382051,-65.041621
+2692,CAKNZ,East Clifford,Lunenburg,44.451278,-64.749152
+2693,CBBNV,Nictaux West,Annapolis,44.90862,-65.074828
+2694,CAZVI,Minudie,Cumberland,45.775264,-64.352878
+2695,CBRWS,Newtown,Guysborough,45.359552,-62.13627
+2696,CALCK,Egypt Road,Inverness,46.338021,-60.952642
+2697,CANTP,Glen Margaret,Halifax,44.578878,-63.912753
+2698,CAHSE,Conrod Settlement,Halifax,44.764248,-63.243861
+2699,CADIB,Big Marsh,Inverness,45.893184,-61.20333
+2700,CBVIC,Arlington East,Annapolis,44.931831,-65.215639
+2701,CBMWA,Upper Glencoe,Inverness,45.953567,-61.28861
+2702,CAZHF,Middleton Corner,Colchester,45.721456,-63.164523
+2703,CBOSZ,White Settlement,Hants,45.219621,-63.711239
+2704,CBDZP,Plympton,Digby,44.504643,-65.916814
+2705,CBLGF,Sweetland,Lunenburg,44.467243,-64.506705
+2706,CBJMW,South Brook,Cumberland,45.560145,-64.177779
+2707,CBOLK,West Tatamagouche,Colchester,45.714501,-63.413272
+2708,CAXMR,Marie Joseph,Guysborough,44.972992,-62.083546
+2709,CBEPI,Poulamon,Richmond,45.58093,-60.989694
+2710,CAJAZ,Davison Street,Kings,45.025513,-64.354538
+2711,CAGBR,Canoe Lake,Cape Breton,45.872341,-60.224091
+2712,CBMTC,Union,Colchester,45.393027,-63.12468
+2713,CBKIP,St. Anns,Victoria,46.21196,-60.603869
+2714,CBRCC,Mount Pleasant,Lunenburg,44.273905,-64.429999
+2715,CAWCK,Lynn,Colchester,45.517237,-64.100584
+2716,CBPCK,Wittenburg,Colchester,45.099236,-63.233158
+2717,CADCA,Big Farm,Victoria,46.102976,-60.821601
+2718,CARIA,Indian Point,Lunenburg,44.457761,-64.321006
+2719,CAVAU,Loganville,Pictou,45.611358,-63.025621
+2720,CARYL,Jersey,Cumberland,45.65813,-63.724831
+2721,CAPQE,Harrietsfield,Halifax,44.569674,-63.634549
+2722,CBGSD,Roxville,Digby,44.607463,-65.86646
+2723,CBMYE,Upper New Cornwall,Lunenburg,44.531494,-64.579897
+2724,CBQST,Chipmans Corner,Kings,45.103262,-64.475755
+2725,CAEAO,Black Point,Halifax,44.651542,-63.981415
+2726,CBBMC,New Waterford,Cape Breton,46.248759,-60.085661
+2727,CBFVF,Riverside Beach,Cumberland,45.396061,-64.310815
+2728,CAOBT,Grahams Corner,Halifax,44.680819,-63.545946
+2729,CATXD,Linwood,Antigonish,45.65074,-61.574451
+2730,CAOWX,Gullivers Cove,Digby,44.606462,-65.923373
+2731,CBNFA,Victory,Annapolis,44.555652,-65.455341
+2732,CBBYH,North Greville,Cumberland,45.47249,-64.580568
+2733,CARCN,Hureauville,Richmond,45.638815,-61.232284
+2734,CACHE,Beaver Brook,Colchester,45.304182,-63.422652
+2735,CBRHW,Arlington,Kings,45.198406,-64.424357
+2736,CBQFA,Glace Bay,Cape Breton,46.194975,-59.955708
+2737,CBRMP,Cheverie,Hants,45.157124,-64.175165
+2738,CBCAG,North Ogden,Guysborough,45.372747,-61.673824
+2739,CAICS,Coxheath,Cape Breton,46.108689,-60.242042
+2740,CAJGZ,Delaps Cove,Annapolis,44.768597,-65.633288
+2741,CBKIH,Stanley,Cumberland,45.751658,-64.091872
+2742,CBMYL,Upper North River,Colchester,45.487782,-63.215945
+2743,CAFYN,Camperdown,Lunenburg,44.263679,-64.602223
+2744,CBMVO,Upper Economy,Colchester,45.387681,-63.844606
+2745,CAUJR,Little Judique Ponds,Inverness,45.950622,-61.527121
+2746,CANTJ,Glengarry Station,Pictou,45.423265,-62.770863
+2747,CBGGJ,Rocky Ridge,Inverness,46.030804,-61.478535
+2748,CAZQQ,Mill Road,Lunenburg,44.782061,-64.44867
+2749,CBJTF,South Waterville,Kings,45.02595,-64.648256
+2750,CBPRU,Sheffield Mills,Kings,45.151036,-64.476365
+2751,CBNMY,Washabuck Centre,Victoria,46.058085,-60.791998
+2752,CAGAB,Canaan,Lunenburg,44.674599,-64.248201
+2753,CAKOK,East Earltown,Colchester,45.654266,-63.129526
+2754,CBOFB,West Hansford,Cumberland,45.723544,-63.813104
+2755,CBKHP,Stanburne,Lunenburg,44.597773,-64.71301
+2756,CBFXV,Robins,Richmond,45.506409,-61.005889
+2757,CBLBP,Summerville Centre,Queens,43.954523,-64.814746
+2758,CBGMW,Roulston Corner,Hants,45.093155,-63.643139
+2759,CASHV,Johnstown,Richmond,45.800101,-60.730705
+2760,CASTP,Kempt Head,Victoria,46.08759,-60.656701
+2761,CBDXT,Pleasantfield,Queens,44.241107,-64.905194
+2762,CBKHR,St. Andrews,Antigonish,45.556139,-61.889093
+2763,CBBKY,New Prospect,Cumberland,45.426319,-64.272661
+2764,CBNQO,Weaver Settlement,Digby,44.385428,-65.967869
+2765,CAPMK,Harbourville,Kings,45.151046,-64.810343
+2766,CAVQC,Louisbourg Road,Cape Breton,45.936,-60.005533
+2767,CAATQ,Apple River,Cumberland,45.461362,-64.785923
+2768,CALBW,Egerton,Pictou,45.60642,-62.478384
+2769,CBOAK,Westchester Valley,Cumberland,45.592829,-63.733302
+2770,CBLOI,Terre Noire,Inverness,46.476698,-61.082187
+2771,CBCMJ,Ostrea Lake,Halifax,44.721538,-63.088438
+2772,CAQLQ,Hillsdale Road,Cape Breton,45.938421,-60.305478
+2773,CBRCG,Mount Rose,Annapolis,44.921113,-65.2475
+2774,CADPP,Birch Hill,Colchester,45.204695,-63.179073
+2775,CBMYK,Upper Northfield,Lunenburg,44.501642,-64.614703
+2776,CAGUI,Chapman Settlement,Cumberland,45.946668,-63.931512
+2777,CARNG,Ireland,Antigonish,45.449269,-62.085326
+2778,CAAKM,Albro Lake,Halifax,44.684141,-63.58129
+2779,CAHNP,Colindale,Inverness,46.064724,-61.498777
+2780,CBPAH,Windermere,Kings,45.014934,-64.743888
+2781,CAHGY,Cleveland,Richmond; Inverness,45.667969,-61.231851
+2782,CAHRQ,Conquerall Mills,Lunenburg,44.309408,-64.523778
+2783,CAKYO,Eastville,Colchester,45.271252,-62.880841
+2784,CAYUI,Meadowvale,Annapolis,44.956842,-64.968815
+2785,CBDLS,Petite Rivière,Lunenburg,44.233457,-64.447088
+2786,CAFBQ,Bridgeville,Pictou,45.434078,-62.608246
+2787,CAGJF,Carleton Corner,Annapolis,44.83012,-65.289671
+2788,CATDC,Kolbec,Cumberland,45.769267,-63.810352
+2789,CBKXK,Streets Ridge,Cumberland,45.722443,-63.632502
+2790,CAAWB,Argyle,Guysborough,45.388493,-61.934123
+2791,CBKWZ,Strathcona,Cumberland,45.703993,-64.350246
+2792,CAMJX,Fletchers Lake,Halifax,44.836374,-63.607838
+2793,CBNAW,Upper West Pubnico,Yarmouth,43.677675,-65.794398
+2794,CAVPE,Lorneville,Cumberland,45.985662,-63.938572
+2795,CBLJI,Tarbotvale,Victoria,46.350486,-60.566848
+2796,CAMOT,Fort Ellis,Colchester,45.150102,-63.367217
+2797,CBNCW,Vaughan,Hants,44.840669,-64.231183
+2798,CAHWE,Copper Lake,Antigonish,45.401291,-61.984879
+2799,CALLQ,Factorydale,Kings,44.998702,-64.785785
+2800,CBVJH,Millbrook,Colchester,45.665049,-63.368068
+2801,CAHHM,Clifton,Colchester,45.332891,-63.448459
+2802,CAOTY,Grosvenor,Guysborough,45.618504,-61.493606
+2803,CAKVW,East Quoddy,Halifax,44.91831,-62.333059
+2804,CAVTK,Lower East Pubnico,Yarmouth,43.612,-65.772169
+2805,CBLNQ,Tennycape,Hants,45.265757,-63.87647
+2806,CBMYB,Upper Nappan,Cumberland,45.7935,-64.195281
+2807,CBHTC,Seal Harbour,Guysborough,45.151768,-61.585663
+2808,CAAJO,Ainslie Glen,Inverness,46.020763,-61.137168
+2809,CAFGA,Brookvale,Halifax,45.027818,-63.10782
+2810,CARBR,Huntington,Cape Breton,45.936549,-60.298568
+2811,CAKTY,East Leicester,Cumberland,45.792465,-63.977216
+2812,CBJSO,South Side of Boularderie,Victoria,46.147755,-60.532725
+2813,CAQLT,Hillside Boularderie,Cape Breton,46.2416,-60.378811
+2814,CASZW,Kingross,Inverness,46.446433,-60.918662
+2815,CANJH,Gardiner Mines,Cape Breton,46.208486,-60.047498
+2816,CBLIE,Tancook Island,Lunenburg,44.465277,-64.169111
+2817,CANTA,Glendyer,Inverness,46.08906,-61.348218
+2818,CAMOA,Forks Baddeck,Victoria,46.181162,-60.76899
+2819,CBRMS,Church Street,Kings,45.106218,-64.442445
+2820,CAFIX,Brownsville,Pictou,45.645399,-62.391825
+2821,CAGQU,Centre East Pubnico,Yarmouth,43.627672,-65.768789
+2822,CBHDA,Sampsonville,Richmond,45.682152,-60.848925
+2823,CACOX,Belleisle,Annapolis,44.801632,-65.402234
+2824,CBRIB,Baleine,Cape Breton,45.957701,-59.833689
+2825,CAUYY,Lochaber Mines,Halifax,45.002034,-62.475744
+2826,CBNJF,Wallace Grant,Cumberland,45.743324,-63.466149
+2827,CBKIG,Stanley,Hants,45.088923,-63.923979
+2828,CACXQ,Big Beach,Cape Breton,45.999881,-60.696089
+2829,CBBRP,North Alton,Kings,45.050763,-64.523212
+2830,CBMXC,Upper Lakeville,Halifax,44.791257,-62.957459
+2831,CAIYE,Darlings Lake,Yarmouth,43.955626,-66.131517
+2832,CAXPG,Marshdale,Pictou,45.472773,-62.719686

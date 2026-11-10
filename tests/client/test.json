@@ -1,0 +1,300 @@
+{
+    "type": "FeatureCollection",
+    "bbox": [
+        -61.9915,
+        45.588624,
+        -61.369473,
+        45.677429
+    ],
+    "features": [
+        {
+            "bbox": [
+                -61.9915,
+                45.588624,
+                -61.369473,
+                45.677429
+            ],
+            "type": "Feature",
+            "properties": {
+                "segments": [
+                    {
+                        "distance": 57404.6,
+                        "duration": 2751.7,
+                        "steps": [
+                            {
+                                "distance": 38.4,
+                                "duration": 3.1,
+                                "type": 11,
+                                "instruction": "Head south on College Street",
+                                "name": "College Street",
+                                "way_points": [
+                                    0,
+                                    2
+                                ]
+                            },
+                            {
+                                "distance": 166.4,
+                                "duration": 15.2,
+                                "type": 0,
+                                "instruction": "Turn left onto Main Street, NS 337",
+                                "name": "Main Street, NS 337",
+                                "way_points": [
+                                    2,
+                                    6
+                                ]
+                            },
+                            {
+                                "distance": 940.5,
+                                "duration": 82.1,
+                                "type": 1,
+                                "instruction": "Turn right onto Church Street",
+                                "name": "Church Street",
+                                "way_points": [
+                                    6,
+                                    14
+                                ]
+                            },
+                            {
+                                "distance": 58.4,
+                                "duration": 13.4,
+                                "type": 6,
+                                "instruction": "Continue straight onto Church Street",
+                                "name": "Church Street",
+                                "way_points": [
+                                    14,
+                                    16
+                                ]
+                            },
+                            {
+                                "distance": 1063.8,
+                                "duration": 85.4,
+                                "type": 0,
+                                "instruction": "Turn left onto Old Highway 104, NS 4",
+                                "name": "Old Highway 104, NS 4",
+                                "way_points": [
+                                    16,
+                                    29
+                                ]
+                            },
+                            {
+                                "distance": 339.9,
+                                "duration": 45.5,
+                                "type": 7,
+                                "instruction": "Enter the roundabout and take the 1st exit onto Beech Hill Road",
+                                "name": "Beech Hill Road",
+                                "exit_number": 1,
+                                "way_points": [
+                                    29,
+                                    39
+                                ]
+                            },
+                            {
+                                "distance": 185.5,
+                                "duration": 30.7,
+                                "type": 7,
+                                "instruction": "Enter the roundabout and take the 2nd exit onto Beech Hill Road",
+                                "name": "Beech Hill Road",
+                                "exit_number": 2,
+                                "way_points": [
+                                    39,
+                                    48
+                                ]
+                            },
+                            {
+                                "distance": 50309.4,
+                                "duration": 2128.1,
+                                "type": 7,
+                                "instruction": "Enter the roundabout and take the 3rd exit",
+                                "name": "-",
+                                "exit_number": 3,
+                                "way_points": [
+                                    48,
+                                    361
+                                ]
+                            },
+                            {
+                                "distance": 140.6,
+                                "duration": 12.7,
+                                "type": 13,
+                                "instruction": "Keep right",
+                                "name": "-",
+                                "way_points": [
+                                    361,
+                                    364
+                                ]
+                            },
+                            {
+                                "distance": 238.0,
+                                "duration": 34.1,
+                                "type": 13,
+                                "instruction": "Keep right onto Highway 104, NS 104, NS 4, TCH",
+                                "name": "Highway 104, NS 104, NS 4, TCH",
+                                "way_points": [
+                                    364,
+                                    374
+                                ]
+                            },
+                            {
+                                "distance": 3632.1,
+                                "duration": 248.9,
+                                "type": 13,
+                                "instruction": "Keep right onto Highway 4, NS 4",
+                                "name": "Highway 4, NS 4",
+                                "way_points": [
+                                    374,
+                                    413
+                                ]
+                            },
+                            {
+                                "distance": 291.7,
+                                "duration": 52.5,
+                                "type": 0,
+                                "instruction": "Turn left",
+                                "name": "-",
+                                "way_points": [
+                                    413,
+                                    429
+                                ]
+                            },
+                            {
+                                "distance": 0.0,
+                                "duration": 0.0,
+                                "type": 10,
+                                "instruction": "Arrive at your destination, on the left",
+                                "name": "-",
+                                "way_points": [
+                                    429,
+                                    429
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "way_points": [
+                    0,
+                    429
+                ],
+                "summary": {
+                    "distance": 57404.6,
+                    "duration": 2751.7
+                }
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        -61.9915,
+                        45.622782
+                    ],
+                    [
+                        -61.991487,
+                        45.622753
+                    ],
+                    [
+                        -61.991418,
+                        45.622441
+                    ],
+                    [
+                        -61.99073,
+                        45.622458
+                    ],
+                    [
+                        -61.990034,
+                        45.622513
+                    ],
+                    [
+                        -61.989523,
+                        45.622597
+                    ],
+                    [
+                        -61.989302,
+                        45.622632
+                    ],
+                    [
+                        -61.989075,
+                        45.622205
+                    ],
+                    [
+                        -61.988486,
+                        45.621138
+                    ],
+                    [
+                        -61.988403,
+                        45.620984
+                    ],
+                   
+                    [
+                        -61.370182,
+                        45.626798
+                    ],
+                    [
+                        -61.369753,
+                        45.626748
+                    ]
+                ],
+                "type": "LineString"
+            }
+        }
+    ],
+    "metadata": {
+        "attribution": "openrouteservice.org | OpenStreetMap contributors",
+        "service": "routing",
+        "timestamp": 1744855267309,
+        "query": {
+            "coordinates": [
+                [
+                    -61.991581,
+                    45.622765
+                ],
+                [
+                    -61.3696801,
+                    45.6270521
+                ]
+            ],
+            "profile": "driving-car",
+            "profileName": "driving-car",
+            "format": "geojson"
+        },
+        "engine": {
+            "version": "9.1.2",
+            "build_date": "2025-04-10T21:25:30Z",
+            "graph_date": "2025-04-15T22:55:52Z"
+        }
+    },
+    "closest_stops": [
+        {
+            "stop_id": "1013",
+            "stop_name": "NSCC Strait Area Campus",
+            "stop_lat": 45.6270521,
+            "stop_lon": -61.36968009999999,
+            "distance_km": 0.05
+        },
+        {
+            "stop_id": "2092",
+            "stop_name": "Tim Horton's at 104 Trans-Canada Hwy Havre Boucher",
+            "stop_lat": 45.65338759999999,
+            "stop_lon": -61.44428009999999,
+            "distance_km": 0.08
+        },
+        {
+            "stop_id": "2004",
+            "stop_name": "Tim Horton's at 124 Beech Hill Rd Antigonish",
+            "stop_lat": 45.6112475,
+            "stop_lon": -61.9701353,
+            "distance_km": 0.1
+        },
+        {
+            "stop_id": "2000",
+            "stop_name": "Tim Horton's at 86 Bayside Rd Afton Station",
+            "stop_lat": 45.593945,
+            "stop_lon": -61.74029459999999,
+            "distance_km": 0.2
+        },
+        {
+            "stop_id": "2005",
+            "stop_name": "Tim Horton's at 34 Main St Antigonish",
+            "stop_lat": 45.6251902,
+            "stop_lon": -61.9832754,
+            "distance_km": 0.78
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+sequenceDiagram
+    autonumber
+    actor Driver as Driver
+    participant App as Journey Frontend
+    participant API as cptn_api (Django)
+    participant GTFS as Core GTFS Tables
+    participant Sidecars as CPTN Sidecar Tables
+    actor Rider as Rider
+
+    Note over Driver, Sidecars: Phase 1: The Offer & Generalized Routing
+
+    Driver->>App: Submits Offer (Origin -> Any Destination)
+    App->>API: POST /api/v1/journey/offer/
+    API->>GTFS: CREATE Agency, Route (Generic Destination)
+    API->>API: CALL ORS (Routing & Durations)
+    API->>GTFS: CREATE Shape (Cache Polyline)
+    API->>API: Spatial Query (Find Stops along Shape)
+    API->>GTFS: CREATE Trip, Stop_Times
+    API->>GTFS: CREATE Frequency (Auto-Return Logic)
+    API->>Sidecars: CREATE Trip_Capacity (Seats, Status: Scheduled)
+    API-->>App: Confirm Offer Created
+    App-->>Driver: Journey is live 🚀
+
+    Note over GTFS, Rider: Phase 2: Discovery & Booking
+
+    Rider->>App: Searches for Ride (Any Destination)
+    App->>API: GET /api/v1/journey/find/
+    API->>GTFS: QUERY Stops & Stop_Times
+    API->>Sidecars: FILTER where Capacity > 0
+    API-->>App: Returns available Trip_IDs
+    Rider->>App: Selects Trip & Hits "Request"
+    App->>API: POST /api/v1/ride/request/
+    API->>Sidecars: CREATE Ride_Request (Status: Pending)
+    API-->>App: Request Sent
+
+    Note over Driver, Sidecars: Phase 3: Acceptance & Capacity
+
+    Driver->>App: Views Pending Requests
+    App->>API: GET /api/v1/ride/requests/pending/
+    Driver->>App: Hits "Accept"
+    App->>API: POST /api/v1/ride/accept/{request_id}/
+    API->>Sidecars: UPDATE Ride_Request (Status: Accepted)
+    API->>Sidecars: DECREMENT Trip_Capacity.Available_Seats
+    API-->>App: Acceptance Confirmed
+    App-->>Driver: Rider added to manifest.
+    App-->>Rider: Ride accepted!

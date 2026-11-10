@@ -1,0 +1,64 @@
+---
+config:
+  theme: default
+  title: "Journey Entity Relationship Diagram"
+  description: "A visual representation of the relationships between key entities in the Journey application, including the Django Identity Layer, GTFS core tables, and application-specific sidecars."
+  layout: "elk"
+---
+
+erDiagram
+    AGENCY ||--o{ ROUTES : operates
+    AGENCY ||--o{ ATTRIBUTIONS : "credited in"
+    
+    ROUTES ||--o{ TRIPS : contains
+    ROUTES ||--o{ ATTRIBUTIONS : "credited in"
+    
+    CALENDAR ||--o{ TRIPS : "defines schedule"
+    CALENDAR_DATES }o--|| CALENDAR : "modifies"
+    
+    TRIPS ||--o{ STOP_TIMES : "follows"
+    TRIPS ||--o{ FREQUENCIES : "defines headway"
+    TRIPS ||--o{ ATTRIBUTIONS : "credited in"
+    TRIPS }o--|| SHAPES : "traces path"
+    
+    STOPS ||--o{ STOP_TIMES : "visited at"
+    STOPS ||--o{ PATHWAYS : "connected by"
+    STOPS ||--o| STOPS : "parent station"
+    
+    BOOKING_RULES ||--o{ TRIPS : "governs"
+    BOOKING_RULES ||--o{ STOP_TIMES : "overrides at stop"
+    
+    TRANSLATIONS }o--|| FEED_INFO : "localizes"
+
+    AGENCY {
+        string agency_id PK
+        string agency_name
+        string agency_timezone
+    }
+    
+    STOPS {
+        string stop_id PK
+        string stop_name
+        point location
+        int location_type
+    }
+    
+    TRIPS {
+        string trip_id PK
+        string service_id FK
+        string route_id FK
+        string shape_id FK
+    }
+
+    STOP_TIMES {
+        string trip_id PK, FK
+        int stop_sequence PK
+        string stop_id FK
+        duration arrival_time
+    }
+
+    BOOKING_RULES {
+        string booking_rule_id PK
+        int booking_type
+        int prior_notice_duration_min
+    }

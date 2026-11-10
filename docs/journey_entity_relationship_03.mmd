@@ -1,0 +1,163 @@
+---
+config:
+  theme: default
+  title: "Journey Entity Relationship Diagram"
+  description: "A visual representation of the relationships between key entities in the Journey application, including the Django Identity Layer, GTFS core tables, and application-specific sidecars."
+  layout: "elk"
+---
+
+erDiagram
+    %% Identity Layer
+    CUSTOM_USER ||--o| CPTN_USER_PROFILE : "has"
+    CPTN_USER_PROFILE ||--o| AGENCY : "represents"
+
+    %% GTFS Logic Handshake
+    BOOKING_RULES ||--o{ TRIPS : "governs"
+    BOOKING_RULES ||--o{ STOP_TIMES : "overrides"
+
+    %% Core Transit
+    AGENCY ||--o{ ROUTES : "operates"
+    ROUTES ||--o{ TRIPS : "contains"
+    CALENDAR ||--o{ TRIPS : "schedules"
+    CALENDAR ||--o{ CALENDAR_DATES : "exceptions"
+    
+    TRIPS ||--o{ STOP_TIMES : "defines"
+    TRIPS ||--o{ FREQUENCIES : "returns_via"
+    TRIPS }o--|| SHAPES : "traces"
+    
+    STOPS ||--o{ STOP_TIMES : "visited_at"
+  
+    
+    %% Application Transactional Sidecars
+    TRIPS ||--o{ CPTN_RIDE_REQUEST : "requested_for"
+    CUSTOM_USER ||--o{ CPTN_RIDE_REQUEST : "made_by"
+    CPTN_TRIP_CAPACITY ||--o| TRIPS : "tracks_capacity"
+    STOPS ||--o| CPTN_STOP_META : "details"
+
+     CUSTOM_USER {
+        int id PK
+        string email
+        string password
+        string first_name
+        string last_name
+    }
+
+    CPTN_USER_PROFILE {
+        int id PK
+        int user_id FK "Link to CustomUser"
+        string agency_id FK "Link to GTFS Agency"
+        boolean is_driver
+        boolean is_rider
+        string vehicle_desc
+        int default_seats
+    }
+
+    
+    AGENCY {
+        string agency_id PK "Used as the Driver Identifier"
+        string agency_name "Driver Display Name"
+        string agency_url "Social Media or Website URL"
+        string agency_timezone "Timezone for the agency"
+    }
+
+    ROUTES {
+        string route_id PK "Unique identifier for the route"
+        string agency_id FK "Link to the operating agency"
+        string route_short_name "Commute Name"
+        int route_type "3 (Bus/Road)"
+    }
+
+    TRIPS {
+        string trip_id PK "Unique identifier for the trip"
+        string route_id FK "Link to the route"
+        string service_id FK "Link to Calendar"
+        string shape_id FK "Link to Geometry"
+    }
+
+
+
+    STOPS {
+        string stop_id PK "Unique identifier for the stop"
+        string stop_name "Name of the stop"
+        float stop_lat "Latitude of the stop"
+        float stop_lon "Longitude of the stop"
+    }
+
+    FREQUENCIES {
+        string trip_id FK
+        time start_time "Time when frequency-based service starts"
+        time end_time "Time when frequency-based service ends"
+        int headway_secs "Duration of stay at destination"
+        enum exact_times "0 = departure times are approximate, 1 = departure times are exact"
+    }
+
+    CPTN_RIDE_REQUEST {
+        uuid request_id PK
+        string trip_id FK
+        int rider_user_id FK "CustomUser who is riding"
+        string status "Pending/Accepted/Rejected"
+        string check_in_code
+    }
+
+    CPTN_TRIP_CAPACITY {
+        string trip_id FK
+        int total_seats
+        int available_seats
+        string current_status
+    }
+    
+    STOP_TIMES {
+        string trip_id FK
+        int stop_sequence PK
+        duration arrival_time
+        int pickup_type "3 = Coord with Driver"
+    }
+
+    BOOKING_RULES {
+        string booking_rule_id PK "Unique identifier for the booking rule"
+        int booking_type "0 = Real Time Booking, 1 = Same-day booking, 2 = Prior day booking"
+        int prior_notice_duration_min "Minimum time before trip when booking is allowed"
+        int prior_notice_duration_max "Maximum time before trip when booking is allowed"
+        int prior_notice_last_day "Last day before trip when booking is allowed"
+    }
+
+    TRANSLATIONS {
+        enum table_name "Name of the table containing the field being translated (e.g., 'AGENCY', 'ROUTES')"
+        string field_name "Field being translated"
+        string language "Language of translation"
+        string translation "Translated text for the specified field and language"
+        string record_id FK "ID of the record being translated (e.g., agency_id, route_id)"
+    }
+
+    CALENDAR {
+        string service_id PK
+        int monday
+        int tuesday
+        int wednesday
+        int thursday
+        int friday
+        int saturday
+        int sunday
+        date start_date
+        date end_date
+    }
+
+    CALENDAR_DATES {
+        string service_id FK "Link to Calendar"
+        date date PK "Date of the exception"
+        int exception_type "1 = Service added for the date, 2 = Service removed for the date"
+    }
+
+    SHAPES {
+        string shape_id PK "Unique identifier for the shape"
+        float shape_pt_lat "Latitude of the shape point"
+        float shape_pt_lon "Longitude of the shape point"
+        int shape_pt_sequence "Sequence of the shape point along the trip"
+    }
+
+    
+    CPTN_STOP_META {
+        string stop_id PK "Link to GTFS Stop"
+        string accessibility_info "Information about accessibility features at the stop"
+        string amenities_info "Information about amenities available at the stop"
+    }
